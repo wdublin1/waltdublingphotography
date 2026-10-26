@@ -454,3 +454,133 @@ dl.session-facts,.session-facts dl{display:grid;grid-template-columns:minmax(90p
 @media(prefers-reduced-motion:reduce){
   .service-card,.featured-card-copy,.service-card-label{transition:none}
 }
+
+/* Homepage redesign (October 2026): a full-width photographic hero with the
+   introduction set over the slideshow, photographic service tiles that show the
+   starting price, a recent-work strip, a centered client note, and the inquiry
+   form on the homepage. Scoped to the home route; other pages are unchanged. */
+.visual-hero.hero-overlay{position:relative;width:100%;max-width:none;padding:0;margin:0;background:#2f3a2b;color:var(--cream);overflow:hidden;isolation:isolate}
+.hero-overlay .hero-stage{display:grid;position:relative;height:clamp(560px,82vh,820px)}
+.hero-overlay .hero-stage>.hero-gallery{display:block;grid-area:1/1;height:100%;max-width:none;gap:0}
+.hero-overlay .hero-feature{height:100%;overflow:hidden;background:#2f3a2b}
+.hero-overlay .hero-main-photo{height:100%;aspect-ratio:auto}
+.hero-overlay .hero-main-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero-overlay .hero-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to top,rgba(20,24,18,.82) 0%,rgba(20,24,18,.38) 42%,rgba(20,24,18,.04) 72%,rgba(20,24,18,0) 100%)}
+.hero-overlay .hero-caption{position:absolute;inset:auto 0 0 0;z-index:2;display:block;width:min(1440px,calc(100% - 88px));margin:0 auto;padding:0 0 clamp(44px,6vw,80px);border:0}
+.hero-overlay .hero-caption-inner{max-width:900px}
+.hero-overlay .hero-caption .location-label{margin:0 0 20px;color:#e4dcc3;font-size:11px;letter-spacing:.22em}
+.hero-overlay .hero-caption h1{max-width:900px;margin:0 0 22px;font-size:clamp(40px,5.4vw,78px);line-height:1.02;letter-spacing:-.02em;color:var(--cream)}
+.hero-overlay .hero-lede{max-width:620px;margin:0 0 30px;font-size:clamp(16px,1.35vw,19px);line-height:1.6;color:#f1eee4}
+.hero-overlay .hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+.hero-overlay .hero-button{min-height:52px;padding:14px 26px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;background:var(--cream);color:var(--deep);border:1px solid var(--cream)}
+.hero-overlay .hero-button:hover{background:#fff;border-color:#fff;color:var(--deep)}
+.hero-overlay .hero-button.secondary{background:transparent;color:var(--cream);border-color:rgba(248,247,242,.75)}
+.hero-overlay .hero-button.secondary:hover{background:rgba(248,247,242,.14);border-color:var(--cream);color:var(--cream)}
+.hero-overlay>.hero-controls{position:absolute;right:44px;top:28px;z-index:2;display:flex;gap:8px;margin:0}
+.hero-overlay>.hero-controls button{width:40px;height:40px;min-width:40px;border:1px solid rgba(248,247,242,.6);background:rgba(20,24,18,.3);color:var(--cream);border-radius:50%;font-size:17px;backdrop-filter:blur(3px)}
+.hero-overlay>.hero-controls button:hover{background:var(--cream);border-color:var(--cream);color:var(--deep)}
+.hero-overlay :focus-visible{outline-color:var(--cream)}
+
+.service-tiles.session-directory{display:block;padding:4px 0 0}
+.service-tiles .service-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;align-items:stretch}
+.service-tiles .service-tile{position:relative;display:block;min-height:clamp(420px,46vw,640px);overflow:hidden;border:0;color:var(--cream);background:#3a4435;isolation:isolate}
+.service-tiles .service-tile .service-card-image{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;background:transparent}
+.service-tiles .service-tile .service-card-image img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}
+.service-tiles .service-tile:hover .service-card-image img,.service-tiles .service-tile:focus-visible .service-card-image img{transform:scale(1.035)}
+.service-tiles .service-tile-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to top,rgba(20,24,18,.8) 0%,rgba(20,24,18,.28) 48%,rgba(20,24,18,0) 78%)}
+.service-tiles .service-tile .service-card-copy{position:absolute;inset:auto 0 0 0;z-index:2;display:flex;flex-direction:column;align-items:flex-start;padding:clamp(24px,2.6vw,40px)}
+.service-tiles .service-tile-price{display:block;margin:0 0 10px;font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#e4dcc3}
+.service-tiles .service-tile h3{margin:0 0 10px;font-size:clamp(30px,2.8vw,42px);line-height:1.05;color:var(--cream)}
+.service-tiles .service-tile p{max-width:380px;margin:0;font-size:15px;line-height:1.55;color:#ece8da}
+.service-tiles .service-tile:hover h3,.service-tiles .service-tile:focus-visible h3{text-decoration:underline;text-decoration-color:rgba(248,247,242,.7);text-decoration-thickness:1px;text-underline-offset:6px}
+.service-tiles .service-tile:focus-visible{outline:3px solid var(--cream);outline-offset:-6px}
+.service-tiles .directory-intro-below{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 40px;padding:clamp(40px,4.5vw,64px) 0 0;margin:0 auto}
+.service-tiles .directory-intro-below .section-heading{margin:0;max-width:720px}
+.service-tiles .directory-intro-below .section-heading h2{max-width:600px}
+
+.home-work{padding-block:clamp(44px,5vw,80px) clamp(20px,3vw,40px)}
+.home-work-heading{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 40px;margin-bottom:34px}
+.home-work-heading .section-heading{margin:0}
+.home-work-heading .section-heading h2{max-width:620px}
+.home-work-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-template-rows:clamp(300px,36vw,520px) clamp(240px,28vw,420px);gap:4px}
+.home-work-grid .photograph{width:100%;height:100%;overflow:hidden;background:var(--paper);border:0;padding:0;margin:0;cursor:zoom-in}
+.home-work-grid .photograph img{width:100%;height:100%;object-fit:cover}
+.home-work-grid .work-1{grid-column:1/5}
+.home-work-grid .work-2{grid-column:5/7}
+.home-work-grid .work-3,.home-work-grid .work-4,.home-work-grid .work-5{grid-column:span 2}
+
+.home-client-note-centered{display:block;max-width:960px;padding-block:clamp(48px,6vw,96px);text-align:center}
+.home-client-note-centered .note-copy{margin:0 auto}
+.home-client-note-centered .client-quote{display:flex;flex-direction:column;align-items:center}
+.home-client-note-centered .client-quote blockquote{max-width:900px;margin:0 0 22px;font-style:italic;font-size:clamp(28px,3.1vw,40px);line-height:1.35}
+.home-client-note-centered .client-quote figcaption{display:flex;flex-direction:column;gap:4px;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.home-client-note-centered .client-quote figcaption span{letter-spacing:.04em;text-transform:none}
+.home-client-note-centered .review-stars{justify-content:center}
+
+.home-inquiry{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);background:var(--deep);color:var(--cream)}
+.home-inquiry-photo{min-height:100%;overflow:hidden;background:#2f3a2b}
+.home-inquiry-photo .photograph{height:100%;min-height:520px}
+.home-inquiry-photo img{width:100%;height:100%;object-fit:cover}
+.home-inquiry-copy{padding:clamp(48px,6vw,96px) clamp(28px,5vw,80px)}
+.home-inquiry-copy .location-label{margin:0 0 18px;color:#c8cfbd}
+.home-inquiry-copy h2{max-width:620px;margin:0 0 18px;font-size:clamp(34px,3.4vw,50px);line-height:1.08;color:var(--cream)}
+.home-inquiry-copy>p:not(.location-label){max-width:560px;margin:0 0 34px;font-size:16px;line-height:1.75;color:#d9d6ca}
+.inquiry-form-compact{max-width:640px}
+.home-inquiry .form-field{margin-bottom:18px}
+.home-inquiry .form-field label{color:#e7e3d6;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.home-inquiry .form-field label span{color:#b8bfae;text-transform:none;letter-spacing:0}
+.home-inquiry .field-help{color:#b8bfae;font-size:13px}
+.home-inquiry .form-field input,.home-inquiry .form-field select,.home-inquiry .form-field textarea{background:rgba(248,247,242,.06);border:1px solid rgba(248,247,242,.28);color:var(--cream);border-radius:0}
+.home-inquiry .form-field input:focus,.home-inquiry .form-field select:focus,.home-inquiry .form-field textarea:focus{border-color:var(--cream);outline-color:var(--cream)}
+.home-inquiry .form-field select option{color:var(--ink)}
+.home-inquiry .button{background:var(--cream);color:var(--deep);border-color:var(--cream)}
+.home-inquiry .button:hover{background:#fff;border-color:#fff}
+.home-inquiry .form-disclosure{color:#b8bfae}
+.home-inquiry .inquiry-status{background:rgba(248,247,242,.08);border-color:rgba(248,247,242,.3);color:var(--cream)}
+.home-inquiry-email{margin:26px 0 0;font-size:14px;color:#b8bfae}
+.home-inquiry-email a{color:var(--cream);text-decoration:underline;text-underline-offset:5px}
+@media(max-width:1100px){
+  .hero-overlay .hero-caption{width:calc(100% - 56px)}
+  .hero-overlay>.hero-controls{right:28px}
+}
+@media(max-width:950px){
+  .service-tiles .service-cards{grid-template-columns:1fr}
+  .service-tiles .service-tile{min-height:clamp(380px,60vw,520px)}
+  .home-work-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto;grid-auto-rows:clamp(220px,38vw,360px)}
+  .home-work-grid .work-1{grid-column:1/3}
+  .home-work-grid .work-2,.home-work-grid .work-3,.home-work-grid .work-4{grid-column:span 1}
+  .home-work-grid .work-5{grid-column:1/3}
+  .home-inquiry{grid-template-columns:1fr}
+  .home-inquiry-photo .photograph{min-height:0;aspect-ratio:1.5}
+}
+@media(max-width:800px){
+  .hero-overlay .hero-stage{height:clamp(520px,88vh,720px)}
+  .hero-overlay .hero-stage>.hero-gallery{display:block;grid-template-columns:none;gap:0}
+  .hero-overlay .hero-feature{grid-column:auto;aspect-ratio:auto}
+  .hero-overlay .hero-caption{width:calc(100% - 40px);padding-bottom:36px}
+  .hero-overlay .hero-caption h1{font-size:clamp(36px,9vw,48px)}
+  .hero-overlay .hero-lede{font-size:16px}
+  .hero-overlay>.hero-controls{top:16px;right:20px}
+  .service-tiles .service-tile{display:block;padding:0;gap:0}
+  .service-tiles .service-tile .service-card-image{aspect-ratio:auto}
+  .service-tiles .service-tile .service-card-copy{padding:24px}
+}
+@media(max-width:600px){
+  .hero-overlay .hero-stage{height:clamp(520px,92vh,680px)}
+  .hero-overlay .hero-caption{width:calc(100% - 32px);padding-bottom:30px}
+  .hero-overlay .hero-caption .location-label{margin-bottom:14px}
+  .hero-overlay .hero-caption h1{margin-bottom:16px}
+  .hero-overlay .hero-lede{margin-bottom:22px}
+  .hero-overlay .hero-button{width:auto;flex:1 1 auto;justify-content:center}
+  .service-tiles .service-tile{display:block;min-height:clamp(360px,100vw,460px)}
+  .service-tiles .service-tile h3{font-size:34px}
+  .home-work-grid{gap:4px}
+  .home-client-note-centered .client-quote blockquote{font-size:28px}
+  .home-inquiry-copy{padding:44px 22px 48px}
+}
+@media(prefers-reduced-motion:reduce){
+  .service-tiles .service-tile .service-card-image img{transition:none}
+}
+.home-inquiry-alternatives{display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px;margin-top:26px}
+.home-inquiry-alternatives .text-link{color:var(--cream);text-decoration-color:rgba(248,247,242,.6)}
+.home-inquiry-alternatives .home-inquiry-email{margin:0}

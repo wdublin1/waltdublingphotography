@@ -3,12 +3,12 @@
   "_type": "photographySite",
   "copy": {
     "home": {
-      "headline": "I’m Walt, a natural-light portrait photographer in Charlotte.",
-      "intro": "I photograph individuals and families, seniors and graduates, and athletes around Charlotte and Lake Norman. Tell me who you’d like photographed and what you hope to have. I’ll help you plan the setting and clothing, and give you direction throughout the session.",
+      "headline": "I’m Walt. I photograph the people you love, in the light you’ll remember.",
+      "intro": "Natural-light portraits of families, graduates, and athletes around Charlotte and Lake Norman. Tell me who you’d like photographed and I’ll plan the rest with you.",
       "personalHeadline": "I’d like you to feel comfortable working with me.",
       "personalParagraphs": [
         "I’m a father of four, and I know getting everyone ready for pictures can take some doing. You can tell me if your children need time to warm up or someone isn’t looking forward to being photographed. I’ll keep the direction clear and give you room to settle in.",
-        "I also played football at Ohio State and professionally, which shapes how I approach athlete portraits. I’d like to understand what matters to you, whether we’re photographing your family, your graduation, or a season you want to remember."
+        "I also played football at Ohio State and professionally, which is part of why athlete portraits mean something to me. Whatever we’re photographing, I want to understand what matters to you first."
       ],
       "directoryHeadline": "Explore the portraits I can help you plan.",
       "directoryIntro": "Choose the people you’d like photographed to see more of my work, how I approach your session, and the starting price.",
@@ -17,25 +17,28 @@
           "route": "families",
           "title": "Individual & family portraits",
           "photoKey": "photo_d341502e4390647fb217b2e1ed16d9e607808514",
-          "copy": "Whether it’s just you, your household, or a gathering that includes grandparents, I’ll help plan the photographs you want. If you’re usually the one taking the pictures, I’d like to make sure you’re in them, too.",
+          "copy": "Just you, your household, or three generations together. If you’re usually the one taking the pictures, I’ll make sure you’re in them.",
           "href": "/families",
-          "newTab": false
+          "newTab": false,
+          "priceKey": "individual"
         },
         {
           "route": "seniors",
           "title": "Seniors & graduates",
           "photoKey": "photo_a9ddb5d440dfe9c78b5f82642bf755bf6fdf00b8",
-          "copy": "If you’re finishing high school, college, or a graduate program, I’d like to hear what you want to remember about this time. We can plan photographs for you, your announcements, and the people who helped you get here.",
+          "copy": "High school, college, or grad school. Portraits for you, your announcements, and the people who got you here.",
           "href": "/seniors",
-          "newTab": false
+          "newTab": false,
+          "priceKey": "senior"
         },
         {
           "route": "athletes",
           "title": "Athletes & teams",
           "photoKey": "football",
-          "copy": "I can plan portraits for one athlete or photographs for a full roster. Tell me about the sport, the people involved, and what you’d like these photographs to show.",
+          "copy": "One athlete or a full roster. Tell me about the sport and the season, and what you’d like these photographs to show.",
           "href": "/athletes",
-          "newTab": false
+          "newTab": false,
+          "priceKey": "athlete"
         }
       ],
       "closingHeadline": "Tell me who you’d like photographed and what you’re hoping for.",
@@ -68,8 +71,8 @@
         "newTab": false
       },
       "experienceEyebrow": "How I work",
-      "experienceHeadline": "I’ll talk through the details with you before you book.",
-      "experienceIntro": "We’ll discuss the photographs you want, a setting that suits you, and what to wear. I’ll put the plan and price in writing, and I’ll guide you through the session when we meet.",
+      "experienceHeadline": "We’ll settle the details before you book, and I’ll guide you on the day.",
+      "experienceIntro": "A setting that suits you, what to wear, and the plan and price in writing. Then I direct the session so nobody has to know how to pose.",
       "experienceLink": {
         "label": "See how I plan a session",
         "href": "/experience",
@@ -101,7 +104,17 @@
           "question": "How will I know what my session costs?",
           "answer": "My published prices are starting points. After we discuss who’s coming and the photographs you want, I’ll send a written quote with what’s included and the full price before you decide to book."
         }
-      ]
+      ],
+      "workLink": {
+        "label": "See my work",
+        "href": "/portfolio",
+        "newTab": false
+      },
+      "workEyebrow": "Recent work",
+      "workHeadline": "The small moments are the ones you’ll keep.",
+      "servicePriceTemplate": "Sessions from {price}",
+      "inquiryEyebrow": "Let’s plan your session",
+      "inquiryEmailLead": "Or email me directly at"
     },
     "experience": {
       "eyebrow": "Planning a session with me",
