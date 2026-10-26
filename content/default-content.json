@@ -1004,7 +1004,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-02.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "holiday",
@@ -1015,7 +1015,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-03.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "football",
@@ -1037,7 +1037,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-05.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "grass",
@@ -1048,7 +1048,7 @@
       "height": 1667,
       "category": "families",
       "src": "/assets/portfolio-07.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "shoulders",
@@ -1059,7 +1059,7 @@
       "height": 2000,
       "category": "families",
       "src": "/assets/portfolio-08.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "sons",
@@ -1070,7 +1070,7 @@
       "height": 1200,
       "category": "families",
       "src": "/assets/portfolio-09.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "maternity",
@@ -1081,7 +1081,7 @@
       "height": 1072,
       "category": "families",
       "src": "/assets/portfolio-11.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "birthday",
@@ -1092,7 +1092,7 @@
       "height": 2001,
       "category": "families",
       "src": "/assets/portfolio-13.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "baby",
@@ -1103,7 +1103,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-00.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "graduate",
@@ -1125,7 +1125,7 @@
       "height": 998,
       "category": "couples",
       "src": "/assets/portrait-investment-2.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "event",
@@ -1136,7 +1136,7 @@
       "height": 998,
       "category": "events",
       "src": "/assets/portrait-investment-3.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "individualWoman",
@@ -1169,7 +1169,7 @@
       "height": 962,
       "category": "athletes",
       "src": "/assets/sport-coach-player.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "sportAction",
@@ -1180,7 +1180,7 @@
       "height": 1085,
       "category": "athletes",
       "src": "/assets/sport-football-action.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "walt",
