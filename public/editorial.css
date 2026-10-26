@@ -663,3 +663,5 @@ h2,h3{font-weight:400;font-variation-settings:"opsz" 96}
 @media(max-width:800px){.page-hero{min-height:clamp(540px,82vh,660px)}.page-hero-families .page-hero-photo img{object-position:50% 15%}.page-hero-seniors .page-hero-photo img{object-position:50% 18%}.page-hero-reviews .page-hero-photo img{object-position:50% 30%}.page-hero .hero-lede{font-size:15px;line-height:1.55}.hero-overlay .hero-main-photo img{object-position:50% 30%}}
 /* Keep faces in frame when a fixed-height gallery slot crops a photograph. */
 .photo-grid .photograph img{object-position:50% 30%}
+.page-hero-families .page-hero-photo img{object-position:50% 0%}
+@media(max-width:800px){.page-hero-families .page-hero-photo img{object-position:50% 0%}}
