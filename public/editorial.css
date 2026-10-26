@@ -661,3 +661,5 @@ h2,h3{font-weight:400;font-variation-settings:"opsz" 96}
 .page-hero-athletes .page-hero-photo img{object-position:50% 25%}
 .page-hero .hero-shade{background:linear-gradient(to top,rgba(20,24,18,.86) 0%,rgba(20,24,18,.55) 38%,rgba(20,24,18,.12) 68%,rgba(20,24,18,0) 100%)}
 @media(max-width:800px){.page-hero{min-height:clamp(540px,82vh,660px)}.page-hero-families .page-hero-photo img{object-position:50% 15%}.page-hero-seniors .page-hero-photo img{object-position:50% 18%}.page-hero-reviews .page-hero-photo img{object-position:50% 30%}.page-hero .hero-lede{font-size:15px;line-height:1.55}.hero-overlay .hero-main-photo img{object-position:50% 30%}}
+/* Keep faces in frame when a fixed-height gallery slot crops a photograph. */
+.photo-grid .photograph img{object-position:50% 30%}
