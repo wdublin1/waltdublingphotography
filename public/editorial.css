@@ -1,4 +1,4 @@
-:root{--ink:#282c28;--deep:#202720;--cream:#f7f5ef;--paper:#eae7dd;--white:#fffefa;--gold:#c3a46c;--gold-dark:#77603b;--muted:#60665e;--line:#d4d3c8;--serif:'Instrument Serif',Georgia,serif}
+:root{--ink:#1f221e;--deep:#1b1f19;--cream:#fdfcf8;--paper:#f1eee6;--white:#ffffff;--gold:#9fb08f;--gold-dark:#4a5d3f;--muted:#5d635a;--line:#dedbd1;--serif:'Fraunces',Georgia,serif;--sans:'Instrument Sans','DM Sans',Arial,sans-serif}
 html{scroll-padding-top:110px}
 h1,h2,h3{letter-spacing:-.018em}
 h1{line-height:1.1}
@@ -6,7 +6,7 @@ h2{font-size:43px;line-height:1.14}
 h3{line-height:1.2}
 p{line-height:1.85}
 .location-label{font-size:10px;font-weight:500;letter-spacing:.13em;text-transform:uppercase}
-.text-link{font-size:13px;text-decoration-color:#998567;text-underline-offset:7px;padding:7px 0;min-height:40px}
+.text-link{font-size:13px;text-decoration-color:#9aa58f;text-underline-offset:7px;padding:7px 0;min-height:40px}
 .button{min-height:50px;border-radius:0;padding:15px 22px;font-size:13px}
 
 
@@ -90,7 +90,7 @@ p{line-height:1.85}
 .note-copy .client-quote blockquote{font-size:31px;line-height:1.48;letter-spacing:-.008em}
 .note-copy .location-label{margin-bottom:22px}
 .note-copy .text-link{margin-top:20px;font-size:12px}
-.invitation{background:#e7e9df;padding:65px 0 69px}
+.invitation{background:#edf0e8;padding:65px 0 69px}
 .invitation h2{font-size:42px;line-height:1.15;max-width:740px;margin-bottom:21px}
 .invitation p{font-size:15px;line-height:1.9;max-width:650px}
 .invitation-inner{gap:65px}
@@ -152,7 +152,7 @@ p{line-height:1.85}
 .about-body .signature{font-size:43px}
 .reviews-layout{grid-template-columns:1fr 1fr;gap:90px}
 .review-list blockquote{font-size:29px;line-height:1.55}
-.review-list .client-quote{border-left:1px solid #a58e62}
+.review-list .client-quote{border-left:1px solid #9aa58f}
 .contact-copy h1{font-size:61px;line-height:1.1}
 .contact-layout{gap:100px;padding-top:65px}
 .contact-copy>p:not(.location-label){font-size:16px;line-height:1.9}
@@ -160,7 +160,7 @@ p{line-height:1.85}
 .contact-walt .photograph{height:94px;width:76px}
 .contact-walt>div{min-width:0}
 a[href^="mailto:"]{overflow-wrap:anywhere}
-.inquiry-form-wrap{border-top:1px solid #92805a;background:#ece9e0;padding:36px}
+.inquiry-form-wrap{border-top:1px solid #9aa58f;background:#ece9e0;padding:36px}
 .form-field label{font-size:13px;font-weight:500}
 .form-field input,.form-field textarea,.form-field select{border-radius:0;background:#faf9f4}
 .form-disclosure{font-size:11px;line-height:1.8}
@@ -227,11 +227,11 @@ a[href^="mailto:"]{overflow-wrap:anywhere}
 .social-links,.footer-main .social-links{display:flex;flex-direction:row;align-items:center;gap:12px;margin:24px 0 0}
 .social-link,.footer-main .social-link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;height:46px;min-width:46px;padding:0;border:1px solid var(--line);background:var(--cream);color:var(--ink);text-decoration:none;transition:background .18s,border-color .18s,color .18s}
 .social-link svg{display:block;width:22px;height:22px}
-.social-link:hover,.footer-main .social-link:hover{background:#e2d5bd;border-color:#c3a46c;color:var(--deep)}
+.social-link:hover,.footer-main .social-link:hover{background:#e3e8dc;border-color:#9fb08f;color:var(--deep)}
 .social-link:focus-visible{outline:3px solid var(--gold-dark);outline-offset:4px}
 .footer-main .social-link:focus-visible{outline-color:var(--gold)}
 .contact-social-links{margin:0 0 28px}
-.client-quote .review-stars{display:flex;gap:3px;align-items:center;width:max-content;color:#977337;margin:0 0 18px}
+.client-quote .review-stars{display:flex;gap:3px;align-items:center;width:max-content;color:#4a5d3f;margin:0 0 18px}
 .review-stars svg{display:block;flex:none;width:17px;height:17px}
 .review-grid .client-quote .review-stars{margin-bottom:14px}
 @media(max-width:600px){.mobile-contact-label{max-width:65px;white-space:normal;line-height:1.25;text-align:center}}
@@ -257,7 +257,7 @@ a[href^="mailto:"]{overflow-wrap:anywhere}
 .portfolio-grid.single-visible>.photograph:not([hidden]){grid-column:1/-1}
 .inquiry-honeypot{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;pointer-events:none}
 .inquiry-status{font-size:14px;line-height:1.8;padding:16px 18px;margin:22px 0 0;border:1px solid var(--line);background:var(--cream);color:var(--ink)}
-.inquiry-status[data-state=sent]{background:#e7e9df;border-color:#bec7b7}
+.inquiry-status[data-state=sent]{background:#edf0e8;border-color:#bec7b7}
 .inquiry-status[data-state=error]{border-color:#9b674d}
 .inquiry-status:focus{outline:2px solid var(--gold-dark);outline-offset:4px}
 #inquiry-form .button:disabled{cursor:wait;opacity:.65}
@@ -584,3 +584,80 @@ dl.session-facts,.session-facts dl{display:grid;grid-template-columns:minmax(90p
 .home-inquiry-alternatives{display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px;margin-top:26px}
 .home-inquiry-alternatives .text-link{color:var(--cream);text-decoration-color:rgba(248,247,242,.6)}
 .home-inquiry-alternatives .home-inquiry-email{margin:0}
+
+/* Site-wide refinement (October 2026): Fraunces display over Instrument Sans,
+   warm white ground, moss accent, and a shared full-width photographic opening
+   for the service and reviews pages. */
+h1{font-weight:300;letter-spacing:-.02em;font-variation-settings:"opsz" 144}
+h2,h3{font-weight:400;font-variation-settings:"opsz" 96}
+.location-label{color:var(--gold-dark);letter-spacing:.2em;font-size:11px}
+.button{letter-spacing:.06em;text-transform:uppercase;font-size:12px;font-weight:500}
+.site-header{border-bottom-color:transparent}
+.header-inquiry{text-transform:uppercase;letter-spacing:.06em;font-weight:500;background:var(--gold-dark);border-color:var(--gold-dark)}
+.header-inquiry:hover,.header-inquiry[aria-current=page]{background:var(--deep);border-color:var(--deep)}
+.desktop-nav>a,.collection-menu>summary{font-weight:500}
+.site-footer{background:var(--deep);color:#cfd4c6}
+.footer-main a:hover{color:var(--cream)}
+.invitation{background:var(--paper)}
+.personal-section{background:var(--paper)}
+.paper-section{background:var(--paper)}
+.session-detail{background:var(--paper);border-top-color:var(--gold-dark)}
+.inquiry-form-wrap{background:var(--paper);border-top-color:var(--gold-dark)}
+.form-field input,.form-field textarea,.form-field select{background:var(--white)}
+.client-quote blockquote{font-style:italic}
+
+.page-hero{position:relative;width:100%;min-height:clamp(440px,62vh,640px);display:flex;align-items:flex-end;overflow:hidden;background:#2f3a2b;color:var(--cream);isolation:isolate}
+.page-hero-photo{position:absolute;inset:0}
+.page-hero-photo .photograph,.page-hero-photo img{width:100%;height:100%}
+.page-hero-photo img{object-fit:cover;object-position:50% 35%}
+.page-hero-seniors .page-hero-photo img{object-position:50% 45%}
+.page-hero-athletes .page-hero-photo img{object-position:50% 30%}
+.page-hero-reviews .page-hero-photo img{object-position:50% 40%}
+.page-hero .hero-shade{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to top,rgba(20,24,18,.84) 0%,rgba(20,24,18,.4) 45%,rgba(20,24,18,.05) 75%,rgba(20,24,18,0) 100%)}
+.page-hero-caption{position:relative;z-index:2;width:min(1440px,calc(100% - 88px));margin:0 auto;padding:120px 0 clamp(40px,5vw,64px)}
+.page-hero-inner{max-width:820px}
+.page-hero .location-label{margin:0 0 18px;color:#e4dcc3}
+.page-hero h1{max-width:820px;margin:0 0 18px;font-size:clamp(38px,4.6vw,66px);line-height:1.04;color:var(--cream)}
+.page-hero .hero-lede{max-width:620px;margin:0 0 26px;font-size:clamp(16px,1.3vw,18px);line-height:1.6;color:#f1eee4}
+.page-hero .hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+.page-hero .button{background:var(--cream);color:var(--deep);border:1px solid var(--cream);min-height:50px;padding:14px 24px}
+.page-hero .button:hover{background:#fff;border-color:#fff;color:var(--deep)}
+.page-hero :focus-visible{outline-color:var(--cream)}
+.service-nav{padding-top:18px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.athlete-layout{padding-top:clamp(44px,5vw,72px);padding-bottom:clamp(36px,4vw,56px);grid-template-columns:.9fr 1.1fr;align-items:start}
+.athlete-layout .athlete-photo{position:static}
+.athlete-layout .reading h2{font-size:clamp(32px,3vw,42px);margin-top:0}
+.reviews-featured-centered{display:block;max-width:960px;padding:clamp(40px,5vw,72px) 0 clamp(24px,3vw,40px);text-align:center}
+.reviews-featured-centered .featured-quote{display:flex;flex-direction:column;align-items:center}
+.reviews-featured-centered .featured-quote blockquote{max-width:900px;font-size:clamp(28px,3.1vw,40px);line-height:1.35}
+.reviews-featured-centered .review-stars{justify-content:center}
+.page-intro{padding-top:clamp(56px,7vw,96px);padding-bottom:clamp(36px,4vw,56px);border-bottom:1px solid var(--line);margin-bottom:8px}
+.page-intro h1{font-size:clamp(42px,5vw,70px);line-height:1.04}
+.page-intro p{font-size:18px}
+.about-opening{padding-top:clamp(48px,6vw,88px)}
+.about-opening h1{font-size:clamp(50px,6vw,80px);line-height:1.02}
+.contact-copy h1{font-size:clamp(44px,4.8vw,64px)}
+@media(max-width:1100px){.page-hero-caption{width:calc(100% - 56px)}}
+@media(max-width:800px){
+  .page-hero{min-height:clamp(420px,70vh,560px)}
+  .page-hero-caption{width:calc(100% - 40px);padding-top:80px;padding-bottom:34px}
+  .page-hero h1{font-size:clamp(36px,8.6vw,46px)}
+  .page-hero .hero-lede{font-size:16px}
+  .athlete-layout{grid-template-columns:1fr;gap:28px;padding-top:40px}
+  .athlete-layout .athlete-photo{max-width:420px;aspect-ratio:3/4}
+}
+@media(max-width:600px){
+  .page-hero-caption{width:calc(100% - 32px);padding-bottom:28px}
+  .page-hero .location-label{margin-bottom:12px}
+  .page-hero h1{margin-bottom:14px}
+  .reviews-featured-centered .featured-quote blockquote{font-size:27px}
+  .page-intro h1{font-size:40px}
+  .page-intro p{font-size:16px}
+}
+/* Give faces room above the overlaid copy on the page openings. */
+.page-hero{min-height:clamp(520px,72vh,720px)}
+.page-hero-families .page-hero-photo img{object-position:50% 22%}
+.page-hero-seniors .page-hero-photo img{object-position:55% 35%}
+.page-hero-athletes .page-hero-photo img{object-position:50% 25%}
+.page-hero .hero-shade{background:linear-gradient(to top,rgba(20,24,18,.86) 0%,rgba(20,24,18,.55) 38%,rgba(20,24,18,.12) 68%,rgba(20,24,18,0) 100%)}
+@media(max-width:800px){.page-hero{min-height:clamp(540px,82vh,660px)}.page-hero-families .page-hero-photo img{object-position:50% 15%}.page-hero-seniors .page-hero-photo img{object-position:50% 18%}.page-hero-reviews .page-hero-photo img{object-position:50% 30%}.page-hero .hero-lede{font-size:15px;line-height:1.55}.hero-overlay .hero-main-photo img{object-position:50% 30%}}
