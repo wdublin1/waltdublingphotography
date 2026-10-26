@@ -897,6 +897,56 @@
       "imageCountLabel": "Edited photographs",
       "deliveryLabel": "Delivery",
       "featuredServiceLinkLabel": "Explore my session details"
+    },
+    "placements": {
+      "homeInquiry": {
+        "photoKey": "photo_64e7e61c87b52f6dd98ea29713edd28baa009691"
+      },
+      "familiesHero": {
+        "photoKey": "photo_f0a1ad1117cbcf9a5688c0901f01013bd73c8e38"
+      },
+      "familiesGalleryOne": {
+        "photoKey": "photo_132425cd9ddbd0b8055d57ad6f46b33e32efdd1c"
+      },
+      "familiesGalleryTwo": {
+        "photoKey": "photo_ab7380337985804d831d109db069ed259e05ba9b"
+      },
+      "familiesGalleryThree": {
+        "photoKey": "photo_af0c2cb6fd4f6d75fc57b3aef7f0ef2bf2d9d39a"
+      },
+      "familiesGalleryFour": {
+        "photoKey": "photo_4817292700d9520a5d3b6b4831dfc0e033437dfc"
+      },
+      "familiesGalleryFive": {
+        "photoKey": "photo_27fc59d4ff15836214b18473ae69130e75c7741b"
+      },
+      "familiesGallerySix": {
+        "photoKey": "photo_220b1557d4393bcdd1ef0fa6a0a38b981f5096c2"
+      },
+      "familiesIndividual": {
+        "photoKey": "photo_a702f950f14abce5037321b44c659e54b1f0b1aa"
+      },
+      "familiesGroup": {
+        "photoKey": "photo_c38fdb342f945e8c77e9109882841b16f10f2dc6"
+      },
+      "seniorsHero": {
+        "photoKey": "photo_e17e119efb27e626136a950cdf37b0d2fb66ca5a"
+      },
+      "seniorsSport": {
+        "photoKey": "photo_fa5ca5e9729f9f7ac0d920364812749d9a10bc53"
+      },
+      "athletesHero": {
+        "photoKey": "photo_1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7"
+      },
+      "athletesPortrait": {
+        "photoKey": "photo_3b9816e2774bdae7e29dcbefd4a89122338c3b72"
+      },
+      "athletesTeam": {
+        "photoKey": "teammates"
+      },
+      "reviewsHero": {
+        "photoKey": "photo_b11c720870ff36f558880c7a96a6cbe2734de3d0"
+      }
     }
   },
   "settings": {

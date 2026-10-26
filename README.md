@@ -55,3 +55,7 @@ The homepage now opens with the slideshow's main photographs shown full width wi
 - The closing invitation heading and text introduce the homepage inquiry form. **Invitation link wording** is optional there and appears as a link beside the email address when set.
 
 The homepage form posts to the same `/api/inquiry` endpoint as the contact page, so the Resend configuration noted in the handover applies to both.
+
+### Page photographs
+
+The fixed photograph positions on the families, seniors, athletes and reviews pages and the homepage inquiry band are now chosen under **Pages & reviews → Page photographs**. Each position is a single library photograph; clearing it restores that position's built-in fallback. The homepage recent-work strip skips any photograph already shown higher on the homepage, and featured-gallery cards swap to the next photograph in the gallery when their cover is already on the page, so one photograph is never repeated down a page.

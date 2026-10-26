@@ -10,11 +10,12 @@ const pageTitles = {
   home: 'Home', portfolio: 'My photographs', families: 'Individuals & families', seniors: 'Seniors & graduates',
   athletes: 'Athletes & teams', pricing: 'Sessions & pricing', about: 'About me', reviews: 'Client experiences',
   experience: 'How I work', featured: 'Featured galleries',
-  contact: 'Get in touch', clients: 'Client galleries', shared: 'Shared captions & invitations', footer: 'Footer',
+  contact: 'Get in touch', clients: 'Client galleries', shared: 'Shared captions & invitations', footer: 'Footer', placements: 'Page photographs',
   meta: 'Search titles & descriptions', testimonials: 'Client reviews',
 };
-const pageOrder = ['home', 'portfolio', 'experience', 'featured', 'families', 'seniors', 'athletes', 'pricing', 'about', 'reviews', 'contact', 'clients', 'shared', 'footer', 'testimonials', 'meta'];
+const pageOrder = ['home', 'portfolio', 'experience', 'featured', 'families', 'seniors', 'athletes', 'pricing', 'about', 'reviews', 'contact', 'clients', 'placements', 'shared', 'footer', 'testimonials', 'meta'];
 const labels = {
+  homeInquiry: 'Homepage inquiry band', familiesHero: 'Families page opening', familiesGalleryOne: 'Families gallery 1', familiesGalleryTwo: 'Families gallery 2', familiesGalleryThree: 'Families gallery 3', familiesGalleryFour: 'Families gallery 4', familiesGalleryFive: 'Families gallery 5', familiesGallerySix: 'Families gallery 6', familiesIndividual: 'Families page individual portrait', familiesGroup: 'Families page group photograph', seniorsHero: 'Seniors page opening', seniorsSport: 'Seniors page athlete link', athletesHero: 'Athletes page opening', athletesPortrait: 'Athletes page portrait', athletesTeam: 'Athletes page team photograph', reviewsHero: 'Reviews page opening',
   headline: 'Page headline', intro: 'Introduction', personalHeadline: 'Personal introduction heading', personalParagraphs: 'Personal introduction paragraphs',
   directoryHeadline: 'Session directory heading', directoryIntro: 'Session directory introduction', services: 'Session links',
   closingHeadline: 'Closing invitation heading', closingCopy: 'Closing invitation text', closingButton: 'Invitation link wording',
@@ -146,7 +147,8 @@ function validateHref(value) {
 function descriptionFor(name, value, path) {
   const notes = [];
   if (['duration', 'imageCount', 'delivery', 'responseTime'].includes(name)) notes.push('Optional. Leave blank until you have confirmed this detail. An empty value is not shown on the website; do not enter a placeholder or an unconfirmed promise.');
-  if (name === 'photoKey') notes.push('Choose a photograph from the library for this homepage service link. Clear it to use the service’s built-in photograph.');
+  if (name === 'photoKey' && path.includes('placements')) notes.push('Choose the photograph shown in this page position. Clear it to use the built-in fallback photograph for that position.');
+  else if (name === 'photoKey') notes.push('Choose a photograph from the library for this homepage service link. Clear it to use the service’s built-in photograph.');
   if (name === 'copy' && path.includes('services')) notes.push('Write a short summary for this linked service card. The whole card opens the destination below; any inline links in the summary display their wording only, without separate clickable destinations.');
   if (name === 'inclusions') notes.push('Only include services you actually provide. Use a short, natural first-person sentence for each entry. Put confirmed session length, image count, and delivery in their separate optional fields.');
   if (isOptionalLinkLabel(name)) {
@@ -259,9 +261,10 @@ const uniquePhotoKeys = (photos, context) => {
     ...(context.document?.portfolioOrder || []),
     ...(context.document?.featuredPhotos || []).flatMap((frame) => [frame.main, frame.left, frame.right]),
     ...(context.document?.copy?.home?.services || []).map((service) => service.photoKey),
+    ...Object.values(context.document?.copy?.placements || {}).map((position) => position?.photoKey),
     ...(context.document?.featuredSessions || []).filter((gallery) => gallery.enabled).flatMap((gallery) => [gallery.coverKey, ...(gallery.photoKeys || [])]),
   ];
-  return referenced.every((key) => !key || keys.includes(key)) || 'A photograph used in the homepage, portfolio, or an enabled featured gallery has been removed. Update those selections first.';
+  return referenced.every((key) => !key || keys.includes(key)) || 'A photograph used in the homepage, a page position, the portfolio, or an enabled featured gallery has been removed. Update those selections first.';
 };
 
 export const photographySite = defineType({
