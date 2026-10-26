@@ -7,18 +7,18 @@ export const CONTENT_ID = 'walt-photography-site';
 export const CONTENT_TYPE = 'photographySite';
 
 const pageTitles = {
-  home: 'Home', portfolio: 'My photographs', families: 'Individuals & families', seniors: 'Seniors & graduates',
-  athletes: 'Athletes & teams', pricing: 'Sessions & pricing', about: 'About me', reviews: 'Client experiences',
-  experience: 'How I work', featured: 'Featured galleries',
-  contact: 'Get in touch', clients: 'Client galleries', shared: 'Shared captions & invitations', footer: 'Footer', placements: 'Page photographs',
-  meta: 'Search titles & descriptions', testimonials: 'Client reviews',
+  home: 'Homepage', portfolio: 'All-photographs page', families: 'Families page', seniors: 'Seniors page',
+  athletes: 'Athletes page', pricing: 'Pricing page', about: 'About page', reviews: 'Reviews page',
+  experience: 'How I work page', featured: 'Galleries page',
+  contact: 'Contact page', clients: 'Client galleries page', shared: 'Text shared by several pages', footer: 'Footer text', placements: 'Photos on each page',
+  meta: 'Google titles & descriptions', testimonials: 'Client reviews',
 };
-const pageOrder = ['home', 'portfolio', 'experience', 'featured', 'families', 'seniors', 'athletes', 'pricing', 'about', 'reviews', 'contact', 'clients', 'placements', 'shared', 'footer', 'testimonials', 'meta'];
+const pageOrder = ['home', 'families', 'seniors', 'athletes', 'pricing', 'experience', 'featured', 'portfolio', 'about', 'reviews', 'contact', 'clients', 'placements', 'testimonials', 'shared', 'footer', 'meta'];
 const labels = {
-  homeInquiry: 'Homepage inquiry band', familiesHero: 'Families page opening', familiesGalleryOne: 'Families gallery 1', familiesGalleryTwo: 'Families gallery 2', familiesGalleryThree: 'Families gallery 3', familiesGalleryFour: 'Families gallery 4', familiesGalleryFive: 'Families gallery 5', familiesGallerySix: 'Families gallery 6', familiesIndividual: 'Families page individual portrait', familiesGroup: 'Families page group photograph', seniorsHero: 'Seniors page opening', seniorsSport: 'Seniors page athlete link', athletesHero: 'Athletes page opening', athletesPortrait: 'Athletes page portrait', athletesTeam: 'Athletes page team photograph', reviewsHero: 'Reviews page opening',
-  headline: 'Page headline', intro: 'Introduction', personalHeadline: 'Personal introduction heading', personalParagraphs: 'Personal introduction paragraphs',
-  directoryHeadline: 'Session directory heading', directoryIntro: 'Session directory introduction', services: 'Session links',
-  closingHeadline: 'Closing invitation heading', closingCopy: 'Closing invitation text', closingButton: 'Invitation link wording',
+  homeInquiry: 'Homepage: photo beside the inquiry form (bottom of page)', familiesHero: 'Families page: big photo at the top', familiesGalleryOne: 'Families page: gallery photo 1 (top left, wide)', familiesGalleryTwo: 'Families page: gallery photo 2 (top right)', familiesGalleryThree: 'Families page: gallery photo 3 (middle left, wide)', familiesGalleryFour: 'Families page: gallery photo 4 (middle right)', familiesGalleryFive: 'Families page: gallery photo 5 (bottom left)', familiesGallerySix: 'Families page: gallery photo 6 (bottom right)', familiesIndividual: 'Families page: photo above "portraits for yourself"', familiesGroup: 'Families page: photo above "which photographs matter"', seniorsHero: 'Seniors page: big photo at the top', seniorsSport: 'Seniors page: photo beside the athlete link', athletesHero: 'Athletes page: big photo at the top', athletesPortrait: 'Athletes page: portrait beside the opening text', athletesTeam: 'Athletes page: team photo', reviewsHero: 'Reviews page: big photo at the top',
+  headline: 'Headline (big text at the top)', intro: 'Opening paragraph (under the headline)', personalHeadline: '"About me" section: heading', personalParagraphs: '"About me" section: paragraphs',
+  directoryHeadline: 'Text under the three photo tiles: heading', directoryIntro: 'Text under the three photo tiles: paragraph', services: 'The three photo tiles (families / seniors / athletes)',
+  closingHeadline: 'Bottom-of-page invitation: heading', closingCopy: 'Bottom-of-page invitation: text', closingButton: 'Bottom-of-page invitation: button wording (optional)',
   sidebar: 'About sidebar', paragraphs: 'Paragraphs', sections: 'Page sections', sessions: 'Session descriptions',
   teamHeadline: 'Team photography heading', teamParagraphs: 'Team photography paragraphs', faqHeadline: 'Questions heading',
   faqIntro: 'Questions introduction', questions: 'Frequently asked questions', nextHeadline: 'What happens next heading', nextCopy: 'What happens next text',
@@ -30,12 +30,12 @@ const labels = {
   personalPortraitCaption: 'Caption below Walt’s portrait', graduationLinkLabel: 'Graduation photograph link wording',
   athletePhotoCaption: 'Optional sports photograph caption', sportHeadline: 'Graduation and sport heading', sportCopy: 'Graduation and sport text',
   sportLinkLabel: 'Athlete page link wording', naturalLightNote: 'Natural-light planning note',
-  eyebrow: 'Small label above the headline', locationLabel: 'Location label', personalEyebrow: 'Personal introduction label',
-  directoryEyebrow: 'Session directory label', reviewEyebrow: 'Client review label', location: 'Location wording', signature: 'Signature wording',
+  eyebrow: 'Small caps label above the headline', locationLabel: 'Small caps label above the headline (location)', personalEyebrow: '"About me" section: small caps label',
+  directoryEyebrow: 'Text under the three photo tiles: small caps label', reviewEyebrow: 'Client review section: small caps label', location: 'Location wording', signature: 'Signature wording',
   priceCopy: 'Price explanation', familyPriceCopy: 'Family portrait price explanation', individualPriceCopy: 'Individual portrait price explanation',
   priceTemplate: 'Starting-price wording', customPriceLabel: 'Custom-quote wording', quoteExplanation: 'Quote explanation',
-  label: 'Link wording', linkLabel: 'Session inquiry link wording', priceKey: 'Linked starting price', type: 'Inquiry session selection',
-  inquiryLink: 'Main inquiry link', aboutLink: 'About-me link', pricingLink: 'Pricing link', reviewsLink: 'Client experiences link',
+  label: 'Wording', linkLabel: 'Inquiry link wording', priceKey: 'Which starting price to show', type: 'Inquiry session selection',
+  inquiryLink: 'Hero: first button (Inquire to book)', workLink: 'Hero: second button (See my work)', workEyebrow: '"Recent work" strip: small caps label', workHeadline: '"Recent work" strip: heading', servicePriceTemplate: 'Photo tiles: price wording ({price} is filled in)', inquiryEyebrow: 'Inquiry form section: small caps label', inquiryEmailLead: 'Inquiry form section: wording before the email address', aboutLink: '"About me" section: link', pricingLink: 'Link to the pricing page', reviewsLink: 'Client review section: link',
   portfolioLink: 'Portfolio link', heroLink: 'Opening section link', familyLink: 'Family session link', individualLink: 'Individual session link',
   teamLink: 'Team photography link', emailLink: 'Email link', invitationButton: 'Default invitation link wording',
   form: 'Inquiry form wording', personName: 'Name above the contact details', nameLabel: 'Name field label',
@@ -48,7 +48,7 @@ const labels = {
   headerLinks: 'Main menu links', collectionLinks: 'Photography menu links', serviceLinks: 'Service-page navigation links',
   mobileContactLink: 'Mobile contact link', footerPhotographyLinks: 'Footer photography links', footerInformationLinks: 'Footer information links',
   footerEmailLink: 'Footer email link', copyrightText: 'Copyright line',
-  interfaceCopy: 'Controls, accessibility & messages', accessibility: 'Screen-reader and navigation wording', social: 'Social icon wording',
+  interfaceCopy: 'System messages (rarely needs editing)', accessibility: 'Screen-reader and navigation wording', social: 'Social icon wording',
   lightbox: 'Photograph viewer', slideshow: 'Homepage slideshow controls', inquiry: 'Inquiry form controls & feedback',
   system: 'Error and unavailable pages', apiMessages: 'Server response messages',
   skipLabel: 'Skip-to-content link', logoHomeLabel: 'Logo description', mainNavigationLabel: 'Main menu description',
@@ -79,17 +79,17 @@ const labels = {
   unsupportedFormat: 'Unsupported form format message', tooLong: 'Oversized inquiry message', malformedRequest: 'Unreadable inquiry message',
   refreshRequired: 'Refresh-the-page message', tokenExpired: 'Expired form message', tooSoon: 'Submitted-too-quickly message',
   emailUnavailable: 'Email delivery unavailable message', sendUnconfirmed: 'Email delivery unconfirmed message',
-  experienceEyebrow: 'Session experience label', experienceHeadline: 'Session experience heading',
-  experienceIntro: 'Session experience introduction', experienceLink: 'Session experience link',
-  featuredEyebrow: 'Featured galleries label', featuredHeadline: 'Featured galleries heading',
-  featuredIntro: 'Featured galleries introduction', featuredLink: 'Featured galleries link',
-  faqEyebrow: 'Questions label', faqItems: 'Frequently asked questions',
-  steps: 'Session process', detailsHeadline: 'Session details heading', sessionDetails: 'Session details',
+  experienceEyebrow: '"How I work" section: small caps label', experienceHeadline: '"How I work" section: heading',
+  experienceIntro: '"How I work" section: paragraph', experienceLink: '"How I work" section: link',
+  featuredEyebrow: 'Featured galleries section: small caps label', featuredHeadline: 'Featured galleries section: heading',
+  featuredIntro: 'Featured galleries section: paragraph', featuredLink: 'Featured galleries section: link',
+  faqEyebrow: 'Questions section: small caps label', faqItems: 'Questions & answers',
+  steps: 'The four numbered steps (shown on the homepage and the How I work page)', detailsHeadline: 'Session details heading', sessionDetails: 'Session details',
   inclusions: 'Confirmed session inclusions', duration: 'Session length (optional)', imageCount: 'Edited photograph count (optional)',
   delivery: 'Delivery timeframe (optional)', responseTime: 'Inquiry response time (optional)',
   durationLabel: 'Session length label', imageCountLabel: 'Edited photograph count label', deliveryLabel: 'Delivery timeframe label',
   featuredServiceLinkLabel: 'Gallery-to-service link wording', cardLabel: 'Gallery link wording',
-  backLabel: 'Return-to-galleries link wording', photoKey: 'Photograph for this service link',
+  backLabel: 'Return-to-galleries link wording', photoKey: 'Photograph',
 };
 const humanize = (name) => name.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/^./, (letter) => letter.toUpperCase());
 const titleFor = (name, path = []) => {
@@ -121,14 +121,14 @@ const sessionChoices = [
     .map((value) => ({title: value, value})),
 ];
 const pageFieldsets = [
-  {name: 'intro', title: 'Introduction', options: {collapsible: true, collapsed: false}},
-  {name: 'sections', title: 'Page sections & details', options: {collapsible: true, collapsed: false}},
-  {name: 'details', title: 'Session details & inclusions', options: {collapsible: true, collapsed: true}},
-  {name: 'process', title: 'Session experience', options: {collapsible: true, collapsed: true}},
-  {name: 'featured', title: 'Featured galleries', options: {collapsible: true, collapsed: true}},
+  {name: 'intro', title: 'Top of the page (headline & opening text)', options: {collapsible: true, collapsed: false}},
+  {name: 'sections', title: 'Middle of the page (sections & body text)', options: {collapsible: true, collapsed: false}},
+  {name: 'details', title: 'Price cards (what each session includes)', options: {collapsible: true, collapsed: true}},
+  {name: 'process', title: '"How I work" steps', options: {collapsible: true, collapsed: true}},
+  {name: 'featured', title: 'Featured galleries section', options: {collapsible: true, collapsed: true}},
   {name: 'faq', title: 'Questions & answers', options: {collapsible: true, collapsed: true}},
-  {name: 'links', title: 'Links & buttons', options: {collapsible: true, collapsed: true}},
-  {name: 'closing', title: 'Closing invitation', options: {collapsible: true, collapsed: true}},
+  {name: 'links', title: 'Buttons & links', options: {collapsible: true, collapsed: true}},
+  {name: 'closing', title: 'Bottom of the page (invitation / inquiry form)', options: {collapsible: true, collapsed: true}},
 ];
 const isHref = (name) => name === 'href' || /Href$/.test(name);
 const isBodyText = (name, path) => path[0] === 'copy' && !path.includes('meta') && !path.includes('testimonials') && !path.includes('services')
@@ -147,9 +147,9 @@ function validateHref(value) {
 function descriptionFor(name, value, path) {
   const notes = [];
   if (['duration', 'imageCount', 'delivery', 'responseTime'].includes(name)) notes.push('Optional. Leave blank until you have confirmed this detail. An empty value is not shown on the website; do not enter a placeholder or an unconfirmed promise.');
-  if (name === 'photoKey' && path.includes('placements')) notes.push('Choose the photograph shown in this page position. Clear it to use the built-in fallback photograph for that position.');
-  else if (name === 'photoKey') notes.push('Choose a photograph from the library for this homepage service link. Clear it to use the service’s built-in photograph.');
-  if (name === 'copy' && path.includes('services')) notes.push('Write a short summary for this linked service card. The whole card opens the destination below; any inline links in the summary display their wording only, without separate clickable destinations.');
+  if (name === 'photoKey' && path.includes('placements')) notes.push('Pick any photo from the Photo library. Clear it to go back to the built-in photo for this spot.');
+  else if (name === 'photoKey') notes.push('The photo shown on this tile on the homepage. Pick any photo from the Photo library.');
+  if (name === 'copy' && path.includes('services')) notes.push('The one or two sentences shown on this tile. The whole tile is a link to the page below.');
   if (name === 'inclusions') notes.push('Only include services you actually provide. Use a short, natural first-person sentence for each entry. Put confirmed session length, image count, and delivery in their separate optional fields.');
   if (isOptionalLinkLabel(name)) {
     const primaryLabel = ['closingButton', 'invitationButton'].includes(name)
@@ -182,7 +182,7 @@ function descriptionFor(name, value, path) {
 }
 
 function pageFieldsetFor(name) {
-  if (/^(closing|invitation)/.test(name)) return 'closing';
+  if (/^(closing|invitation|inquiryEyebrow|inquiryEmailLead)/.test(name)) return 'closing';
   if (/^experience/.test(name) || name === 'steps') return 'process';
   if (/^featured/.test(name)) return 'featured';
   if (/^faq/.test(name) || name === 'questions') return 'faq';
@@ -272,22 +272,22 @@ export const photographySite = defineType({
   title: 'Walt Dublin Photography website',
   type: 'document',
   groups: [
-    {name: 'content', title: 'Pages & reviews', default: true}, {name: 'photos', title: 'Photograph library'},
-    {name: 'hero', title: 'Homepage hero photos'}, {name: 'portfolio', title: 'Portfolio order'},
-    {name: 'featured', title: 'Featured galleries'},
-    {name: 'prices', title: 'Starting prices'}, {name: 'navigation', title: 'Menus & footer'},
-    {name: 'interfaceCopy', title: 'Controls & messages'}, {name: 'settings', title: 'Contact & links'},
+    {name: 'content', title: '1. Page text', default: true}, {name: 'photos', title: '2. Photo library'},
+    {name: 'hero', title: '3. Homepage hero photos'}, {name: 'featured', title: '4. Featured galleries'},
+    {name: 'portfolio', title: '5. All-photographs page'},
+    {name: 'prices', title: '6. Prices'}, {name: 'navigation', title: '7. Menus & footer'},
+    {name: 'settings', title: '8. Contact details'}, {name: 'interfaceCopy', title: '9. Advanced (system messages)'},
   ],
   fields: [
     defineField({name: 'copy', title: 'Website wording', type: 'object', group: 'content', options: {collapsible: false},
-      description: 'Choose a page tab, then open Introduction, Page sections, Links, or Closing invitation. Body paragraphs can include optional [words](/contact) links. Changes remain drafts until you click Publish.',
+      description: 'Every word on the website lives here. Pick the page you want to change from the row of tabs below; the sections inside are named for where they appear on that page (top, middle, bottom). Photos are chosen in the other numbered tabs, not here. Nothing goes live until you click Publish at the bottom right.',
       groups: pageOrder.filter((name) => Object.hasOwn(defaults.copy, name)).map((name) => ({name, title: pageTitles[name], default: name === 'home'})), fields: copyFields}),
     defineField({...buildField('navigation', defaults.navigation, ['navigation']), group: 'navigation', options: {collapsible: false},
-      description: 'Edit menu wording, destinations, ordering, and the footer details. The footer paragraph itself remains in Pages & reviews → Footer.'}),
+      description: 'The menu across the top of every page and the link columns in the footer. The footer paragraph is under Page text → Footer text.'}),
     defineField({...buildField('interfaceCopy', defaults.interfaceCopy, ['interfaceCopy']), group: 'interfaceCopy', options: {collapsible: false},
-      description: 'Edit controls, screen-reader labels, form feedback, and error messages. Keep the named tokens in place where live values belong. Blank required messages retain safe built-in wording.'}),
+      description: 'Wording for screen readers, form error messages and error pages. You will rarely need this tab. Keep the {curly} tokens in place where they appear.'}),
     defineField({name: 'photos', title: 'Photographs', type: 'array', group: 'photos',
-      description: 'Replace or upload photographs here, edit the description, and set the crop/hotspot. Use Homepage hero photos, Portfolio order, Featured galleries, Page photographs, or Home → Session links to place new images.',
+      description: 'Every photo the website can use. Add new ones here first, then place them using tabs 3, 4 and 5 or Page text → Photos on each page. To control how a photo is cropped anywhere on the site, open it, click the image and drag the circle onto the faces (the hotspot).',
       of: [{type: 'object', name: 'photographyPhoto', title: 'Photograph',
         initialValue: () => ({key: `photo_${Math.random().toString(36).slice(2, 11)}`, category: 'families'}),
         fields: [
@@ -303,20 +303,20 @@ export const photographySite = defineType({
       }], validation: (Rule) => Rule.required().min(1).custom(uniquePhotoKeys),
     }),
     defineField({name: 'featuredPhotos', title: 'Homepage hero photos', type: 'array', group: 'hero',
-      description: 'These are the large full-width photographs at the top of the homepage. The headline and buttons sit over the lower-left corner, so choose wide landscape photographs with the people in the upper or right part of the frame. The homepage rotates through them in this order, one every five seconds. Drag to reorder.',
+      description: 'The big photos at the very top of the homepage. The site rotates through them in this order, one every five seconds. The headline and buttons sit over the lower-left corner, so pick wide photos with the people in the upper or right part of the frame, and set each photo\'s hotspot in the Photo library so faces stay in view. Drag to reorder.',
       of: [{type: 'object', name: 'heroFrame', title: 'Hero photo', fields: [
         photoField('main', 'Hero photograph'),
-        photoField('left', 'Left supporting portrait (no longer shown)', {required: false, description: 'Used by the previous three-image layout. Not displayed on the current homepage; you can leave it blank.'}),
-        photoField('right', 'Right supporting portrait (no longer shown)', {required: false, description: 'Used by the previous three-image layout. Not displayed on the current homepage; you can leave it blank.'}),
+        {...photoField('left', 'Left supporting portrait (no longer shown)', {required: false}), hidden: true},
+        {...photoField('right', 'Right supporting portrait (no longer shown)', {required: false}), hidden: true},
       ], preview: {select: {main: 'main'}, prepare: ({main}) => ({title: main ? `Hero photo: ${main}` : 'Choose a hero photograph'})}}],
       validation: (Rule) => Rule.required().min(1).max(12),
     }),
-    defineField({name: 'portfolioOrder', title: 'Portfolio photographs in order', type: 'array', group: 'portfolio',
-      description: 'Choose photographs from the library and drag to reorder. Categories automatically determine the collection filters.',
+    defineField({name: 'portfolioOrder', title: 'Photos on the All-photographs page, in order', type: 'array', group: 'portfolio',
+      description: 'This is the page visitors reach from My photographs → All my photographs. The first five that are not already on the homepage also fill the homepage "Recent work" strip. Drag to reorder; the filter buttons come from each photo\'s Collection.',
       of: [{type: 'string', title: 'Photograph', components: {input: PhotoKeyInput}}], validation: (Rule) => Rule.required().min(1).unique(),
     }),
     defineField({name: 'featuredSessions', title: 'Featured galleries', type: 'array', group: 'featured',
-      description: 'Choose a cover and an ordered selection of photographs for each gallery. These appear on /featured and relevant service pages when enabled. Use a collection for photographs from different shoots; only describe a single session when that is accurate. Changes remain drafts until Publish.',
+      description: 'Each gallery is a page of its own with a cover photo. The first three enabled galleries show as cards on the homepage; each also shows on its matching service page. Choose a cover and an ordered selection of photographs for each gallery. Use a collection for photographs from different shoots; only describe a single session when that is accurate. Changes remain drafts until Publish.',
       of: [{type: 'object', name: 'featuredPhotographyGallery', title: 'Featured gallery',
         initialValue: () => ({id: `gallery_${Math.random().toString(36).slice(2, 11)}`, type: 'collection', enabled: false, location: ''}),
         fieldsets: [
@@ -355,10 +355,10 @@ export const photographySite = defineType({
       }], validation: (Rule) => Rule.custom(validateGallerySlugs),
     }),
     defineField({name: 'prices', title: 'Starting prices (USD)', type: 'object', group: 'prices', options: {collapsible: false},
-      description: 'These amounts update the repeated starting prices across the website. Team photography remains individually quoted.',
+      description: 'Change a number here and it updates everywhere it appears: the homepage tiles, the pricing page and the price cards on each service page. Team photography is always quoted individually.',
       fields: [['individual', 'Individual portraits'], ['family', 'Family portraits'], ['senior', 'Seniors & graduates'], ['athlete', 'Individual athletes']].map(([name, title]) => defineField({name, title, type: 'number', validation: (Rule) => Rule.required().min(0).max(250000)})),
     }),
-    defineField({name: 'settings', title: 'Contact, business details & booking links', type: 'object', group: 'settings', options: {collapsible: false},
+    defineField({name: 'settings', title: 'Contact details, social links & the Inquire to book button', type: 'object', group: 'settings', options: {collapsible: false},
       fieldsets: [
         {name: 'business', title: 'Business details', options: {collapsible: true, collapsed: false}},
         {name: 'booking', title: 'Default inquiry link', options: {collapsible: true, collapsed: false}},
