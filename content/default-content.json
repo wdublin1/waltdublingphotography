@@ -3,12 +3,12 @@
   "_type": "photographySite",
   "copy": {
     "home": {
-      "headline": "I’m Walt, a natural-light portrait photographer in Charlotte.",
-      "intro": "I photograph individuals and families, seniors and graduates, and athletes around Charlotte and Lake Norman. Tell me who you’d like photographed and what you hope to have. I’ll help you plan the setting and clothing, and give you direction throughout the session.",
+      "headline": "I’m Walt. I photograph the people you love, in the light you’ll remember.",
+      "intro": "Natural-light portraits of families, graduates, and athletes around Charlotte and Lake Norman. Tell me who you’d like photographed and I’ll plan the rest with you.",
       "personalHeadline": "I’d like you to feel comfortable working with me.",
       "personalParagraphs": [
         "I’m a father of four, and I know getting everyone ready for pictures can take some doing. You can tell me if your children need time to warm up or someone isn’t looking forward to being photographed. I’ll keep the direction clear and give you room to settle in.",
-        "I also played football at Ohio State and professionally, which shapes how I approach athlete portraits. I’d like to understand what matters to you, whether we’re photographing your family, your graduation, or a season you want to remember."
+        "I also played football at Ohio State and professionally, which is part of why athlete portraits mean something to me. Whatever we’re photographing, I want to understand what matters to you first."
       ],
       "directoryHeadline": "Explore the portraits I can help you plan.",
       "directoryIntro": "Choose the people you’d like photographed to see more of my work, how I approach your session, and the starting price.",
@@ -17,25 +17,28 @@
           "route": "families",
           "title": "Individual & family portraits",
           "photoKey": "photo_d341502e4390647fb217b2e1ed16d9e607808514",
-          "copy": "Whether it’s just you, your household, or a gathering that includes grandparents, I’ll help plan the photographs you want. If you’re usually the one taking the pictures, I’d like to make sure you’re in them, too.",
+          "copy": "Just you, your household, or three generations together. If you’re usually the one taking the pictures, I’ll make sure you’re in them.",
           "href": "/families",
-          "newTab": false
+          "newTab": false,
+          "priceKey": "individual"
         },
         {
           "route": "seniors",
           "title": "Seniors & graduates",
           "photoKey": "photo_a9ddb5d440dfe9c78b5f82642bf755bf6fdf00b8",
-          "copy": "If you’re finishing high school, college, or a graduate program, I’d like to hear what you want to remember about this time. We can plan photographs for you, your announcements, and the people who helped you get here.",
+          "copy": "High school, college, or grad school. Portraits for you, your announcements, and the people who got you here.",
           "href": "/seniors",
-          "newTab": false
+          "newTab": false,
+          "priceKey": "senior"
         },
         {
           "route": "athletes",
           "title": "Athletes & teams",
           "photoKey": "football",
-          "copy": "I can plan portraits for one athlete or photographs for a full roster. Tell me about the sport, the people involved, and what you’d like these photographs to show.",
+          "copy": "One athlete or a full roster. Tell me about the sport and the season, and what you’d like these photographs to show.",
           "href": "/athletes",
-          "newTab": false
+          "newTab": false,
+          "priceKey": "athlete"
         }
       ],
       "closingHeadline": "Tell me who you’d like photographed and what you’re hoping for.",
@@ -68,8 +71,8 @@
         "newTab": false
       },
       "experienceEyebrow": "How I work",
-      "experienceHeadline": "I’ll talk through the details with you before you book.",
-      "experienceIntro": "We’ll discuss the photographs you want, a setting that suits you, and what to wear. I’ll put the plan and price in writing, and I’ll guide you through the session when we meet.",
+      "experienceHeadline": "We’ll settle the details before you book, and I’ll guide you on the day.",
+      "experienceIntro": "A setting that suits you, what to wear, and the plan and price in writing. Then I direct the session so nobody has to know how to pose.",
       "experienceLink": {
         "label": "See how I plan a session",
         "href": "/experience",
@@ -101,7 +104,17 @@
           "question": "How will I know what my session costs?",
           "answer": "My published prices are starting points. After we discuss who’s coming and the photographs you want, I’ll send a written quote with what’s included and the full price before you decide to book."
         }
-      ]
+      ],
+      "workLink": {
+        "label": "See my work",
+        "href": "/portfolio",
+        "newTab": false
+      },
+      "workEyebrow": "Recent work",
+      "workHeadline": "The small moments are the ones you’ll keep.",
+      "servicePriceTemplate": "Sessions from {price}",
+      "inquiryEyebrow": "Let’s plan your session",
+      "inquiryEmailLead": "Or email me directly at"
     },
     "experience": {
       "eyebrow": "Planning a session with me",
@@ -159,7 +172,7 @@
       "sidebar": "I’m a father of four, a former Ohio State and professional football player, a writer, and the person who will photograph your session.",
       "paragraphs": [
         "I grew up in Sarasota, Florida, raised by my mother and my grandfather. The people who raised me are a big part of how I think about family and what we carry with us as we get older. That perspective comes with me when I photograph someone else’s family. I’m interested in the relationships between you, including the grandparent you want beside you and the parent who’s usually missing because they’re taking the picture. Those details help me understand which photographs matter to you.",
-        "I became a father at 21. Today, my fiancée and I have a blended family with four kids, from young children to teenagers. I know how much can happen before a family even gets to a session, from finding clothes that fit to persuading someone who would rather be with friends. I don’t expect you to arrive with everyone in the perfect mood. Tell me a little about your family beforehand, and we can plan around the people who are actually coming. I’ll offer direction and give everyone a chance to settle in.",
+        "Today, my fiancée and I have a blended family with four kids, from young children to teenagers. I know how much can happen before a family even gets to a session, from finding clothes that fit to persuading someone who would rather be with friends. I don’t expect you to arrive with everyone in the perfect mood. Tell me a little about your family beforehand, and we can plan around the people who are actually coming. I’ll offer direction and give everyone a chance to settle in.",
         "Football was a big part of my life, from high school in Sarasota to Ohio State and professional football afterward. I remember how much effort goes into a season and how closely your life becomes tied to the people on your team. That experience shapes the questions I ask when I’m planning athlete portraits. I want to hear about your sport, the uniform or equipment you’d like to include, and whether you’re approaching a graduation or a final season. We can use those details to plan photographs that feel right to you.",
         "During the week, I’m a senior executive at a digital media and advertising company. Much of that work involves listening, understanding what someone needs, and helping them make a decision they feel good about. I bring the same attention to my photography business. When you reach out, you’ll be talking with me. I’ll ask what you liked in my work, what you have in mind, and what would make the session a good experience for you. We’ll discuss the details and price before you decide to book.",
         "I also write about family, fatherhood, and the people who shaped my life. Writing and photography both give me a reason to pay closer attention to people and their stories. You might be bringing your family together, finishing school, celebrating a season, or simply wanting a photograph of yourself that you like. I’d enjoy hearing what brings you here. You don’t need to arrive with a location, outfits, and every photograph already planned. We can work through those choices together."
@@ -884,6 +897,56 @@
       "imageCountLabel": "Edited photographs",
       "deliveryLabel": "Delivery",
       "featuredServiceLinkLabel": "Explore my session details"
+    },
+    "placements": {
+      "homeInquiry": {
+        "photoKey": "photo_0a47845a8ce99884b65d7fd94e803c2ca448ac99"
+      },
+      "familiesHero": {
+        "photoKey": "photo_f0a1ad1117cbcf9a5688c0901f01013bd73c8e38"
+      },
+      "familiesGalleryOne": {
+        "photoKey": "photo_968de538c6a4eebf4945339d4b86642fef8f491c"
+      },
+      "familiesGalleryTwo": {
+        "photoKey": "photo_220b1557d4393bcdd1ef0fa6a0a38b981f5096c2"
+      },
+      "familiesGalleryThree": {
+        "photoKey": "photo_c0df1afeb2de74bbe36fd31485f9f7c87ce8b384"
+      },
+      "familiesGalleryFour": {
+        "photoKey": "photo_0a47845a8ce99884b65d7fd94e803c2ca448ac99"
+      },
+      "familiesGalleryFive": {
+        "photoKey": "photo_fe96eb4ee4d2bc2bed792a2f1dba7a8b6034a1ad"
+      },
+      "familiesGallerySix": {
+        "photoKey": "photo_50b9ddf5175d14b1ebc4bf1f79b0edd96bd82598"
+      },
+      "familiesIndividual": {
+        "photoKey": "photo_a702f950f14abce5037321b44c659e54b1f0b1aa"
+      },
+      "familiesGroup": {
+        "photoKey": "photo_c38fdb342f945e8c77e9109882841b16f10f2dc6"
+      },
+      "seniorsHero": {
+        "photoKey": "photo_e17e119efb27e626136a950cdf37b0d2fb66ca5a"
+      },
+      "seniorsSport": {
+        "photoKey": "photo_fa5ca5e9729f9f7ac0d920364812749d9a10bc53"
+      },
+      "athletesHero": {
+        "photoKey": "photo_1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7"
+      },
+      "athletesPortrait": {
+        "photoKey": "photo_3b9816e2774bdae7e29dcbefd4a89122338c3b72"
+      },
+      "athletesTeam": {
+        "photoKey": "teammates"
+      },
+      "reviewsHero": {
+        "photoKey": "photo_b11c720870ff36f558880c7a96a6cbe2734de3d0"
+      }
     }
   },
   "settings": {
@@ -941,7 +1004,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-02.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "holiday",
@@ -952,7 +1015,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-03.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "football",
@@ -974,7 +1037,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-05.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "grass",
@@ -985,7 +1048,7 @@
       "height": 1667,
       "category": "families",
       "src": "/assets/portfolio-07.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "shoulders",
@@ -996,7 +1059,7 @@
       "height": 2000,
       "category": "families",
       "src": "/assets/portfolio-08.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "sons",
@@ -1007,7 +1070,7 @@
       "height": 1200,
       "category": "families",
       "src": "/assets/portfolio-09.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "maternity",
@@ -1018,7 +1081,7 @@
       "height": 1072,
       "category": "families",
       "src": "/assets/portfolio-11.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "birthday",
@@ -1029,7 +1092,7 @@
       "height": 2001,
       "category": "families",
       "src": "/assets/portfolio-13.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "baby",
@@ -1040,7 +1103,7 @@
       "height": 1125,
       "category": "families",
       "src": "/assets/portfolio-00.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "graduate",
@@ -1062,7 +1125,7 @@
       "height": 998,
       "category": "couples",
       "src": "/assets/portrait-investment-2.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "event",
@@ -1073,7 +1136,7 @@
       "height": 998,
       "category": "events",
       "src": "/assets/portrait-investment-3.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "individualWoman",
@@ -1106,7 +1169,7 @@
       "height": 962,
       "category": "athletes",
       "src": "/assets/sport-coach-player.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "sportAction",
@@ -1117,7 +1180,7 @@
       "height": 1085,
       "category": "athletes",
       "src": "/assets/sport-football-action.webp",
-      "objectPosition": "50% 50%"
+      "objectPosition": ""
     },
     {
       "key": "walt",

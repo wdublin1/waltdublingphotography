@@ -37,10 +37,25 @@ Turn **Show this gallery on the website** on when it is ready. Turn it off and p
 
 The supplied galleries are selected collections: 14 family photographs, two distinct graduation photographs, and six athlete/team photographs. The family and sports collections combine different shoots. The graduation selection is deliberately small because duplicate uploads were excluded. Do not rename these as complete-session galleries or imply recent/local provenance without confirming it.
 
-This update leaves the existing 105-photograph library unchanged. Gallery selections, service-card photographs, **Portfolio order**, and **Homepage slideshow** are separate controls; changing one does not replace the others.
+This update leaves the existing 105-photograph library unchanged. Gallery selections, service-card photographs, **Portfolio order**, and **Homepage hero photos** are separate controls; changing one does not replace the others.
 
 ### Publish and check
 
 This website uses one content document: **Publish** publishes all changes currently in its draft together. Review the complete draft before publishing, including any earlier edits you have not yet approved for the live site.
 
 Studio saves edits as a draft. Review the affected fields and select **Publish** to make those content changes public. Then refresh the homepage, affected service page, `/experience`, or `/featured/<gallery-url-name>` and check the wording, photographs, and inquiry link. Routine content edits do not require another code deployment. An inquiry is still a request to discuss a session, not a reserved date.
+
+## Homepage redesign (October 26, 2026)
+
+The homepage now opens with the slideshow's main photographs shown full width with the introduction set over them, followed by three photographic service tiles that show each starting price, a recent-work strip drawn from **Portfolio order**, the personal note, the process steps, featured galleries, a centered client note, the FAQs, and the inquiry form itself. Everything remains editable under **Pages & reviews → Home**:
+
+- **Headline**, **Introduction**, and **Location label** set the words over the hero photograph. The rotating hero photographs come from the **Homepage hero photos** tab; each entry's **Hero photograph** is what shows, and the two legacy supporting portraits can be left blank.
+- **Session links** gained **Linked starting price** per service, which fills the price label on each tile using the pricing-page **Price wording** template. Clear it to hide the price.
+- **Service price wording** (default "Sessions from {price}"), **Work link**, **Recent work heading**, **Inquiry eyebrow**, and **Inquiry email lead** are new text controls.
+- The closing invitation heading and text introduce the homepage inquiry form. **Invitation link wording** is optional there and appears as a link beside the email address when set.
+
+The homepage form posts to the same `/api/inquiry` endpoint as the contact page, so the Resend configuration noted in the handover applies to both.
+
+### Page photographs
+
+The fixed photograph positions on the families, seniors, athletes and reviews pages and the homepage inquiry band are now chosen under **Pages & reviews → Page photographs**. Each position is a single library photograph; clearing it restores that position's built-in fallback. The homepage recent-work strip skips any photograph already shown higher on the homepage, and featured-gallery cards swap to the next photograph in the gallery when their cover is already on the page, so one photograph is never repeated down a page.
