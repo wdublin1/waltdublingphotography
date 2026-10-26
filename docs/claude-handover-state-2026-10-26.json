@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-26",
+  "timezone": "America/New_York",
+  "observations": "Read-only project/deployment/environment metadata and Sanity content audit for Claude handover. No deployment, content write, DNS change, or email sent.",
+  "vercel": {
+    "projectName": "walt-dublin-photography",
+    "projectId": "prj_NOMvaEd7EPI2OlDAfGvNi82tBQPQ",
+    "teamId": "team_BohArRsBnhF8OUvvAYiWi2f2",
+    "scopeObserved": "wdublin1",
+    "nodeVersion": "24.x",
+    "framework": null,
+    "gitConnected": false,
+    "latestProductionDeploymentId": "dpl_3p8Pv9H11x5KYEZPWcRyb5VmiWtu",
+    "latestProductionDeploymentUrl": "https://walt-dublin-photography-rneql2mpb-wdublin1.vercel.app",
+    "deploymentStatus": "READY",
+    "ssoProtection": {
+      "enabled": true,
+      "deploymentType": "all_except_custom_domains"
+    },
+    "environmentVariableMetadataOnly": [
+      {
+        "key": "INQUIRY_FORM_SECRET",
+        "target": [
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "INQUIRY_FORM_SECRET",
+        "target": [
+          "production",
+          "preview"
+        ],
+        "type": "sensitive",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "SANITY_API_WRITE_TOKEN",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "SANITY_API_READ_TOKEN",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "NEXT_PUBLIC_SANITY_DATASET",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "SANITY_API_PROJECT_ID",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "SANITY_STUDIO_DATASET",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "SANITY_STUDIO_PROJECT_ID",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "SANITY_API_DATASET",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      },
+      {
+        "key": "NEXT_PUBLIC_SANITY_PROJECT_ID",
+        "target": [
+          "production",
+          "preview",
+          "development"
+        ],
+        "type": "encrypted",
+        "customEnvironmentIds": []
+      }
+    ],
+    "sourceFilesMatchingDeployedRuntimeManifest": 42
+  },
+  "sanity": {
+    "projectId": "fy5ez6rn",
+    "dataset": "production",
+    "organizationId": "o5gwjlybf",
+    "publishedDocumentId": "walt-photography-site",
+    "draftDocumentId": "drafts.walt-photography-site",
+    "documentType": "photographySite",
+    "studioUrl": "https://walt-dublin-photography.vercel.app/studio",
+    "customDomainStudioOriginConfigured": false,
+    "readOnlyContentExport": "handover-content/sanity-documents-2026-10-26.json (relative to archive root)",
+    "publishedAndDraftRevisionsAtExport": "OBxnlv2wQ7axRU57umHSiw",
+    "publishedAndDraftPhotoCount": 105,
+    "draftDiffersFromPublished": true,
+    "imageAssetOriginalsIncluded": 105,
+    "allAssetSHA1HashesVerified": true
+  },
+  "resend": {
+    "keyPresentInProjectEnvironmentListing": false,
+    "fromPresentInProjectEnvironmentListing": false,
+    "recipientOverridePresentInProjectEnvironmentListing": false,
+    "accountPlan": "Unverified",
+    "senderVerification": "Unverified",
+    "realDeliveryTested": false
+  },
+  "limits": {
+    "metadataDoesNotVerifyTokenValidity": true,
+    "ownerStudioSessionPreviouslyVerified": true,
+    "freshStudioLoginTested": false,
+    "studioPublishButtonTested": false,
+    "codeAlreadyDeployedBeforeHandover": true
+  }
+}

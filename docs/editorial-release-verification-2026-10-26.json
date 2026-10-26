@@ -1,0 +1,131 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Walt Dublin Photography | Portraits in Charlotte &amp; Lake Norman",
+      "canonical": "https://waltdublinphotography.com/",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/families",
+      "status": 200,
+      "title": "Individual &amp; Family Portraits in Charlotte | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/families",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/seniors",
+      "status": 200,
+      "title": "Senior &amp; Graduation Portraits in Charlotte | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/seniors",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/athletes",
+      "status": 200,
+      "title": "Athlete &amp; Team Portraits in Charlotte | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/athletes",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/investment",
+      "status": 200,
+      "title": "Sessions &amp; Starting Prices | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/investment",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/experience",
+      "status": 200,
+      "title": "Planning Your Session With Me | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/experience",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/featured",
+      "status": 200,
+      "title": "Featured Galleries | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/featured",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/featured/selected-family-portraits",
+      "status": 200,
+      "title": "Selected family portraits | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/featured/selected-family-portraits",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/featured/selected-graduation-portraits",
+      "status": 200,
+      "title": "Selected graduation portraits | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/featured/selected-graduation-portraits",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/featured/selected-athlete-and-team-photographs",
+      "status": 200,
+      "title": "Selected athlete and team photographs | Walt Dublin Photography",
+      "canonical": "https://waltdublinphotography.com/featured/selected-athlete-and-team-photographs",
+      "h1Count": 1,
+      "expected": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "h1Count": 0,
+      "expected": true,
+      "includesNewPages": true
+    },
+    {
+      "path": "/featured/no-such-gallery",
+      "status": 404,
+      "title": "Page not found | Walt Dublin Photography",
+      "h1Count": 1,
+      "expected": true
+    }
+  ],
+  "checksPassed": true,
+  "browserChecks": {
+    "desktop": {
+      "viewportWidth": 1595,
+      "horizontalOverflow": false,
+      "serviceCardsVerified": true,
+      "faqExpands": true,
+      "galleryLightboxCount": 14,
+      "galleryLightboxNextWorks": true,
+      "familyInquiryPreselected": true
+    },
+    "mobile": {
+      "viewportWidth": 390,
+      "viewportHeight": 844,
+      "horizontalOverflow": false,
+      "serviceCardsVerified": true,
+      "mobileMenuWorks": true,
+      "experiencePageVerified": true,
+      "viewportReset": true
+    },
+    "studio": {
+      "editorUrl": "https://walt-dublin-photography.vercel.app/studio",
+      "authenticatedAccessVerified": true,
+      "newPageTabsVisible": true,
+      "galleryControlsPopulated": true,
+      "graduationPhotographs": 2,
+      "unknownFieldWarningObserved": false,
+      "customDomainEditorConnected": false,
+      "originSettingsChanged": false
+    },
+    "realInquirySubmitted": false,
+    "unrelatedDraftEditsPublished": false
+  }
+}

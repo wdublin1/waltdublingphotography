@@ -1,0 +1,309 @@
+{
+  "checkedAt": "2026-10-26T14:09:44.282Z",
+  "deploymentId": "dpl_BQU5MFY4Cw8RUmgjbTm1kjEkELZx",
+  "baseUrl": "https://waltdublinphotography.com",
+  "passed": true,
+  "method": "Read-only HTTPS GET; no form submission, email, CMS write, or protection change",
+  "requestCount": 20,
+  "publishedSnapshot": {
+    "file": "before-sanity-authrefreshed.json",
+    "revision": "OBxnlv2wQ7axRU57ulxdOY",
+    "photoCount": 105
+  },
+  "studio": {
+    "status": 200,
+    "title": "Sanity Studio",
+    "entry": "/studio/static/sanity-DlgQnJxs.js",
+    "deployedSchemaProof": {
+      "Menus & footer": true,
+      "Controls & messages": true,
+      "Inquiry form description": true,
+      "Page sections & details": true,
+      "emailRequiredMessage": true,
+      "emailInvalidMessage": true,
+      "bookingNewTab": true,
+      "apiMessages": true
+    },
+    "scope": "Studio shell and deployed bundle verified; this is not an authenticated editor interaction test."
+  },
+  "routes": [
+    {
+      "route": "home",
+      "status": 200,
+      "heading": "Hi there, I’m Walt, and I’m delighted to help capture your special moment.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "heroDataHook": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "portfolio",
+      "status": 200,
+      "heading": "Some of the people I’ve had the pleasure of photographing.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "families",
+      "status": 200,
+      "heading": "I'd like to hear who you want in your photographs.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "seniors",
+      "status": 200,
+      "heading": "I'd like your graduation portraits to reflect what this achievement means to you.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "athletes",
+      "status": 200,
+      "heading": "I'll help you plan portraits of yourself, your athlete, or your team.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "investment",
+      "status": 200,
+      "heading": "I’ll help you plan the photographs you’d like to have.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "about",
+      "status": 200,
+      "heading": "Hi, I’m Walt Dublin.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "reviews",
+      "status": 200,
+      "heading": "What clients have shared about working with me.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "contact",
+      "status": 200,
+      "heading": "Tell me about the photographs you have in mind.",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "formDescription": true,
+        "stableSelectedSession": true,
+        "unusedDialogRemoved": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    },
+    {
+      "route": "clients",
+      "status": 200,
+      "heading": "Your client gallery",
+      "photoCount": 105,
+      "checks": {
+        "routeMatches": true,
+        "editableUiComplete": true,
+        "publicPayloadOnly": true,
+        "noNestedInteractiveElements": true,
+        "safeNewTabs": true,
+        "publishedCopyMatches": true,
+        "publishedLinksMatch": true,
+        "publishedUiMatches": true,
+        "publishedPhotoKeysMatch": true
+      }
+    }
+  ],
+  "publicEditingProof": {
+    "interfaceGroups": [
+      "accessibility",
+      "social",
+      "lightbox",
+      "slideshow",
+      "portfolio",
+      "inquiry",
+      "system",
+      "apiMessages"
+    ],
+    "menuWording": {
+      "photographyMenu": "My photographs",
+      "mobileMenu": "Menu",
+      "headerLinks": [
+        {
+          "label": "Sessions & pricing",
+          "href": "/investment"
+        },
+        {
+          "label": "About me",
+          "href": "/about"
+        }
+      ]
+    },
+    "allPagesMatchPublishedCopy": true,
+    "allPagesMatchPublishedLinks": true,
+    "allPagesMatchPublishedUi": true,
+    "allPagesMatchPublishedPhotoKeys": true,
+    "unexpectedPrivatePayloadOrDraftIdentifiersObserved": false,
+    "note": "Public copy, destinations, UI values, and photograph keys were compared to the supplied published snapshot plus the approved normalization defaults. No unpublished draft was queried."
+  },
+  "assets": [
+    {
+      "path": "/studio/static/sanity-DlgQnJxs.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 507574
+    },
+    {
+      "path": "/studio/static/lib-CWdQn3Tx.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 183076
+    },
+    {
+      "path": "/studio/static/types-B9mxG1CL-Di-8vf7M.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 2706
+    },
+    {
+      "path": "/site.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 19050,
+      "sourceProof": {
+        ".visual-hero[data-hero-carousel]": true,
+        "emailRequiredMessage": true,
+        "emailInvalidMessage": true,
+        "[data-portfolio-empty]": true
+      },
+      "matchesLocalFile": true
+    },
+    {
+      "path": "/theme.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 38679,
+      "matchesLocalFile": true
+    },
+    {
+      "path": "/editorial.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 28653,
+      "matchesLocalFile": true
+    },
+    {
+      "path": "/assets/wdp-signature.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 362755,
+      "matchesLocalFile": true
+    },
+    {
+      "path": "https://cdn.sanity.io/images/fy5ez6rn/production/4f6df80d04028ce9d103d2e19f85f58100b29bee-1500x1072.webp",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 189030
+    },
+    {
+      "path": "https://cdn.sanity.io/images/fy5ez6rn/production/966ce3a2a8e0d55303a721f38bd28932eeb30238-1500x1125.webp",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 210182
+    }
+  ],
+  "assetSampling": {
+    "cmsImagesSeen": 26,
+    "cmsImagesFetched": 2
+  },
+  "warnings": [],
+  "failures": []
+}

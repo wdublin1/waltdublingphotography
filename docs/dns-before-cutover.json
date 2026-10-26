@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "domain": "waltdublinphotography.com",
+  "capturedAt": "2026-10-23T23:43:20.142Z",
+  "purpose": "Read-only public DNS baseline before proposed website cutover.",
+  "resolver": {
+    "provider": "Google Public DNS",
+    "endpoint": "https://dns.google/resolve",
+    "documentation": "https://developers.google.com/speed/public-dns/docs/doh/json"
+  },
+  "notes": [
+    "This is a recursive public DNS snapshot, not a complete authoritative zone export.",
+    "TTL values can be remaining cache lifetimes rather than configured zone TTLs.",
+    "Only explicitly queried names and record types are captured; unknown DKIM selectors and unrelated subdomains are not enumerated.",
+    "No DNS writes, registrar access, transfers, or credential access were performed."
+  ],
+  "queries": [
+    {
+      "name": "waltdublinphotography.com",
+      "type": "A",
+      "queriedAt": "2026-10-23T23:43:19.921Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 1,
+            "TTL": 14400,
+            "data": "198.49.23.145"
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 1,
+            "TTL": 14400,
+            "data": "198.185.159.145"
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 1,
+            "TTL": 14400,
+            "data": "198.185.159.144"
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 1,
+            "TTL": 14400,
+            "data": "198.49.23.144"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.1."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "AAAA",
+      "queriedAt": "2026-10-23T23:43:19.934Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 28
+          }
+        ],
+        "Authority": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "dns1.p01.nsone.net. hostmaster.nsone.net. 1592329548 43200 7200 1209600 3600"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.1."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "CNAME",
+      "queriedAt": "2026-10-23T23:43:19.934Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 5
+          }
+        ],
+        "Authority": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "dns1.p01.nsone.net. hostmaster.nsone.net. 1592329548 43200 7200 1209600 3600"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.45.65."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "NS",
+      "queriedAt": "2026-10-23T23:43:19.935Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2
+          }
+        ],
+        "Answer": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "ns02.squarespacedns.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "dns1.p01.nsone.net."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "ns03.squarespacedns.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "dns2.p01.nsone.net."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "ns04.squarespacedns.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "dns4.p01.nsone.net."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "ns01.squarespacedns.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 2,
+            "TTL": 3600,
+            "data": "dns3.p01.nsone.net."
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 45.54.22.193."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "MX",
+      "queriedAt": "2026-10-23T23:43:20.025Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "10 alt4.aspmx.l.google.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "10 alt3.aspmx.l.google.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "5 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "1 aspmx.l.google.com."
+          },
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "5 alt2.aspmx.l.google.com."
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.45.1."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "TXT",
+      "queriedAt": "2026-10-23T23:43:20.029Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 16
+          }
+        ],
+        "Answer": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 16,
+            "TTL": 14400,
+            "data": "google-site-verification=BumdYQen9qF9_Ehb-teybNQP_A6Zj__UERCU3-d5Ehg"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.1."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "CAA",
+      "queriedAt": "2026-10-23T23:43:20.030Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 257
+          }
+        ],
+        "Authority": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "dns1.p01.nsone.net. hostmaster.nsone.net. 1592329548 43200 7200 1209600 3600"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.1."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "A",
+      "queriedAt": "2026-10-23T23:43:20.048Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          },
+          {
+            "name": "ext-sq.squarespace.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "198.49.23.145"
+          },
+          {
+            "name": "ext-sq.squarespace.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "198.185.159.144"
+          },
+          {
+            "name": "ext-sq.squarespace.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "198.185.159.145"
+          },
+          {
+            "name": "ext-sq.squarespace.com.",
+            "type": 1,
+            "TTL": 300,
+            "data": "198.49.23.144"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 45.54.22.1."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "AAAA",
+      "queriedAt": "2026-10-23T23:43:20.050Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 28
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          }
+        ],
+        "Authority": [
+          {
+            "name": "squarespace.com.",
+            "type": 6,
+            "TTL": 900,
+            "data": "dns1.p06.nsone.net. dns-admin.squarespace.com. 1663787404 3600 600 604800 900"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.45.3."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "CNAME",
+      "queriedAt": "2026-10-23T23:43:20.054Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.45.65."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "NS",
+      "queriedAt": "2026-10-23T23:43:20.063Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 2
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          }
+        ],
+        "Authority": [
+          {
+            "name": "squarespace.com.",
+            "type": 6,
+            "TTL": 900,
+            "data": "dns1.p06.nsone.net. dns-admin.squarespace.com. 1663787404 3600 600 604800 900"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.45.67."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "MX",
+      "queriedAt": "2026-10-23T23:43:20.083Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          }
+        ],
+        "Authority": [
+          {
+            "name": "squarespace.com.",
+            "type": 6,
+            "TTL": 900,
+            "data": "dns1.p06.nsone.net. dns-admin.squarespace.com. 1663787404 3600 600 604800 900"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.67."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "TXT",
+      "queriedAt": "2026-10-23T23:43:20.086Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 16
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          }
+        ],
+        "Authority": [
+          {
+            "name": "squarespace.com.",
+            "type": 6,
+            "TTL": 900,
+            "data": "dns1.p06.nsone.net. dns-admin.squarespace.com. 1663787404 3600 600 604800 900"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.67."
+      }
+    },
+    {
+      "name": "www.waltdublinphotography.com",
+      "type": "CAA",
+      "queriedAt": "2026-10-23T23:43:20.090Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 257
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.waltdublinphotography.com.",
+            "type": 5,
+            "TTL": 3600,
+            "data": "ext-sq.squarespace.com."
+          }
+        ],
+        "Authority": [
+          {
+            "name": "squarespace.com.",
+            "type": 6,
+            "TTL": 900,
+            "data": "dns1.p06.nsone.net. dns-admin.squarespace.com. 1663787404 3600 600 604800 900"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.3."
+      }
+    },
+    {
+      "name": "waltdublinphotography.com",
+      "type": "SOA",
+      "queriedAt": "2026-10-23T23:43:20.090Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 6
+          }
+        ],
+        "Answer": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 6,
+            "TTL": 3600,
+            "data": "dns1.p01.nsone.net. hostmaster.nsone.net. 1592329548 43200 7200 1209600 3600"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.1."
+      }
+    },
+    {
+      "name": "_dmarc.waltdublinphotography.com",
+      "type": "TXT",
+      "queriedAt": "2026-10-23T23:43:20.118Z",
+      "httpStatus": 200,
+      "response": {
+        "Status": 3,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "_dmarc.waltdublinphotography.com.",
+            "type": 16
+          }
+        ],
+        "Authority": [
+          {
+            "name": "waltdublinphotography.com.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "dns1.p01.nsone.net. hostmaster.nsone.net. 1592329548 43200 7200 1209600 3600"
+          }
+        ],
+        "edns_client_subnet": "0.0.0.0/0",
+        "Comment": "Response from 198.51.44.1."
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "walt-dublin-photography",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node --env-file-if-exists=.env.local scripts/dev.mjs",
+    "seed": "node --env-file-if-exists=.env.local scripts/seed-content.mjs",
+    "check": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@sanity/client": "8.11.0",
+    "@sanity/image-url": "2.1.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sanity": "6.20.0",
+    "styled-components": "^6.1.15"
+  }
+}

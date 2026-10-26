@@ -1,0 +1,788 @@
+{
+  "importId": "photographs-2026-10-24",
+  "projectId": "fy5ez6rn",
+  "dataset": "production",
+  "documentId": "walt-photography-site",
+  "photos": [
+    {
+      "filename": "1.webp",
+      "title": "1.webp — Close-up portrait in warm light",
+      "alt": "A smiling woman rests her head against a bearded man in a burgundy shirt in a warmly lit outdoor close-up.",
+      "category": "couples",
+      "sha1": "84d434a35e5b3b8c0f6e1d2e8acc69fc2204175d",
+      "bytes": 120424,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "4.webp",
+      "title": "4.webp — Piggyback portrait by the water",
+      "alt": "A man carries a smiling woman on his back on a grassy slope, with water and an orange sky behind them.",
+      "category": "couples",
+      "sha1": "37b22b71cef9919d2a6c97fe8c8f53d125436ff1",
+      "bytes": 86572,
+      "width": 2048,
+      "height": 1078
+    },
+    {
+      "filename": "6.webp",
+      "title": "6.webp — Embrace beside the water",
+      "alt": "A woman embraces a man from behind as they smile at each other on a grassy slope beside water.",
+      "category": "couples",
+      "sha1": "c58302fd0cde2a10a711e5920ab9d96437bb69f8",
+      "bytes": 128060,
+      "width": 2048,
+      "height": 1201
+    },
+    {
+      "filename": "11111.webp",
+      "title": "11111.webp — Burgundy dress portrait on a stone ledge",
+      "alt": "A woman in an off-the-shoulder burgundy dress sits on a stone ledge beside a column and red flowers, with one hand resting on her abdomen.",
+      "category": "families",
+      "sha1": "8a388fb0984166e7d11353fdbf3dea5210dfee5d",
+      "bytes": 103174,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "222222.webp",
+      "title": "222222.webp — Burgundy dress portrait beneath trees",
+      "alt": "A woman in an off-the-shoulder burgundy dress stands on a tree-lined path with her hands resting on her abdomen.",
+      "category": "families",
+      "sha1": "324dce31563296ad3664eaacc731c129beebb559",
+      "bytes": 73100,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "78696973_509408903119077_1422006887942979584_n.webp",
+      "title": "78696973_509408903119077_1422006887942979584_n.webp — Dog wearing a red bow",
+      "alt": "A small tan-and-gray dog with upright ears wears a red bow on its collar, with seated people blurred behind it.",
+      "category": "families",
+      "sha1": "6a7d2cdb32b23d8363f59d99de935862362983a8",
+      "bytes": 77430,
+      "width": 2048,
+      "height": 1364
+    },
+    {
+      "filename": "146788201_412129049890201_4807489402795510997_n.webp",
+      "title": "146788201_412129049890201_4807489402795510997_n.webp — Formal portrait by the water",
+      "alt": "A woman in a white ruffled gown and a man in a dark suit smile with their foreheads together on a sandy shoreline.",
+      "category": "couples",
+      "sha1": "90c575c3965afdd540b22421e2fa8b6002a802ba",
+      "bytes": 91028,
+      "width": 1000,
+      "height": 1250
+    },
+    {
+      "filename": "DSC_0124.webp",
+      "title": "DSC_0124.webp — Outdoor portrait in a suit",
+      "alt": "A smiling man wearing glasses, a dark suit, and a striped tie stands beside green foliage with his hands in his pockets.",
+      "category": "families",
+      "sha1": "a702f950f14abce5037321b44c659e54b1f0b1aa",
+      "bytes": 153874,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_0724.webp",
+      "title": "DSC_0724.webp — Two-person silhouette against the sky",
+      "alt": "Two people lean toward each other in silhouette against an orange-and-blue sky.",
+      "category": "couples",
+      "sha1": "28fb20a3b7bdac859ec03810b22d36b94b662e55",
+      "bytes": 34254,
+      "width": 2048,
+      "height": 1363
+    },
+    {
+      "filename": "DSC_0736.webp",
+      "title": "DSC_0736.webp — Embrace on a sunlit hillside",
+      "alt": "A smiling woman stands in front of a man who wraps his arms around her on a grassy slope in warm sunlight.",
+      "category": "couples",
+      "sha1": "675af5787f2594a38e0fc2a67da370cf04ebde2c",
+      "bytes": 111730,
+      "width": 2048,
+      "height": 1118
+    },
+    {
+      "filename": "DSC_0779.webp",
+      "title": "DSC_0779.webp — Overlapping hands and rings",
+      "alt": "Black-and-white close-up of overlapping hands wearing rings, with a beaded bracelet around one wrist.",
+      "category": "couples",
+      "sha1": "59e80250007e75504c149e982f58b17e86e4f400",
+      "bytes": 88820,
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "filename": "DSC_0972.webp",
+      "title": "DSC_0972.webp — Baby in pink beside a window",
+      "alt": "Baby in a pale pink dress and bow held beside a bright window by a smiling woman.",
+      "category": "families",
+      "sha1": "b2a3c45a4cfc577a7748bc2549672f436060c150",
+      "bytes": 101026,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_1562.webp",
+      "title": "DSC_1562.webp — Three-person outdoor portrait",
+      "alt": "Three men in casual clothing standing together outdoors, with trees and a fence in the background.",
+      "category": "families",
+      "sha1": "530c6686a44659014a0c0174fecc616d41e20c7b",
+      "bytes": 155812,
+      "width": 2048,
+      "height": 1298
+    },
+    {
+      "filename": "DSC_1609-2_pp-2-2.webp",
+      "title": "DSC_1609-2_pp-2-2.webp — Four-person portrait overlooking the water",
+      "alt": "Two adults and two children seated together on grass, with water and a golden, cloud-filled sky behind them.",
+      "category": "families",
+      "sha1": "220b1557d4393bcdd1ef0fa6a0a38b981f5096c2",
+      "bytes": 262420,
+      "width": 2048,
+      "height": 1275
+    },
+    {
+      "filename": "DSC_1623.webp",
+      "title": "DSC_1623.webp — Smiling child in turquoise",
+      "alt": "Man holding a smiling young child in a turquoise outfit in front of a bright window.",
+      "category": "families",
+      "sha1": "8b7a66068d36ae1471e691a3ef917e3abf7f41c4",
+      "bytes": 191384,
+      "width": 1500,
+      "height": 1736
+    },
+    {
+      "filename": "DSC_1638_pp-2.webp",
+      "title": "DSC_1638_pp-2.webp — A kiss on the cheek outdoors",
+      "alt": "Young girl kissing a smiling woman on the cheek as they lie on grass overlooking the water.",
+      "category": "families",
+      "sha1": "b11c720870ff36f558880c7a96a6cbe2734de3d0",
+      "bytes": 253170,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_1732-2.webp",
+      "title": "DSC_1732-2.webp — Laughing child between two adults",
+      "alt": "Two adults kissing a laughing child's cheeks outdoors beneath a golden, cloudy sky.",
+      "category": "families",
+      "sha1": "d341502e4390647fb217b2e1ed16d9e607808514",
+      "bytes": 137276,
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "filename": "DSC_1797_pp-2.webp",
+      "title": "DSC_1797_pp-2.webp — Portrait with a yellow hard hat",
+      "alt": "Smiling man in sunglasses and a blue polo holding a yellow hard hat between concrete block walls.",
+      "category": "families",
+      "sha1": "e056da137588ba0a77f36245b0645468eabef515",
+      "bytes": 139698,
+      "width": 2048,
+      "height": 1344
+    },
+    {
+      "filename": "DSC_2064-2.webp",
+      "title": "DSC_2064-2.webp — Four-person portrait in a grassy field",
+      "alt": "Two adults holding two children, wearing blue clothing and posing together on grass beside a wire fence.",
+      "category": "families",
+      "sha1": "f0a1ad1117cbcf9a5688c0901f01013bd73c8e38",
+      "bytes": 345354,
+      "width": 2048,
+      "height": 1283
+    },
+    {
+      "filename": "DSC_2078-3.webp",
+      "title": "DSC_2078-3.webp — Two children seated in the grass",
+      "alt": "Smiling child holding a baby while seated in the grass, with a wire fence and open field behind them.",
+      "category": "families",
+      "sha1": "38caa39a9f051813197e0bb6116a348ea6cfd610",
+      "bytes": 352196,
+      "width": 1803,
+      "height": 1352
+    },
+    {
+      "filename": "DSC_2165_pp.webp",
+      "title": "DSC_2165_pp.webp — Five-person portrait beside the water",
+      "alt": "Five adults wearing shades of blue stand together and smile beside water, with trees behind them.",
+      "category": "families",
+      "sha1": "c38fdb342f945e8c77e9109882841b16f10f2dc6",
+      "bytes": 272146,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_2661-2.webp",
+      "title": "DSC_2661-2.webp — Portrait in a big sister shirt",
+      "alt": "A smiling child with a white hair bow points to the words “big sister.” on a pink shirt while standing beside water.",
+      "category": "families",
+      "sha1": "132425cd9ddbd0b8055d57ad6f46b33e32efdd1c",
+      "bytes": 96060,
+      "width": 1000,
+      "height": 1207
+    },
+    {
+      "filename": "DSC_2740-2_pp.webp",
+      "title": "DSC_2740-2_pp.webp — Child beside illuminated gift boxes",
+      "alt": "A young child in a white shirt, plaid bow tie, and matching suspenders sits beside colorful illuminated gift-box decorations.",
+      "category": "families",
+      "sha1": "3eae4efc1e2228f1d65b41e74e54d407d2a06a69",
+      "bytes": 227548,
+      "width": 2048,
+      "height": 1363
+    },
+    {
+      "filename": "DSC_2758-2.webp",
+      "title": "DSC_2758-2.webp — Three-person portrait in matching suits",
+      "alt": "Three people in matching gray suits and pale bow ties stand together beneath sunlit trees.",
+      "category": "families",
+      "sha1": "fe96eb4ee4d2bc2bed792a2f1dba7a8b6034a1ad",
+      "bytes": 352666,
+      "width": 1500,
+      "height": 1200
+    },
+    {
+      "filename": "DSC_2778.webp",
+      "title": "DSC_2778.webp — Close-up kiss with a white bouquet",
+      "alt": "A woman in a white lace dress and a man in a gray suit kiss outdoors beside a bouquet of white flowers.",
+      "category": "couples",
+      "sha1": "2bb8a593f9ef1b46d6fd88959de9ea0cf0712aea",
+      "bytes": 175884,
+      "width": 2048,
+      "height": 1362
+    },
+    {
+      "filename": "DSC_2888_pp.webp",
+      "title": "DSC_2888_pp.webp — Two-person portrait in warm sunlight",
+      "alt": "A smiling woman in a black, gray, and red plaid top stands close in front of a man wearing a black cap and T-shirt.",
+      "category": "couples",
+      "sha1": "55d5a37f0feab1353fa010d87c74f497b3878a29",
+      "bytes": 137262,
+      "width": 2048,
+      "height": 1150
+    },
+    {
+      "filename": "DSC_2930.webp",
+      "title": "DSC_2930.webp — Two children in red plaid",
+      "alt": "A child in a red checked shirt kisses the side of another child’s head as they sit together in coordinated red plaid clothing.",
+      "category": "families",
+      "sha1": "4817292700d9520a5d3b6b4831dfc0e033437dfc",
+      "bytes": 277580,
+      "width": 2048,
+      "height": 1363
+    },
+    {
+      "filename": "DSC_2941_pp.webp",
+      "title": "DSC_2941_pp.webp — Children embracing in a red truck",
+      "alt": "Two smiling children in red plaid clothing embrace in the wooden bed of a red pickup truck beside a snow-dusted decorative tree.",
+      "category": "families",
+      "sha1": "b35eaabc842e78dc384c665b0597c4752602c58a",
+      "bytes": 321374,
+      "width": 2048,
+      "height": 1363
+    },
+    {
+      "filename": "DSC_2954.webp",
+      "title": "DSC_2954.webp — Seated portrait beside a painted wall",
+      "alt": "A man and woman sit side by side against a graffiti-painted concrete wall beneath an overpass, wearing coordinating black, red, and white sneakers.",
+      "category": "couples",
+      "sha1": "cd7b13ad4b22b89a1bfb8de5af18fe53b8fc10f3",
+      "bytes": 141442,
+      "width": 2048,
+      "height": 1204
+    },
+    {
+      "filename": "DSC_3392_pp.webp",
+      "title": "DSC_3392_pp.webp — Embrace among tall grasses",
+      "alt": "A woman in a black dress smiles toward the camera while a man in a light shirt embraces her among tall green grasses.",
+      "category": "couples",
+      "sha1": "e366d2cec950cf95323c216ef2010dfe88c38d18",
+      "bytes": 213018,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_3432_pp.webp",
+      "title": "DSC_3432_pp.webp — Playful backbend in the grass",
+      "alt": "Smiling child in a navy shirt and jeans doing a backbend on the grass beside a gravel path.",
+      "category": "families",
+      "sha1": "ab7380337985804d831d109db069ed259e05ba9b",
+      "bytes": 187100,
+      "width": 1000,
+      "height": 1250
+    },
+    {
+      "filename": "DSC_3434_pp.webp",
+      "title": "DSC_3434_pp.webp — Child in red plaid beside a decorated tree",
+      "alt": "Young child in a red plaid shirt standing beside a rustic wooden railing and a decorated Christmas tree.",
+      "category": "families",
+      "sha1": "ce9d42f5c9c726e98e9bae839c801fc3e03aa5ca",
+      "bytes": 174250,
+      "width": 2048,
+      "height": 1363
+    },
+    {
+      "filename": "DSC_3435-2_pp.webp",
+      "title": "DSC_3435-2_pp.webp — Jumping portrait in a grassy field",
+      "alt": "Smiling girl in a denim jacket and dark skirt jumping above the grass with both arms raised.",
+      "category": "families",
+      "sha1": "00bb8d26b96a9c6f7e6559a89654c922d1538c7a",
+      "bytes": 175784,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_3510_pp.webp",
+      "title": "DSC_3510_pp.webp — Holiday portrait beside a red truck",
+      "alt": "Woman holding a young child, both wearing red plaid accents, beside a frosted Christmas tree and a red truck.",
+      "category": "families",
+      "sha1": "cbe0f5fbd154d57c5b48962e20a0ee7a969b69f0",
+      "bytes": 341338,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_3511-2_pp.webp",
+      "title": "DSC_3511-2_pp.webp — Five-person portrait in the grass",
+      "alt": "Five-person outdoor portrait, with one child on a man's shoulders and another in his arms.",
+      "category": "families",
+      "sha1": "fe1fc30ce754b1729ac4c72135354228eea47b07",
+      "bytes": 268862,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_3559_pp.webp",
+      "title": "DSC_3559_pp.webp — Three-person portrait against greenery",
+      "alt": "Three young people in blue shirts sitting close together outdoors against softly blurred greenery.",
+      "category": "families",
+      "sha1": "b5fd0fcd9ef8c8eb7f8f942f5ae2105fc889fa2c",
+      "bytes": 179152,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_3649_pp.webp",
+      "title": "DSC_3649_pp.webp — Seated embrace in the grass",
+      "alt": "Woman seated in the grass with a girl resting against her arms, both looking toward the camera.",
+      "category": "families",
+      "sha1": "aca9043487d597e5829291cdb428a14837b17191",
+      "bytes": 322622,
+      "width": 1500,
+      "height": 1667
+    },
+    {
+      "filename": "DSC_3765_pp.webp",
+      "title": "DSC_3765_pp.webp — Child in plaid and suspenders",
+      "alt": "Young child in a red plaid shirt, navy bow tie and suspenders holding adults' hands in front of holiday decorations.",
+      "category": "families",
+      "sha1": "af0c2cb6fd4f6d75fc57b3aef7f0ef2bf2d9d39a",
+      "bytes": 145416,
+      "width": 1000,
+      "height": 1274
+    },
+    {
+      "filename": "DSC_4097_pp.webp",
+      "title": "DSC_4097_pp.webp — Three-person holiday portrait",
+      "alt": "Two adults and a child smiling beside frosted Christmas trees and a red truck.",
+      "category": "families",
+      "sha1": "d6d25891b917f8798b497aa19c5ab8563d400824",
+      "bytes": 348568,
+      "width": 2048,
+      "height": 1363
+    },
+    {
+      "filename": "DSC_4185_pp.webp",
+      "title": "DSC_4185_pp.webp — Graduate in green beside a reflecting pool",
+      "alt": "Graduate in a green cap and gown seated on a stone edge beside a reflecting pool.",
+      "category": "seniors",
+      "sha1": "e17e119efb27e626136a950cdf37b0d2fb66ca5a",
+      "bytes": 214116,
+      "width": 2048,
+      "height": 1151
+    },
+    {
+      "filename": "DSC_4207_pp.webp",
+      "title": "DSC_4207_pp.webp — Green cap and gown beneath white columns",
+      "alt": "A smiling graduate in a green cap and gown with a gold tassel stands along a brick walkway framed by white columns and climbing vines.",
+      "category": "seniors",
+      "sha1": "a9ddb5d440dfe9c78b5f82642bf755bf6fdf00b8",
+      "bytes": 166120,
+      "width": 2048,
+      "height": 1151
+    },
+    {
+      "filename": "DSC_4931_pp-2.webp",
+      "title": "DSC_4931_pp-2.webp — Laughing portrait among golden leaves",
+      "alt": "A man in a white shirt and a woman in a red dress hold each other and laugh in front of golden foliage and a wooden fence.",
+      "category": "couples",
+      "sha1": "f6ee3204a45d30b591d819e1c6ef692c03ea0aed",
+      "bytes": 184204,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_5008_pp-2.webp",
+      "title": "DSC_5008_pp-2.webp — Four-person portrait in green plaid",
+      "alt": "Four people in matching green and navy plaid clothing sit together on a rustic wooden bench beside a snow-dusted decorated tree.",
+      "category": "families",
+      "sha1": "813342942bdea8eedeebc4f18ab7ea151b4d7349",
+      "bytes": 197512,
+      "width": 2048,
+      "height": 1535
+    },
+    {
+      "filename": "DSC_5404_pp.webp",
+      "title": "DSC_5404_pp.webp — Five-person portrait beside a decorated tree",
+      "alt": "Two adults in dark green clothing and three children in red plaid pose around a rustic wooden bench beside a decorated tree.",
+      "category": "families",
+      "sha1": "fb3142fdd148eab9f10de74409550fdc17016795",
+      "bytes": 327884,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5438_pp.webp",
+      "title": "DSC_5438_pp.webp — Playful red-plaid portrait around a bench",
+      "alt": "Three children in red plaid clothing make playful poses around a rustic wooden bench beside a lighted tree.",
+      "category": "families",
+      "sha1": "bf114bc95dda40fcf43c99d412711bbe7464a412",
+      "bytes": 256594,
+      "width": 1000,
+      "height": 1261
+    },
+    {
+      "filename": "DSC_5460_pp.webp",
+      "title": "DSC_5460_pp.webp — Child in checked pajamas by the tree",
+      "alt": "A smiling young child in red and black checked pajamas stands on an armchair beside a yellow cushion, with a decorated tree and hanging stocking behind.",
+      "category": "families",
+      "sha1": "c4b812c4ff7fe3b78568ddca21314d86aeea48e7",
+      "bytes": 300708,
+      "width": 2048,
+      "height": 1462
+    },
+    {
+      "filename": "DSC_5523_pp.webp",
+      "title": "DSC_5523_pp.webp — Five-person portrait with a dog and red truck",
+      "alt": "Five people in matching gray Christmas shirts pose with a black, white, and brown dog among hay bales, decorated trees, and a red pickup truck.",
+      "category": "families",
+      "sha1": "1f8de742b34767b7f167cccf007e6f20e7d94531",
+      "bytes": 519732,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5555.webp",
+      "title": "DSC_5555.webp — Close-up dog portrait with holiday lights",
+      "alt": "A black, white, and brown dog looks toward the camera with its tongue out, with softly blurred holiday lights and gift decorations behind.",
+      "category": "families",
+      "sha1": "5d2918a6b0dcc94512b9837288f2d2036f0681f9",
+      "bytes": 106962,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_5574_pp.webp",
+      "title": "DSC_5574_pp.webp — Three-person portrait in matching Christmas shirts",
+      "alt": "Three people in matching gray Christmas shirts sit together on a rustic wooden bench beside a lighted, snow-dusted tree.",
+      "category": "families",
+      "sha1": "21b2ade6dd4cd961fb03fce3fe72778dab9566fe",
+      "bytes": 226494,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5675-2.webp",
+      "title": "DSC_5675-2.webp — Eight-person portrait in front of a red truck",
+      "alt": "Eight people, including small children, sit on hay bales in front of a red pickup truck surrounded by snow-dusted decorated trees.",
+      "category": "families",
+      "sha1": "2b061943d6e900ce61d2272b5506585c2628e390",
+      "bytes": 341718,
+      "width": 2048,
+      "height": 1151
+    },
+    {
+      "filename": "DSC_5680_pp.webp",
+      "title": "DSC_5680_pp.webp — Child beside Christmas lights",
+      "alt": "Close-up of a smiling toddler in a navy dress, with softly blurred Christmas lights behind.",
+      "category": "families",
+      "sha1": "27fc59d4ff15836214b18473ae69130e75c7741b",
+      "bytes": 107634,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_5738_pp.webp",
+      "title": "DSC_5738_pp.webp — Two children in a holiday setting",
+      "alt": "Two children in gray shirts seated beside a lit Christmas tree and red truck, with white flakes on their clothing.",
+      "category": "families",
+      "sha1": "7a92005d144a302622e173d74a6d41af8e1f9359",
+      "bytes": 233600,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5749_pp.webp",
+      "title": "DSC_5749_pp.webp — Two-person portrait beside decorated trees",
+      "alt": "Two girls in navy and cream dresses seated together on a wooden platform beside decorated Christmas trees.",
+      "category": "families",
+      "sha1": "d9b785855788b65d0388eb3a2cc8521c4457e9f6",
+      "bytes": 185262,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5815_pp.webp",
+      "title": "DSC_5815_pp.webp — Five-person portrait at a candy cane display",
+      "alt": "Two adults and three children posing at a wooden holiday stand beneath a red Candy Canes sign.",
+      "category": "families",
+      "sha1": "a293b3b3a5658259d06a093d8f2469a5ac0a8570",
+      "bytes": 481388,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5827_pp.webp",
+      "title": "DSC_5827_pp.webp — Five-person portrait on a decorated walkway",
+      "alt": "Three children posing in front of two adults sharing a kiss on a wooden walkway decorated with wreaths and red bows.",
+      "category": "families",
+      "sha1": "b9bd1c3e917ecb2031946ffc7f50c63c947b11fb",
+      "bytes": 311238,
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "filename": "DSC_5844_pp.webp",
+      "title": "DSC_5844_pp.webp — Child behind a Christmas tree sign",
+      "alt": "Young child in a plaid shirt leaning on a Christmas Tree Farm sign among frosted trees and warm string lights.",
+      "category": "families",
+      "sha1": "e9602e02b0a8c7bd35abb3aec16c4cf67b3d9009",
+      "bytes": 188528,
+      "width": 2048,
+      "height": 1463
+    },
+    {
+      "filename": "DSC_5874_pp.webp",
+      "title": "DSC_5874_pp.webp — Two-person portrait among colorful foliage",
+      "alt": "Woman in a plaid shirt and man in a navy vest standing together in front of colorful foliage and string lights.",
+      "category": "couples",
+      "sha1": "eb66f020d692a25120eadafea59af3169f920528",
+      "bytes": 198198,
+      "width": 1000,
+      "height": 1400
+    },
+    {
+      "filename": "DSC_6304_pp.webp",
+      "title": "DSC_6304_pp.webp — Laughing portrait beside a red truck",
+      "alt": "Man kissing a laughing woman's cheek as they sit together beside a red truck and frosted Christmas tree.",
+      "category": "couples",
+      "sha1": "b0f94404b76a971168617e8595bfe807b6ae641f",
+      "bytes": 199088,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_7161.webp",
+      "title": "DSC_7161.webp — Two-person portrait by a wooden fence",
+      "alt": "Smiling woman in a red plaid wrap and man in a light sweater standing together beside a wooden fence.",
+      "category": "couples",
+      "sha1": "6478e8c9944b4e70ef1546c5e860597b0e93508b",
+      "bytes": 178438,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_7459_pp.webp",
+      "title": "DSC_7459_pp.webp — Two children on the beach",
+      "alt": "Girl in a black dress holding a baby in a white shirt on the sand, with golden water and small waves behind.",
+      "category": "families",
+      "sha1": "323480ba034dbf86eef3fc375662b56d05306fd5",
+      "bytes": 209056,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_7473_pp-2.webp",
+      "title": "Baby playing in sand (DSC_7473_pp-2.webp)",
+      "alt": "A smiling baby in a white shirt and black bow tie sits in the sand, with small waves and warm light behind them.",
+      "category": "families",
+      "sha1": "d53d23c3585c6ccf72f4374d1128a01a0fefb992",
+      "bytes": 242332,
+      "width": 2038,
+      "height": 1529
+    },
+    {
+      "filename": "DSC_7657_pp-2.webp",
+      "title": "Baby in a plush swan (DSC_7657_pp-2.webp)",
+      "alt": "A smiling baby wearing a decorated crown headband sits inside a large white plush swan beside the water.",
+      "category": "families",
+      "sha1": "e27c19d1eb1d4854cf5ad266690463f6226a76e8",
+      "bytes": 75592,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_7694-3_pp.webp",
+      "title": "Burgundy gown portrait by a fence (DSC_7694-3_pp.webp)",
+      "alt": "Two adults stand close together beside a wooden fence, one wearing a burgundy gown and the other a black shirt, with trees behind them.",
+      "category": "families",
+      "sha1": "a2dc83230177c48e13a76b8b8e4604062df74784",
+      "bytes": 123356,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_7700.webp",
+      "title": "Two-person portrait beneath the trees (DSC_7700.webp)",
+      "alt": "Two adults in a burgundy gown and a black shirt face one another beneath trees with hanging moss in warm sunlight.",
+      "category": "families",
+      "sha1": "39a39490aa34ac73710c7fcce7513f9716ecbfc3",
+      "bytes": 302390,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_7734_pp.webp",
+      "title": "Baby smiling beside the water (DSC_7734_pp.webp)",
+      "alt": "A baby with an open-mouthed smile wears a pale pink outfit and flower headband while sitting in a white plush swan beside the water.",
+      "category": "families",
+      "sha1": "590b4201825ed58a85e94edee55ceb8d4b388816",
+      "bytes": 64576,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_7739-3_pp.webp",
+      "title": "Adult holding a child outdoors (DSC_7739-3_pp.webp)",
+      "alt": "An adult in a burgundy gown holds a smiling child wearing a light gray dress and a white hair bow, with dark trees behind them.",
+      "category": "families",
+      "sha1": "a6c014ee0ab23d797a620bd383edca4da13447f5",
+      "bytes": 101002,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_7814-3.webp",
+      "title": "Two adults lifting two children (DSC_7814-3.webp)",
+      "alt": "Two adults lift two children into the air while standing outdoors, with one adult in a burgundy gown and the other in a black shirt.",
+      "category": "families",
+      "sha1": "feee39d9a5ecff8aa040f03085c4efbd97c8dffd",
+      "bytes": 77808,
+      "width": 1000,
+      "height": 714
+    },
+    {
+      "filename": "DSC_8432_pp.webp",
+      "title": "Shoulder ride among autumn trees (DSC_8432_pp.webp)",
+      "alt": "A smiling adult carries a child on their shoulders while another adult stands beside them among yellow-leaved trees.",
+      "category": "families",
+      "sha1": "64e7e61c87b52f6dd98ea29713edd28baa009691",
+      "bytes": 126126,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_8451_pp.webp",
+      "title": "Child holding two adults' hands (DSC_8451_pp.webp)",
+      "alt": "A smiling child in a plaid shirt and dark overalls holds the hands of two adults while standing in a sunlit grassy field.",
+      "category": "families",
+      "sha1": "50b9ddf5175d14b1ebc4bf1f79b0edd96bd82598",
+      "bytes": 160768,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_8476-2_pp.webp",
+      "title": "Child looking up in warm light (DSC_8476-2_pp.webp)",
+      "alt": "A child in a plaid shirt and dark overalls looks upward with an open-mouthed smile while holding an adult's hand outdoors.",
+      "category": "families",
+      "sha1": "1162d2135dd5e4b3384b592e8d41deebdc30b33d",
+      "bytes": 92988,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_8534-2_pp.webp",
+      "title": "Sunlit waterside group portrait (DSC_8534-2_pp.webp)",
+      "alt": "Two adults crouch beside a small child on grass near the water, with low sunlight shining behind the group.",
+      "category": "families",
+      "sha1": "c0df1afeb2de74bbe36fd31485f9f7c87ce8b384",
+      "bytes": 309266,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_8782.webp",
+      "title": "Number 12 football portrait (DSC_8782.webp)",
+      "alt": "A smiling young athlete kneels on one knee in a black-and-gold number 12 football uniform while holding a football on a grassy field.",
+      "category": "athletes",
+      "sha1": "ea0be97c54b41aca5791ec949fbf19f39dc79823",
+      "bytes": 177930,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_8790.webp",
+      "title": "Number 28 football portrait (DSC_8790.webp)",
+      "alt": "A young athlete in a black-and-gold number 28 football uniform kneels on one knee, holding a football against their side on a grassy field.",
+      "category": "athletes",
+      "sha1": "fa5ca5e9729f9f7ac0d920364812749d9a10bc53",
+      "bytes": 169164,
+      "width": 1000,
+      "height": 1333
+    },
+    {
+      "filename": "DSC_9052.webp",
+      "title": "Child holding autumn leaves (DSC_9052.webp)",
+      "alt": "A child in a black outfit holds a handful of dry leaves outdoors in warm sunlight, with more leaves scattered across the ground.",
+      "category": "families",
+      "sha1": "b19b3200630dbf9085b2f07ec51eb995f0c2fac8",
+      "bytes": 139282,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "filename": "DSC_9526_pp.webp",
+      "title": "Child on a yellow toy construction vehicle (DSC_9526_pp.webp)",
+      "alt": "A smiling child wearing a cowboy hat and a red-and-blue plaid shirt sits in a yellow ride-on construction vehicle outdoors.",
+      "category": "families",
+      "sha1": "2f0138b57d5a839aa2e4eed40ac27cac3136b34a",
+      "bytes": 239600,
+      "width": 2048,
+      "height": 1499
+    },
+    {
+      "filename": "DSC_9558.webp",
+      "title": "Child beside a Mickey Mouse toy (DSC_9558.webp)",
+      "alt": "A small child wearing red shorts and suspenders sits on a sunlit path beside a Mickey Mouse plush toy, both seen from behind.",
+      "category": "families",
+      "sha1": "d59968ad72715bf0e7c257f16b61d07e5ca62ef9",
+      "bytes": 129280,
+      "width": 2048,
+      "height": 1192
+    },
+    {
+      "filename": "DSC_9674-2_pp.webp",
+      "title": "Cake and balloon portrait (DSC_9674-2_pp.webp)",
+      "alt": "A child wearing round mouse ears, a yellow bow tie, and red shorts stands behind a cake, with red, yellow, and black balloons overhead.",
+      "category": "families",
+      "sha1": "436d6567d63406137a35a9c5361f69d09806ef74",
+      "bytes": 173852,
+      "width": 1000,
+      "height": 1334
+    },
+    {
+      "filename": "DSC_9772_pp.webp",
+      "title": "Frosting-covered cake portrait (DSC_9772_pp.webp)",
+      "alt": "Close-up of a child wearing round mouse ears and a yellow bow tie, with red frosting on their face and hands and colorful balloons behind them.",
+      "category": "families",
+      "sha1": "623bf0f5316d2ec416b7cf4b6af4c59f17942e17",
+      "bytes": 162502,
+      "width": 2048,
+      "height": 1536
+    }
+  ]
+}

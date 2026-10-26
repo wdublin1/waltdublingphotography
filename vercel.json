@@ -1,0 +1,98 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "installCommand": "npm ci",
+  "functions": {
+    "api/index.mjs": {
+      "maxDuration": 30
+    }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www\\.waltdublinphotography\\.com"
+        }
+      ],
+      "destination": "https://waltdublinphotography.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www\\.waltdublinphotography\\.com"
+        }
+      ],
+      "destination": "https://waltdublinphotography.com/:path*",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/studio",
+      "destination": "/studio/index.html"
+    },
+    {
+      "source": "/studio/:path((?!static/|favicon).*)",
+      "destination": "/studio/index.html"
+    },
+    {
+      "source": "/api/inquiry",
+      "destination": "/api/index?__route=inquiry"
+    },
+    {
+      "source": "/",
+      "destination": "/api/index?__route=home"
+    },
+    {
+      "source": "/:page(portfolio|families|seniors|athletes|investment|experience|featured|about|reviews|contact|clients)",
+      "destination": "/api/index?__route=:page"
+    },
+    {
+      "source": "/featured/:slug",
+      "destination": "/api/index?__route=featured/:slug"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/api/index?__route=sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/api/index?__route=robots.txt"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/studio/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "importId": "photographs-2026-10-24-additional-jpegs",
+  "projectId": "fy5ez6rn",
+  "dataset": "production",
+  "publishedId": "walt-photography-site",
+  "draftId": "drafts.walt-photography-site",
+  "startedAt": "2026-10-24T16:00:17.923Z",
+  "status": "complete",
+  "originals": 8,
+  "publishedRevisionBefore": "3eL1TgPV2dOrTeGofrWsF3",
+  "draftRevisionBefore": "sa2SWBG3Hcc4ezU008N37k",
+  "initialDraftPhotoCount": 98,
+  "assetUploads": 8,
+  "reusedAssets": 0,
+  "photos": [
+    {
+      "filename": "60653CD5-3877-4C3A-BFB4-3533BA4A46EC.jpg",
+      "title": "60653CD5-3877-4C3A-BFB4-3533BA4A46EC.jpg — Six-person portrait with an orange suitcase",
+      "alt": "Six people pose outdoors around an orange suitcase, with palm trees and a tall pink building behind them.",
+      "category": "families",
+      "sha1": "a16e609165b5fd8669f8d16c71bb5a510d54eade",
+      "bytes": 733622,
+      "width": 1151,
+      "height": 2048,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-a16e609165b5fd8669f8d16c71bb5a510d54eade-1151x2048-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/a16e609165b5fd8669f8d16c71bb5a510d54eade-1151x2048.jpg",
+      "photoKeys": [
+        "photo_a16e609165b5fd8669f8d16c71bb5a510d54eade"
+      ]
+    },
+    {
+      "filename": "DSC_0849.jpg",
+      "title": "DSC_0849.jpg — Smiling child in a blue number 2 uniform",
+      "alt": "A smiling child wearing a blue and red number 2 sports uniform lifts one foot behind them on a grassy field.",
+      "category": "athletes",
+      "sha1": "3b9816e2774bdae7e29dcbefd4a89122338c3b72",
+      "bytes": 608129,
+      "width": 1362,
+      "height": 2048,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-3b9816e2774bdae7e29dcbefd4a89122338c3b72-1362x2048-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/3b9816e2774bdae7e29dcbefd4a89122338c3b72-1362x2048.jpg",
+      "photoKeys": [
+        "photo_3b9816e2774bdae7e29dcbefd4a89122338c3b72"
+      ]
+    },
+    {
+      "filename": "DSC_0853.jpg",
+      "title": "DSC_0853.jpg — Field-side portrait with a thumbs-up",
+      "alt": "A woman in a red jacket holds a smiling child in a blue and red sports uniform as the child gives a thumbs-up on a grassy field.",
+      "category": "families",
+      "sha1": "8d52f38e4e6744a73be866efe35cd0155211077c",
+      "bytes": 653779,
+      "width": 1362,
+      "height": 2048,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-8d52f38e4e6744a73be866efe35cd0155211077c-1362x2048-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/8d52f38e4e6744a73be866efe35cd0155211077c-1362x2048.jpg",
+      "photoKeys": [
+        "photo_8d52f38e4e6744a73be866efe35cd0155211077c"
+      ]
+    },
+    {
+      "filename": "DSC_1679 2.jpg",
+      "title": "DSC_1679 2.jpg — Sunlit portrait with gold-framed sunglasses",
+      "alt": "A woman with long twists, gold-framed sunglasses, and a black sleeveless top looks over her shoulder and smiles along a brightly sunlit street.",
+      "category": "families",
+      "sha1": "f71b82c789050080081662db10d9d5e1c50b4975",
+      "bytes": 262644,
+      "width": 2048,
+      "height": 1280,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-f71b82c789050080081662db10d9d5e1c50b4975-2048x1280-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/f71b82c789050080081662db10d9d5e1c50b4975-2048x1280.jpg",
+      "photoKeys": [
+        "photo_f71b82c789050080081662db10d9d5e1c50b4975"
+      ]
+    },
+    {
+      "filename": "DSC_2122.jpg",
+      "title": "DSC_2122.jpg — Group portrait in burgundy and yellow uniforms",
+      "alt": "Seven children in burgundy shirts and yellow shorts pose on a marked grass field with an adult standing behind them in a matching shirt.",
+      "category": "athletes",
+      "sha1": "722e8217a2ee03ae0a63240533fa661ae65dbea1",
+      "bytes": 715373,
+      "width": 2048,
+      "height": 1536,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-722e8217a2ee03ae0a63240533fa661ae65dbea1-2048x1536-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/722e8217a2ee03ae0a63240533fa661ae65dbea1-2048x1536.jpg",
+      "photoKeys": [
+        "photo_722e8217a2ee03ae0a63240533fa661ae65dbea1"
+      ]
+    },
+    {
+      "filename": "DSC_2248.jpg",
+      "title": "DSC_2248.jpg — Children in blue uniforms moving across the field",
+      "alt": "Four children wearing blue and red numbered sports uniforms move across a grassy field, with a chain-link fence and folding seats behind them.",
+      "category": "athletes",
+      "sha1": "1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7",
+      "bytes": 631758,
+      "width": 2048,
+      "height": 1362,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7-2048x1362-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7-2048x1362.jpg",
+      "photoKeys": [
+        "photo_1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7"
+      ]
+    },
+    {
+      "filename": "IMG_3823 2.JPG",
+      "title": "IMG_3823 2.JPG — Two-person selfie in a decorated room",
+      "alt": "A smiling man in a light gray blazer and a woman in a light patterned dress pose close to the camera, with seated guests and a chandelier behind them.",
+      "category": "couples",
+      "sha1": "93e67807d572ec8d55da090c472e5f1112feb414",
+      "bytes": 919057,
+      "width": 2048,
+      "height": 1536,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-93e67807d572ec8d55da090c472e5f1112feb414-2048x1536-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/93e67807d572ec8d55da090c472e5f1112feb414-2048x1536.jpg",
+      "photoKeys": [
+        "photo_93e67807d572ec8d55da090c472e5f1112feb414"
+      ]
+    },
+    {
+      "filename": "IMG_6837.JPG",
+      "title": "IMG_6837.JPG — Evening portrait beside illuminated letters",
+      "alt": "A man in a floral shirt and a woman in a strapless patterned dress embrace beside large illuminated letters, with scattered pink petals and city lights around them.",
+      "category": "couples",
+      "sha1": "7b2108707c9c24bc6eb672c293e94fce80ade848",
+      "bytes": 551983,
+      "width": 1362,
+      "height": 2048,
+      "format": "JPEG",
+      "exifOrientation": 1,
+      "assetId": "image-7b2108707c9c24bc6eb672c293e94fce80ade848-1362x2048-jpg",
+      "url": "https://cdn.sanity.io/images/fy5ez6rn/production/7b2108707c9c24bc6eb672c293e94fce80ade848-1362x2048.jpg",
+      "photoKeys": [
+        "photo_7b2108707c9c24bc6eb672c293e94fce80ade848"
+      ]
+    }
+  ],
+  "appendBaseRevision": "sa2SWBG3Hcc4ezU008N37k",
+  "intendedNewEntries": 8,
+  "completedAt": "2026-10-24T16:00:32.471Z",
+  "draftRevisionAfter": "3eL1TgPV2dOrTeGofrg4zp",
+  "finalDraftPhotoCount": 106,
+  "newEntries": 8,
+  "verifiedAssets": 8,
+  "verifiedSelectablePhotos": 8,
+  "publishedUnchanged": true,
+  "existingDraftEntriesUnchanged": true,
+  "otherDraftFieldsUnchanged": true,
+  "incompleteExistingEntries": [
+    {
+      "key": "photo_3wxw7lg1l",
+      "title": null
+    }
+  ]
+}

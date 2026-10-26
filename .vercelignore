@@ -1,0 +1,7 @@
+node_modules
+.env*
+!.env.example
+tests
+README.md
+content/asset-import-log.json
+*.zip

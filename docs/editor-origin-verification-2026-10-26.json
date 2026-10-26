@@ -1,0 +1,112 @@
+{
+  "verifiedAt": "2026-10-26T14:13:20.310605+00:00",
+  "projectId": "fy5ez6rn",
+  "recommendedEditorUrl": "https://walt-dublin-photography.vercel.app/studio",
+  "credentialedEditorOriginVerified": true,
+  "authoritativeEvidence": {
+    "source": "Authenticated owner browser: Sanity project CORS origins and refreshed deployed Studio",
+    "managementUrl": "https://www.sanity.io/organizations/o5gwjlybf/project/fy5ez6rn/api/cors-origins",
+    "managedOrigin": "https://walt-dublin-photography.vercel.app",
+    "credentials": "Allowed",
+    "managedByDeployedStudio": true,
+    "otherCredentialedOrigins": [
+      "https://walt-dublin-photography-*-wdublin1.vercel.app",
+      "https://walt-dublin-photography-wdublin1.vercel.app",
+      "http://localhost:3333"
+    ],
+    "customDomainOriginListed": false,
+    "authenticatedEditorUrl": "https://walt-dublin-photography.vercel.app/studio/structure/walt-photography-site",
+    "studioReloaded": true,
+    "newSchemaGroupsVisible": [
+      "Menus & footer",
+      "Controls & messages"
+    ],
+    "allTenPageTabsVisible": true,
+    "existingCopyAndNewDraftFieldsVisible": true,
+    "unknownFieldsWarningAfterReload": false,
+    "publishControlAvailable": true,
+    "publishInvoked": false
+  },
+  "limits": {
+    "freshSignInFlowTested": false,
+    "browserContentWriteTested": false,
+    "browserPublishTested": false,
+    "customDomainStudioAuthenticatedAccessTested": false
+  },
+  "earlierPublicDiagnostic": {
+    "verifiedAt": "2026-10-26T14:10:31.195Z",
+    "projectId": "fy5ez6rn",
+    "editorOrigin": "https://waltdublinphotography.com",
+    "management": {
+      "status": "unavailable",
+      "httpStatus": 401,
+      "origins": null
+    },
+    "originProbe": {
+      "requestSucceeded": true,
+      "allowed": false,
+      "withCredentials": false,
+      "authenticated": false
+    },
+    "credentialedEditorOriginVerified": false,
+    "recommendedEditorUrl": null,
+    "loginTested": false,
+    "configurationChanged": false,
+    "credentialsChanged": false,
+    "legacyOriginProbe": {
+      "origin": "https://walt-dublin-photography.vercel.app",
+      "requestSucceeded": true,
+      "allowed": false,
+      "withCredentials": false,
+      "authenticated": false
+    },
+    "exactRequestVerificationAt": "2026-10-26T14:11:47.166Z",
+    "exactRequestChecks": [
+      {
+        "origin": "https://waltdublinphotography.com",
+        "requestShape": {
+          "url": "https://fy5ez6rn.api.sanity.io/v2026-10-01/check/cors",
+          "method": "GET",
+          "origin": "https://waltdublinphotography.com",
+          "authorizationPresent": false,
+          "credentials": "omit"
+        },
+        "requestSucceeded": true,
+        "allowed": false,
+        "withCredentials": false,
+        "bodyKeys": [
+          "result"
+        ],
+        "resultKeys": [
+          "allowed",
+          "withCredentials"
+        ]
+      },
+      {
+        "origin": "https://walt-dublin-photography.vercel.app",
+        "requestShape": {
+          "url": "https://fy5ez6rn.api.sanity.io/v2026-10-01/check/cors",
+          "method": "GET",
+          "origin": "https://walt-dublin-photography.vercel.app",
+          "authorizationPresent": false,
+          "credentials": "omit"
+        },
+        "requestSucceeded": true,
+        "allowed": false,
+        "withCredentials": false,
+        "bodyKeys": [
+          "result"
+        ],
+        "resultKeys": [
+          "withCredentials",
+          "allowed"
+        ]
+      }
+    ],
+    "localRegisteredSanityStudioHost": null,
+    "localStudioBasePath": "/studio"
+  },
+  "diagnosticInterpretation": "The public diagnostic returned false for both tested origins. That result is contradicted for the legacy origin by the management UI managed-origin listing and successful authenticated Studio loading. Do not describe the legacy editor as blocked based on this diagnostic.",
+  "configurationChanged": false,
+  "credentialsChanged": false
+}

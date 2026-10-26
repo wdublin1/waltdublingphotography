@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-10-24T16:02:40.844Z",
+  "totalRequestedPhotos": 86,
+  "uploadedNewAssets": 84,
+  "reusedExistingAssets": 2,
+  "selectablePhotos": 86,
+  "totalDraftEntries": 106,
+  "publishedUnchanged": true,
+  "existingDraftContentPreserved": true,
+  "storedAssetHashesAndSizesVerifiedForAll86": true,
+  "publicImageChecks": [
+    {
+      "filename": "1.webp",
+      "publicStatus": 200,
+      "publicContentType": "image/jpeg",
+      "publicResponseBytes": 193165,
+      "rawDownloadStatus": 200,
+      "rawDownloadBytes": 120424,
+      "rawOriginalHashMatches": true
+    },
+    {
+      "filename": "60653CD5-3877-4C3A-BFB4-3533BA4A46EC.jpg",
+      "publicStatus": 200,
+      "publicContentType": "image/jpeg",
+      "publicResponseBytes": 433035,
+      "rawDownloadStatus": 200,
+      "rawDownloadBytes": 733622,
+      "rawOriginalHashMatches": true
+    }
+  ],
+  "rawOriginalSamplesVerified": true,
+  "incompletePreexistingEntries": [
+    {
+      "key": "photo_3wxw7lg1l",
+      "title": null
+    }
+  ]
+}

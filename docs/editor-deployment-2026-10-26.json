@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-26",
+  "projectId": "prj_NOMvaEd7EPI2OlDAfGvNi82tBQPQ",
+  "teamId": "team_BohArRsBnhF8OUvvAYiWi2f2",
+  "deploymentId": "dpl_BQU5MFY4Cw8RUmgjbTm1kjEkELZx",
+  "deploymentUrl": "https://walt-dublin-photography-280qdekd4-wdublin1.vercel.app",
+  "readyState": "READY",
+  "target": "production",
+  "aliases": [
+    "waltdublinphotography.com",
+    "www.waltdublinphotography.com",
+    "walt-dublin-photography.vercel.app",
+    "walt-dublin-photography-wdublin1.vercel.app"
+  ],
+  "aliasError": null,
+  "createdAt": 1793023484470,
+  "readyAt": 1793023539098,
+  "sourceManifestPath": "editor-deployment-source-2026-10-26.json"
+}

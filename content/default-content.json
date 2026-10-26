@@ -1,0 +1,1481 @@
+{
+  "_id": "walt-photography-site",
+  "_type": "photographySite",
+  "copy": {
+    "home": {
+      "headline": "I’m Walt, a natural-light portrait photographer in Charlotte.",
+      "intro": "I photograph individuals and families, seniors and graduates, and athletes around Charlotte and Lake Norman. Tell me who you’d like photographed and what you hope to have. I’ll help you plan the setting and clothing, and give you direction throughout the session.",
+      "personalHeadline": "I’d like you to feel comfortable working with me.",
+      "personalParagraphs": [
+        "I’m a father of four, and I know getting everyone ready for pictures can take some doing. You can tell me if your children need time to warm up or someone isn’t looking forward to being photographed. I’ll keep the direction clear and give you room to settle in.",
+        "I also played football at Ohio State and professionally, which shapes how I approach athlete portraits. I’d like to understand what matters to you, whether we’re photographing your family, your graduation, or a season you want to remember."
+      ],
+      "directoryHeadline": "Explore the portraits I can help you plan.",
+      "directoryIntro": "Choose the people you’d like photographed to see more of my work, how I approach your session, and the starting price.",
+      "services": [
+        {
+          "route": "families",
+          "title": "Individual & family portraits",
+          "photoKey": "photo_d341502e4390647fb217b2e1ed16d9e607808514",
+          "copy": "Whether it’s just you, your household, or a gathering that includes grandparents, I’ll help plan the photographs you want. If you’re usually the one taking the pictures, I’d like to make sure you’re in them, too.",
+          "href": "/families",
+          "newTab": false
+        },
+        {
+          "route": "seniors",
+          "title": "Seniors & graduates",
+          "photoKey": "photo_a9ddb5d440dfe9c78b5f82642bf755bf6fdf00b8",
+          "copy": "If you’re finishing high school, college, or a graduate program, I’d like to hear what you want to remember about this time. We can plan photographs for you, your announcements, and the people who helped you get here.",
+          "href": "/seniors",
+          "newTab": false
+        },
+        {
+          "route": "athletes",
+          "title": "Athletes & teams",
+          "photoKey": "football",
+          "copy": "I can plan portraits for one athlete or photographs for a full roster. Tell me about the sport, the people involved, and what you’d like these photographs to show.",
+          "href": "/athletes",
+          "newTab": false
+        }
+      ],
+      "closingHeadline": "Tell me who you’d like photographed and what you’re hoping for.",
+      "closingCopy": "If your children need time to warm up, someone feels unsure about being photographed, or there’s a picture you’ve wanted for years, you’re welcome to tell me. We can talk through your ideas and questions, and I’ll explain the plan and price before you decide to book.",
+      "closingButton": "",
+      "closingHref": "/contact",
+      "closingNewTab": false,
+      "locationLabel": "Charlotte & Lake Norman, North Carolina",
+      "personalEyebrow": "A little about me",
+      "directoryEyebrow": "Planning your photographs",
+      "reviewEyebrow": "A note from one of my clients",
+      "inquiryLink": {
+        "label": "",
+        "href": "/contact",
+        "newTab": false
+      },
+      "aboutLink": {
+        "label": "Get to know me",
+        "href": "/about",
+        "newTab": false
+      },
+      "pricingLink": {
+        "label": "Explore my sessions & starting prices",
+        "href": "/investment",
+        "newTab": false
+      },
+      "reviewsLink": {
+        "label": "Read more client experiences",
+        "href": "/reviews",
+        "newTab": false
+      },
+      "experienceEyebrow": "How I work",
+      "experienceHeadline": "I’ll talk through the details with you before you book.",
+      "experienceIntro": "We’ll discuss the photographs you want, a setting that suits you, and what to wear. I’ll put the plan and price in writing, and I’ll guide you through the session when we meet.",
+      "experienceLink": {
+        "label": "See how I plan a session",
+        "href": "/experience",
+        "newTab": false
+      },
+      "featuredEyebrow": "More of my work",
+      "featuredHeadline": "Take a closer look at my photographs.",
+      "featuredIntro": "I’ve grouped some of my photographs so you can look beyond a single image and see how I work with different people and settings.",
+      "featuredLink": {
+        "label": "Explore my featured galleries",
+        "href": "/featured",
+        "newTab": false
+      },
+      "faqEyebrow": "Before you inquire",
+      "faqHeadline": "Questions about working with me",
+      "faqItems": [
+        {
+          "id": "choosing-a-location",
+          "question": "Do I need to choose a location first?",
+          "answer": "No. If you have a place in mind, tell me about it. Otherwise, I’ll help you consider a setting around Charlotte and Lake Norman, along with the natural light and any access we need."
+        },
+        {
+          "id": "posing-direction",
+          "question": "What if we don’t know how to pose?",
+          "answer": "I’ll give you direction during the session, including where to stand and what to do with your hands. You can tell me if something feels uncomfortable, and we can try a different approach."
+        },
+        {
+          "id": "full-price",
+          "question": "How will I know what my session costs?",
+          "answer": "My published prices are starting points. After we discuss who’s coming and the photographs you want, I’ll send a written quote with what’s included and the full price before you decide to book."
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "Planning a session with me",
+      "headline": "I’ll help you plan your session and guide you through it.",
+      "intro": "You can get in touch before you have the location, clothing, or every photograph decided. I’ll ask a few questions about what you want and help you work through the choices that matter for your session.",
+      "steps": [
+        {
+          "id": "your-photographs",
+          "title": "I’ll start with what you want from the photographs.",
+          "copy": "Tell me who’s coming, why you’re planning a session, and how you hope to use the photographs. If someone is unsure about the camera or you’re working toward a deadline, I’d like to know that too."
+        },
+        {
+          "id": "setting-and-clothing",
+          "title": "We’ll choose a setting and talk through clothing.",
+          "copy": "I’ll help you consider the location, natural light, and any access we need. We can talk about clothing that works with the setting and feels comfortable to you, along with any uniform, cap and gown, or other details you want included."
+        },
+        {
+          "id": "written-quote",
+          "title": "I’ll send a written quote before you decide.",
+          "copy": "I’ll confirm the session plan, what’s included, and the total price in writing. We’ll also discuss how and when you’ll receive your photographs. You can ask questions and make sure the plan fits what you need before you book."
+        },
+        {
+          "id": "during-your-session",
+          "title": "I’ll give you direction during the session.",
+          "copy": "You won’t be expected to know how to pose. I’ll guide you through the photographs we’ve planned and pay attention to how everyone is doing. If something feels awkward or there’s a photograph you’d like to try, you can tell me as we go."
+        }
+      ],
+      "closingHeadline": "Tell me what would help you feel ready for your session.",
+      "closingCopy": "You’re welcome to share your ideas, ask a practical question, or tell me what you’re unsure about. I’ll help you work out a plan and a price before you decide to book.",
+      "closingButton": "Tell me about your session",
+      "closingHref": "/contact",
+      "closingNewTab": false
+    },
+    "featured": {
+      "headline": "A closer look at my photographs",
+      "intro": "I’ve grouped these photographs by the kind of session you might be considering. If you see an approach you like, tell me what caught your eye when you inquire.",
+      "backLabel": "Back to my featured galleries",
+      "backHref": "/featured",
+      "cardLabel": "View gallery",
+      "emptyMessage": "You can explore more of my photographs in the portfolio or get in touch with me about a session.",
+      "inquiryLink": {
+        "label": "Ask me about a session",
+        "href": "/contact",
+        "newTab": false
+      },
+      "closingHeadline": "Tell me which photographs caught your eye.",
+      "closingCopy": "I’d like to hear who you’d like photographed and what you’re hoping to have. We can use the work you’ve seen here as a starting point for your own session.",
+      "closingButton": "Tell me about your session",
+      "closingHref": "/contact",
+      "closingNewTab": false
+    },
+    "about": {
+      "headline": "Hi, I’m Walt Dublin.",
+      "intro": "Photography began with my own family and the places we traveled, and it grew into a business because I enjoyed getting to know the people in front of the camera. I’m based in Charlotte and photograph individuals and families, graduates, and athletes in natural light. I’d like to hear what you have in mind, what matters to you about these photographs, and what would help you feel comfortable during your session.",
+      "sidebar": "I’m a father of four, a former Ohio State and professional football player, a writer, and the person who will photograph your session.",
+      "paragraphs": [
+        "I grew up in Sarasota, Florida, raised by my mother and my grandfather. The people who raised me are a big part of how I think about family and what we carry with us as we get older. That perspective comes with me when I photograph someone else’s family. I’m interested in the relationships between you, including the grandparent you want beside you and the parent who’s usually missing because they’re taking the picture. Those details help me understand which photographs matter to you.",
+        "I became a father at 21. Today, my fiancée and I have a blended family with four kids, from young children to teenagers. I know how much can happen before a family even gets to a session, from finding clothes that fit to persuading someone who would rather be with friends. I don’t expect you to arrive with everyone in the perfect mood. Tell me a little about your family beforehand, and we can plan around the people who are actually coming. I’ll offer direction and give everyone a chance to settle in.",
+        "Football was a big part of my life, from high school in Sarasota to Ohio State and professional football afterward. I remember how much effort goes into a season and how closely your life becomes tied to the people on your team. That experience shapes the questions I ask when I’m planning athlete portraits. I want to hear about your sport, the uniform or equipment you’d like to include, and whether you’re approaching a graduation or a final season. We can use those details to plan photographs that feel right to you.",
+        "During the week, I’m a senior executive at a digital media and advertising company. Much of that work involves listening, understanding what someone needs, and helping them make a decision they feel good about. I bring the same attention to my photography business. When you reach out, you’ll be talking with me. I’ll ask what you liked in my work, what you have in mind, and what would make the session a good experience for you. We’ll discuss the details and price before you decide to book.",
+        "I also write about family, fatherhood, and the people who shaped my life. Writing and photography both give me a reason to pay closer attention to people and their stories. You might be bringing your family together, finishing school, celebrating a season, or simply wanting a photograph of yourself that you like. I’d enjoy hearing what brings you here. You don’t need to arrive with a location, outfits, and every photograph already planned. We can work through those choices together."
+      ],
+      "closingHeadline": "I’d like to hear a little about you, too.",
+      "closingCopy": "Tell me who you’d like photographed and what brings you here. If you have a particular photograph in mind or a question about how a session would work, I’d like to hear it. We can talk before you decide to book.",
+      "closingButton": "",
+      "closingHref": "/contact",
+      "closingNewTab": false,
+      "eyebrow": "A little about me",
+      "location": "Charlotte, North Carolina",
+      "signature": "Walt",
+      "portfolioLink": {
+        "label": "View my photographs",
+        "href": "/portfolio",
+        "newTab": false
+      }
+    },
+    "families": {
+      "headline": "I photograph individuals and families in natural light.",
+      "intro": "You might want portraits for yourself, photographs with your family, or a chance to be in the pictures you usually take. I’ll help you plan around the people coming, with a setting around Charlotte or Lake Norman and direction when we meet.",
+      "sections": [
+        {
+          "headline": "I'll help you plan portraits for yourself.",
+          "paragraphs": [
+            "You don't need a graduation or a family occasion to have your portrait taken. You might need photographs for work, want to mark a change in your life, or simply want a photograph of yourself that you like. I'll ask where you plan to use the images and what you've liked in my work.",
+            "From there, we can talk about clothing and a setting where you'd feel comfortable. If being in front of the camera feels unfamiliar, I'll give you clear direction as we go. You won't be expected to arrive knowing how to pose."
+          ]
+        },
+        {
+          "headline": "I know there can be a lot to organize before a family session.",
+          "paragraphs": [
+            "I'm part of a blended family with four children, so I understand the effort involved in getting everyone dressed and out the door. Tell me a little about your family before we meet, including anyone who might need more time to feel comfortable.",
+            "I'll keep the direction simple and give your family time to settle in. If grandparents are joining or there's a particular photograph you've been wanting, I'd like to know that too."
+          ]
+        },
+        {
+          "headline": "We can decide which photographs matter most before we meet.",
+          "paragraphs": [
+            "For a family session, I'll ask about the combinations you'd like, including photographs with the person who is usually holding the camera. For an individual portrait, we'll talk about the different looks or uses you have in mind. Because I work with natural light, we'll consider the setting and time of day together. I'll include the agreed details in your quote so you can decide whether the session is right for you."
+          ]
+        }
+      ],
+      "closingHeadline": "Tell me a little about the photographs you'd like to have.",
+      "closingCopy": "Let me know whether the session is for you or your family, roughly when you're thinking, and anything you'd like me to understand. I'll help you work through the details and send you a quote to consider before you book.",
+      "closingButton": "Tell me about your session",
+      "closingHref": "/contact",
+      "closingNewTab": false,
+      "eyebrow": "Individual & family portraits",
+      "heroLink": {
+        "label": "",
+        "href": "/contact",
+        "newTab": false
+      },
+      "familyPriceCopy": "My family portrait sessions start at {familyPrice}. I’ll put together a quote around the people and photographs we’re planning for.",
+      "individualPriceCopy": "My individual portrait sessions start at {individualPrice}.",
+      "familyLink": {
+        "label": "Tell me about your family",
+        "href": "/contact?session=Family%20portraits",
+        "newTab": false
+      },
+      "individualLink": {
+        "label": "Ask me about your portrait session",
+        "href": "/contact?session=Individual%20portraits",
+        "newTab": false
+      },
+      "pricingLink": {
+        "label": "See my starting prices and session details",
+        "href": "/investment",
+        "newTab": false
+      },
+      "detailsHeadline": "What I’ll help you plan",
+      "sessionDetails": [
+        {
+          "id": "individual",
+          "title": "Individual portraits",
+          "priceKey": "individual",
+          "inclusions": [
+            "I’ll help with your location and clothing choices.",
+            "I’ll give you clear direction during your portraits.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Ask me about individual portraits",
+          "linkHref": "/contact?session=Individual%20portraits",
+          "linkNewTab": false
+        },
+        {
+          "id": "family",
+          "title": "Family portraits",
+          "priceKey": "family",
+          "inclusions": [
+            "I’ll help plan your family groupings, setting, and clothing.",
+            "I’ll give your family clear direction during the session.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your family portraits",
+          "linkHref": "/contact?session=Family%20portraits",
+          "linkNewTab": false
+        }
+      ],
+      "faqHeadline": "Questions about my individual and family sessions",
+      "faqItems": [
+        {
+          "id": "individual-session",
+          "question": "Can I book a session just for myself?",
+          "answer": "Yes. I photograph individuals as well as families. Tell me whether you need the photographs for work, want to mark a change in your life, or simply want portraits of yourself. I’ll help you think through a setting and clothing that suit what you have in mind."
+        },
+        {
+          "id": "children-settling-in",
+          "question": "What if my children are shy or don’t want to take pictures?",
+          "answer": "Tell me a little about them before we meet. As a parent, I know children don’t all warm up in the same way. I’ll keep my direction simple and pay attention to when they need a different approach. You don’t need to arrive with everyone in a perfect mood."
+        },
+        {
+          "id": "extended-family",
+          "question": "Can grandparents or other relatives join us?",
+          "answer": "Let me know who you’d like to include and which combinations matter to you. I’ll use that information to plan the groupings, consider the setting, and put together a quote for the people and photographs we’re planning for."
+        },
+        {
+          "id": "wardrobe-help",
+          "question": "Can you help us decide what to wear?",
+          "answer": "Yes. We can talk through colors and clothing once we have a setting in mind. I’ll start with what you feel comfortable wearing and help you consider how the choices work together, rather than expecting everyone to arrive in identical outfits."
+        }
+      ],
+      "featuredHeadline": "See more of my individual and family portraits."
+    },
+    "seniors": {
+      "headline": "I’ll help you plan portraits for your graduation.",
+      "intro": "Whether you’re finishing high school, college, or a graduate program, I’d like to hear how you want to remember it. We can plan natural-light portraits around your clothing, interests, and the people you’d like included, with room for your own ideas.",
+      "sections": [
+        {
+          "headline": "I'll start by asking what you'd choose for yourself.",
+          "paragraphs": [
+            "You may want the cap and gown, a favorite outfit, or a photograph somewhere you spent a lot of time. If a sport, a performance, or another part of your school experience belongs in the photographs, tell me about it. You don't need to arrive with a finished plan.",
+            "If you're a parent organizing the session, I'd like to hear what you hope to have and what your graduate wants too. As a parent myself, I understand wanting photographs for the family. I also want the person in them to have a say."
+          ]
+        },
+        {
+          "headline": "I'll help you include the people who helped you get here.",
+          "paragraphs": [
+            "As a parent, I think about the people who have been cheering a graduate on, too. If you’d like a parent, a grandparent, a partner, or someone else beside you in a few photographs, I’d be glad to make that part of the plan.",
+            "If you're graduating after returning to school or balancing your studies with work and family, I'd love to hear about that too. I'll plan around your circumstances, whether you're coming on your own or sharing the occasion with others."
+          ]
+        },
+        {
+          "headline": "I'll talk through the practical details with you before you book.",
+          "paragraphs": [
+            "We'll consider locations around Charlotte and Lake Norman, the natural light, and any clothing changes you have in mind. If you need photographs for announcements, a yearbook, or an invitation, tell me the deadline when you inquire. I'll confirm whether I can meet it before we agree on the session."
+          ]
+        }
+      ],
+      "closingHeadline": "I'd like to hear what you're graduating from and what you have in mind.",
+      "closingCopy": "You can reach out for yourself or for a graduate you're helping. Tell me what you'd like photographed and roughly when, and I'll send you a session plan and a quote to consider.",
+      "closingButton": "Tell me about your graduation portraits",
+      "closingHref": "/contact?session=Senior%20or%20graduate%20portraits",
+      "closingNewTab": false,
+      "eyebrow": "High school, college & graduate portraits",
+      "heroLink": {
+        "label": "",
+        "href": "/contact?session=Senior%20or%20graduate%20portraits",
+        "newTab": false
+      },
+      "priceCopy": "My senior and graduate portraits start at {seniorPrice}.",
+      "quoteExplanation": "I’ll send you a written quote describing the session and the edited photographs included, so you can see the plan and full price before you book.",
+      "inquiryLink": {
+        "label": "Ask me about your graduation photographs",
+        "href": "/contact?session=Senior%20or%20graduate%20portraits",
+        "newTab": false
+      },
+      "detailsHeadline": "What I’ll help you plan",
+      "sessionDetails": [
+        {
+          "id": "senior",
+          "title": "Seniors & graduates",
+          "priceKey": "senior",
+          "inclusions": [
+            "I’ll help plan your setting, clothing, and graduation details.",
+            "I’ll give you direction throughout your portraits.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your graduation portraits",
+          "linkHref": "/contact?session=Senior%20or%20graduate%20portraits",
+          "linkNewTab": false
+        }
+      ],
+      "faqHeadline": "Questions about my senior and graduation sessions",
+      "faqItems": [
+        {
+          "id": "graduation-level",
+          "question": "Do you photograph college and graduate-school graduations too?",
+          "answer": "Yes. I photograph high school seniors, college graduates, and people completing graduate programs. Tell me what you’re finishing and how you’d like to mark it, whether you’re coming on your own or including someone who supported you."
+        },
+        {
+          "id": "graduate-choices",
+          "question": "I’m organizing this for my graduate. How do we include their ideas?",
+          "answer": "I’d like to hear what you hope to have and what your graduate would choose for themselves. We can discuss the family photographs you want alongside their preferences for clothing, location, and anything they’d like to include."
+        },
+        {
+          "id": "interests-and-uniforms",
+          "question": "Can I include my sport or something besides a cap and gown?",
+          "answer": "Tell me about the clothing, uniform, equipment, or interest you have in mind. I’ll help you work out how to include it and confirm the plan in your quote. We can also discuss a separate athlete session if that would better suit the photographs you want."
+        },
+        {
+          "id": "graduation-deadline",
+          "question": "What if I need the photographs by a particular date?",
+          "answer": "Please tell me the deadline when you inquire, including any yearbook or announcement requirements. I’ll confirm whether I can meet the deadline and any submission requirements before you book."
+        }
+      ],
+      "featuredHeadline": "See more of my graduation portraits."
+    },
+    "athletes": {
+      "headline": "I photograph individual athletes and teams.",
+      "intro": "I played football at Ohio State and professionally, so I understand how much of your life can go into a sport. Tell me about your athlete or team, the uniform or equipment you want included, and how you picture these portraits. I’ll help you work out the plan.",
+      "sections": [
+        {
+          "headline": "I'll plan an individual session around the athlete in front of me.",
+          "paragraphs": [
+            "You can inquire for yourself or for an athlete in your family. You might be marking a senior season, celebrating a new team, or wanting portraits that show an important part of your life. I'd like to know how you picture them and where you hope to use them.",
+            "We'll talk about a setting that suits you and the natural light, along with any permission needed to use a field or facility. I'll give clear direction during the session and ask for your input on the stance, expression, and details that feel right for your sport."
+          ]
+        },
+        {
+          "headline": "I'll work with you to organize photographs for your team.",
+          "paragraphs": [
+            "If you're a coach, a parent organizer, or a program director, tell me about your roster and what you need. We can discuss individual portraits, a team photograph, or both, along with the time available and where the group can meet.",
+            "Having been part of a team, I know the photography plan needs to fit around other commitments. I’ll confirm the groupings and schedule with you beforehand and put together a separate quote based on your roster and the photographs you need."
+          ]
+        },
+        {
+          "headline": "I'd like to know which details you want to remember.",
+          "paragraphs": [
+            "A particular uniform, a familiar field, or a photograph alongside a teammate may matter more to you than I could know from the inquiry alone. I bring my own experience, but I won't assume it's the same as yours. Tell me what's important so we can make room for it in the plan."
+          ]
+        }
+      ],
+      "closingHeadline": "Tell me about the athlete or team you'd like photographed.",
+      "closingCopy": "Let me know the sport, roughly when you're hoping to meet, and whether the session is for one athlete or a group. I'll follow up with any questions I need to build a plan and a quote for you.",
+      "closingButton": "Ask me about athlete or team portraits",
+      "closingHref": "/contact",
+      "closingNewTab": false,
+      "eyebrow": "Athletes & teams",
+      "priceCopy": "My individual athlete portraits start at {athletePrice}.",
+      "heroLink": {
+        "label": "",
+        "href": "/contact?session=Individual%20athlete%20portraits",
+        "newTab": false
+      },
+      "teamLink": {
+        "label": "Ask me about team photography",
+        "href": "/contact?session=Team%20photography",
+        "newTab": false
+      },
+      "detailsHeadline": "What I’ll help you plan",
+      "sessionDetails": [
+        {
+          "id": "athlete",
+          "title": "Individual athlete portraits",
+          "priceKey": "athlete",
+          "inclusions": [
+            "We’ll plan your setting, uniform, and any equipment to include.",
+            "I’ll give you direction during your portraits.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your athlete portraits",
+          "linkHref": "/contact?session=Individual%20athlete%20portraits",
+          "linkNewTab": false
+        },
+        {
+          "id": "team",
+          "title": "Team photography",
+          "priceKey": "",
+          "inclusions": [
+            "I’ll help plan the roster, groupings, and photography schedule.",
+            "We’ll confirm the setting and any facility access needed.",
+            "I’ll send a written quote for your team."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your team",
+          "linkHref": "/contact?session=Team%20photography",
+          "linkNewTab": false
+        }
+      ],
+      "faqHeadline": "Questions about my athlete and team sessions",
+      "faqItems": [
+        {
+          "id": "individual-or-team",
+          "question": "Can I book for one athlete, or does it have to be a team?",
+          "answer": "I photograph individual athletes as well as teams. You can inquire for yourself, an athlete in your family, or a group you’re organizing. Let me know who’s involved and the photographs you’d like to have."
+        },
+        {
+          "id": "team-quote",
+          "question": "What do you need to put together a team quote?",
+          "answer": "Tell me the sport, roster size, preferred location, and whether you want individual portraits, a team photograph, or both. I’ll ask about the time available and use those details to put together a plan and a written price for your group."
+        },
+        {
+          "id": "facility-access",
+          "question": "Can we use our field or facility?",
+          "answer": "Tell me where you have in mind and whether you can arrange permission to use it. I’ll discuss the setting and natural light with you, and we’ll confirm any permission or access requirements before choosing it."
+        },
+        {
+          "id": "portraits-or-game-coverage",
+          "question": "Is this for portraits or game coverage?",
+          "answer": "This page is for planned athlete and team portraits. If you have a different kind of coverage in mind, describe it when you inquire so I can confirm whether it’s something I can take on."
+        }
+      ],
+      "featuredHeadline": "See more of my athlete photographs."
+    },
+    "pricing": {
+      "headline": "I’ll help you plan the photographs you’d like to have.",
+      "intro": [
+        "I’ve listed starting prices so you have a sense of the cost before you reach out. Tell me who you’d like photographed and what you have in mind, and I’ll send you a written quote with the session details, the number of edited images, and the total price.",
+        "You don’t need to choose a package from this page. We can talk through what matters to you, work out a plan, and make sure you’re comfortable with the details before you decide to book."
+      ],
+      "sessions": [
+        {
+          "name": "Individual portraits",
+          "priceKey": "individual",
+          "photo": "individualWoman",
+          "type": "Individual portraits",
+          "text": "Tell me where you plan to use the photographs and how you picture yourself in them. I’ll help you choose a setting and clothing, and give you direction during the session.",
+          "note": "",
+          "inclusions": [
+            "I’ll help with your location and clothing choices.",
+            "I’ll give you clear direction during your portraits.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your session",
+          "linkHref": "/contact?session=Individual%20portraits",
+          "linkNewTab": false
+        },
+        {
+          "name": "Family portraits",
+          "priceKey": "family",
+          "photo": "hand",
+          "type": "Family portraits",
+          "text": "I’d like to know who’s coming and which photographs you want to have together. We’ll plan around your family, including any relatives joining you and children who need time to settle in.",
+          "note": "If grandparents are joining you or you have a larger group in mind, let me know. I’ll build your quote around the people and photographs we’re planning for.",
+          "inclusions": [
+            "I’ll help plan your family groupings, setting, and clothing.",
+            "I’ll give your family clear direction during the session.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your session",
+          "linkHref": "/contact?session=Family%20portraits",
+          "linkNewTab": false
+        },
+        {
+          "name": "Seniors & graduates",
+          "priceKey": "senior",
+          "photo": "graduate",
+          "type": "Senior or graduate portraits",
+          "text": "Tell me about your graduation and how you’d like to remember it. We can consider your cap and gown, favorite clothing, and any people or interests you want included.",
+          "note": "If you’d like to include a parent, a friend, or someone else who helped you get here, let me know when we plan.",
+          "inclusions": [
+            "I’ll help plan your setting, clothing, and graduation details.",
+            "I’ll give you direction throughout your portraits.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your session",
+          "linkHref": "/contact?session=Senior%20or%20graduate%20portraits",
+          "linkNewTab": false
+        },
+        {
+          "name": "Individual athlete portraits",
+          "priceKey": "athlete",
+          "photo": "football",
+          "type": "Individual athlete portraits",
+          "text": "I’d like to hear about your sport and how you picture the portraits. We can plan around a uniform, equipment, and a setting that fits the photographs you want.",
+          "note": "I’ll confirm the plan, any field or facility access we need, and the full price before you decide to book.",
+          "inclusions": [
+            "We’ll plan your setting, uniform, and any equipment to include.",
+            "I’ll give you direction during your portraits.",
+            "I’ll confirm the session details and full price in writing."
+          ],
+          "duration": "",
+          "imageCount": "",
+          "delivery": "",
+          "linkLabel": "Tell me about your session",
+          "linkHref": "/contact?session=Individual%20athlete%20portraits",
+          "linkNewTab": false
+        }
+      ],
+      "teamHeadline": "I’ll put together a quote for your team.",
+      "teamParagraphs": [
+        "If you’re organizing photographs for a team, tell me how many athletes are on the roster, where you’d like to meet, and whether you need individual portraits, a team photograph, or both.",
+        "I’ll build a plan around your group, the time you have available, and the photographs you need. Team sessions receive a separate quote so the scope and total cost are clear before anyone books."
+      ],
+      "faqHeadline": "A few things you may be wondering before you reach out",
+      "faqIntro": "If your question isn’t answered here, you’re welcome to ask me directly. I’d like you to feel comfortable with the plan before you decide to book.",
+      "questions": [
+        {
+          "question": "How will I know the full price?",
+          "answer": "After we talk about your session, I’ll send a written quote covering the session length, location, edited images, and total cost, including any applicable taxes or agreed travel and venue costs. You’ll have time to read through it and ask questions before you decide to book."
+        },
+        {
+          "question": "Do I need to choose a location before I contact you?",
+          "answer": "You’re welcome to suggest a place, but you don’t need to have one picked out. Tell me the kind of setting you like, and I’ll help you consider options around Charlotte and Lake Norman. We’ll plan around the natural light and confirm any access or location costs in advance."
+        },
+        {
+          "question": "Can you help us decide what to wear?",
+          "answer": "Yes. Once we have a setting in mind, we can talk through colors and clothing that work well together. I want you to feel like yourself in the photographs, so we’ll start with clothes you feel comfortable wearing and work from there."
+        },
+        {
+          "question": "What if my children need time to get comfortable?",
+          "answer": "Tell me a little about them when we plan. I have children of my own, and I know they don’t all warm up in the same way. We can plan a sensible amount of time, start with the easier photographs, and give them a chance to get used to me."
+        },
+        {
+          "question": "What happens after I inquire?",
+          "answer": "I’ll ask about who’s coming, what you’re hoping for, and when you’d like the photographs. From there, we can discuss available dates, locations, and your quote. An inquiry gives us a place to start; it doesn’t reserve a date or commit you to a session."
+        },
+        {
+          "question": "When will I receive my photographs?",
+          "answer": "I’ll confirm the delivery timeframe with you before you book. If you’re planning around announcements, a graduation party, or another deadline, mention it when you reach out so we can discuss what’s possible."
+        },
+        {
+          "question": "Can I ask about prints?",
+          "answer": "Of course. Tell me if you’d like photographs for your walls, an album, or gifts for family. I’ll talk through the available options and explain what is included in your quote before you book."
+        }
+      ],
+      "closingHeadline": "You can get in touch before you have every detail figured out.",
+      "closingCopy": "Tell me who you’d like photographed and what you’re hoping for. I’ll help you plan the session and send you a quote you can consider without any commitment to book.",
+      "closingButton": "",
+      "closingHref": "/contact",
+      "closingNewTab": false,
+      "priceTemplate": "From {price}",
+      "customPriceLabel": "By inquiry",
+      "teamLink": {
+        "label": "Tell me about your team",
+        "href": "/contact?session=Team%20photography",
+        "newTab": false
+      }
+    },
+    "contact": {
+      "headline": "Tell me about the photographs you have in mind.",
+      "paragraphs": [
+        "A few sentences about who you’d like photographed, roughly when, and anything you’ve been picturing is plenty to start with. If you’re unsure about the location, clothing, or how the session would work, you can tell me that, too.",
+        "I’ll read your note, ask any questions that would help me understand what you need, and put together a plan and a quote. You’ll be talking with me from the first conversation through the session."
+      ],
+      "nextHeadline": "I’ll help you work through the next steps.",
+      "nextCopy": "We can talk about available dates and locations, then I’ll confirm the session details, full price, and delivery timeframe before you decide to book. You’re welcome to ask questions along the way.",
+      "responseTime": "",
+      "timingLabel": "When are you hoping to do this?",
+      "messageLabel": "Anything you’d like me to know?",
+      "messageHelp": "Tell me a little about the people coming and the photographs you’d like to have. If someone is nervous about the camera, you have a deadline, or there’s a particular idea you’re excited about, I’d like to hear it.",
+      "eyebrow": "Get in touch with me",
+      "personName": "Walt Dublin",
+      "location": "Charlotte & Lake Norman",
+      "emailLink": {
+        "label": "{email}",
+        "href": "mailto:{email}",
+        "newTab": false
+      },
+      "priceCopy": "My portrait sessions start at {individualPrice} for individuals and {familyPrice} for families. I’ll quote your session around what you need.",
+      "pricingLink": {
+        "label": "See starting prices for each session type.",
+        "href": "/investment",
+        "newTab": false
+      },
+      "form": {
+        "nameLabel": "Your name",
+        "emailLabel": "Your email",
+        "requiredLabel": "(required)",
+        "sessionLabel": "Who would you like photographed?",
+        "undecidedLabel": "I’m still deciding",
+        "sessionLabels": {
+          "individual": "Individual portraits",
+          "family": "Family portraits",
+          "senior": "Senior or graduate portraits",
+          "athlete": "Individual athlete portraits",
+          "team": "Team photography",
+          "other": "Something else"
+        },
+        "timingPlaceholder": "A month, a specific date, or just exploring",
+        "disclosure": "Your inquiry comes directly to me. An inquiry does not reserve a date.",
+        "noScriptCopy": "Please enable JavaScript to use this form, or email me at [{email}](mailto:{email}).",
+        "honeypotLabel": "Leave this field empty"
+      }
+    },
+    "reviews": {
+      "headline": "What clients have shared about working with me.",
+      "intro": "These are notes clients have shared about their sessions with me. I appreciate that they took the time to write about the experience as well as the photographs. I hope their words help you get a sense of what working together can be like.",
+      "closingHeadline": "I’d like to hear what would make your session a good one.",
+      "closingCopy": "Tell me who you’d like photographed and anything you’re excited or unsure about. We can talk it through and work out a plan together.",
+      "closingButton": "",
+      "closingHref": "/contact",
+      "closingNewTab": false
+    },
+    "footer": "I photograph individuals and families, seniors and graduates, and athletes and teams in natural light around Charlotte and Lake Norman. I’ll be the one answering your email, planning with you, and photographing your session.",
+    "meta": {
+      "home": {
+        "title": "Walt Dublin Photography | Portraits in Charlotte & Lake Norman",
+        "description": "I’m Walt Dublin, a natural-light photographer in Charlotte and Lake Norman. Explore my individual, family, senior, graduate, athlete, and team portraits."
+      },
+      "portfolio": {
+        "title": "My Photographs | Walt Dublin Photography",
+        "description": "Explore my natural-light portraits of individuals, families, graduates, and athletes, and tell me what you have in mind for a session in Charlotte."
+      },
+      "experience": {
+        "title": "Planning Your Session With Me | Walt Dublin Photography",
+        "description": "Learn how I help plan your Charlotte portrait session, from location and clothing choices to a written quote and direction in front of the camera."
+      },
+      "featured": {
+        "title": "Featured Galleries | Walt Dublin Photography",
+        "description": "Explore selections of my family, graduation, and athlete photographs, and tell me what you have in mind for your own portrait session."
+      },
+      "families": {
+        "title": "Individual & Family Portraits in Charlotte | Walt Dublin Photography",
+        "description": "I plan natural-light individual and family portraits in Charlotte and Lake Norman, with help choosing a setting and time for everyone to settle in."
+      },
+      "seniors": {
+        "title": "Senior & Graduation Portraits in Charlotte | Walt Dublin Photography",
+        "description": "I photograph high school seniors and college graduates around Charlotte and Lake Norman. Tell me about your graduation and the photographs you’d like."
+      },
+      "athletes": {
+        "title": "Athlete & Team Portraits in Charlotte | Walt Dublin Photography",
+        "description": "I bring my experience as a former Ohio State and professional football player to natural-light athlete and team portraits around Charlotte and Lake Norman."
+      },
+      "investment": {
+        "title": "Sessions & Starting Prices | Walt Dublin Photography",
+        "description": "Explore my starting prices for individual, family, senior, and athlete portraits in Charlotte. Tell me about your needs, and I’ll send a personalized quote."
+      },
+      "about": {
+        "title": "About Me | Walt Dublin Photography",
+        "description": "I’m a Charlotte portrait photographer, father, writer, and former Ohio State football player. Get to know me and how I approach your photographs."
+      },
+      "reviews": {
+        "title": "Client Experiences | Walt Dublin Photography",
+        "description": "Read what my clients have shared about their photographs and what it was like to work with me."
+      },
+      "contact": {
+        "title": "Get in Touch | Walt Dublin Photography",
+        "description": "Tell me who you’d like photographed, when, and what you’re hoping for. I’ll help plan your Charlotte portrait session and put together a personalized quote."
+      },
+      "clients": {
+        "title": "Client Galleries | Walt Dublin Photography",
+        "description": "Need help finding photographs from a previous session? Get in touch with me with your booking name and approximate session date."
+      }
+    },
+    "testimonials": [
+      {
+        "id": "haley-skyles-johnson",
+        "name": "Haley Skyles Johnson",
+        "quote": "Walter was absolutely wonderful! Very professional and personable. We had a blast and love our pictures. We would definitely recommend to anyone!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "marisol-hernandez",
+        "name": "Marisol Hernández",
+        "quote": "Hi Walt, Thank you so much for the photos, they are PERFECT!!! You were not just professional, but super fun to work with. We will definitely use you in the future. If you are looking for a photographer, we highly recommend Walt Dublin Photography, you will not be disappointed.",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "pj-lange",
+        "name": "PJ Lange",
+        "quote": "Walt has the most creative eye for capturing the perfect shot. I recommend him to anyone wanting the highest quality pictures, and a quick turnaround. I'll be using his services each time moving forward. A+ my friend!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "kd-max",
+        "name": "KD Max",
+        "quote": "Dope photoshoot! very professional and extremely motivated and inspired to capture amazing pictures amd memories! highly recommend his services !",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "kylee-gavia",
+        "name": "Kylee Gavia",
+        "quote": "Walt took our sons 1st Birthday pictures and did a fantastic job. I was nervous they wouldn't turn out because my son is very shy but Walt was so good with him and my son did great with him. We have tried professional photos before and it was a complete melt down and didn't happen. I loved how he set the scene first and got his framing before placing my son for pictures since he has a short fuse. He captured everything we wanted. He was fast, professional, and we are in LOVE with our pictures. Thank you so much Walt and we will be using you a lot in the future. I highly recommend him!!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "mackenzie-lersch",
+        "name": "Mackenzie Lersch",
+        "quote": "I won a free shoot on Facebook and was so happy with what we got! We weren't even going to do Christmas pictures this year and we are so glad we did. So professional and such a good eye! Highly recommend",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "jessica-reynolds",
+        "name": "Jessica Reynolds",
+        "quote": "Walt did fantastic work with family Christmas photos! He did an amazing job distracting a toddler and capturing great moments of my family. He takes time to capture the right photos and pays close attention to detail. We will definitely work with him again.",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "ruzzy-butalon-gross",
+        "name": "Ruzzy Butalon Gross",
+        "quote": "Walter is a very professional photographer! He took very nice pictures to my family. Highly recommended.",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "amy-luisa",
+        "name": "Amy Luisa",
+        "quote": "Walter has amazing talent! He did our Christmas photos this year and brought out such great features in all of us! You won't go wrong with choosing Walt Dublin Photography!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "megan-kitzman",
+        "name": "Megan Kitzman",
+        "quote": "Walt was amazing with our family! We met him by accident and we couldn't have been more happy that we did! My son even took to him and listened so well when he would have him pose a certain way (he's 4). Our family Christmas picture came out stunning!! Thank you again for the last minute shoot!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "allie-jean",
+        "name": "Allie Jean",
+        "quote": "Has a fantastic eye for angles. He is great with working with children, and has so much patience. He's enjoyable to work with, and I look forward to my session with him next month. I will be recommending him to everyone!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "tia-minton",
+        "name": "Tia Minton",
+        "quote": "We had our shoot with Walter and it was great! We have a wild toddler and a cranky baby, Walter was very patient! Even with all of the chaos.. he was able to capture amazing moments of our family! Highly recommended and we will definitely be using him again!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "kerri-dewit",
+        "name": "Kerri DeWit",
+        "quote": "Me and my best friend did a shoot last . Walter did a great job in making sure to capture it . Thank you so much",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "chelsea-diaz",
+        "name": "Chelsea Diaz",
+        "quote": "We had a great time tonight at our shoot! Walter did a great job and was very patient and took the time to make sure we got the perfect moments! He has a great eye for the perfect shot! He made the shoot very comfortable and fun! Thank you for your time and for getting us some pretty great photos! Also thanks for dealing with our dogs when they literally did the opposite of what we asked! Haha! Would definitely recommend to anyone looking for a great photographer!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "bert-adams",
+        "name": "Bert Adams",
+        "quote": "He's great at capturing the moment!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "christopher-odom",
+        "name": "Christopher Odom",
+        "quote": "BEST Quality & Flexibility in photography in SRQ/Manatee area! hands down!! AMAZING work!!!",
+        "context": "Facebook review",
+        "rating": 5
+      },
+      {
+        "id": "katrina-albro",
+        "name": "Katrina Albro",
+        "quote": "We had a fantastic shoot last night with Walt Dublin Photography! He is very professional and took the time to make sure everything was perfect and just how I wanted them to turn out! We would highly recommend his services!",
+        "context": "Facebook review",
+        "rating": null
+      }
+    ],
+    "portfolio": {
+      "headline": "Some of the people I’ve had the pleasure of photographing.",
+      "intro": "I’ve put together photographs from different sessions so you can get a feel for my work. If you see something you’re drawn to, tell me when you get in touch. I’d like to know what caught your eye.",
+      "closingHeadline": "Is there a session you can picture yourself in?",
+      "closingCopy": "Tell me what you liked and who you’d like photographed. We can talk about how to make it work for you.",
+      "closingButton": "",
+      "closingHref": "/contact",
+      "closingNewTab": false,
+      "filterLabels": {
+        "all": "All photographs",
+        "families": "Individuals & families",
+        "seniors": "Seniors & graduates",
+        "athletes": "Athletes & teams"
+      }
+    },
+    "clients": {
+      "headline": "Your client gallery",
+      "intro": "Looking for photographs from a previous session? Please use the private gallery link sent to you, or email me if you need help finding it.",
+      "helpHeadline": "I can help you find the right gallery.",
+      "helpCopy": "Include the name used for the booking and the approximate session date when you get in touch.",
+      "privacyNote": "Please do not send gallery passwords through this site.",
+      "emailLabel": "Email me about a gallery",
+      "emailHref": "mailto:{email}?subject=Help%20with%20my%20client%20gallery",
+      "emailNewTab": false
+    },
+    "shared": {
+      "invitationHeadline": "Tell me what you have in mind.",
+      "invitationCopy": "You don’t need to have the location, outfits, or every detail decided. Tell me who you’d like photographed and roughly when, and we can take it from there.",
+      "personalPortraitCaption": "I’m usually on the other side of the camera.",
+      "graduationLinkLabel": "See how I can help you plan graduation photographs",
+      "athletePhotoCaption": "",
+      "sportHeadline": "Would you like to include your sport?",
+      "sportCopy": "I played football at Ohio State, so I understand why you might want photographs in your uniform as well as your cap and gown. We can discuss including your sport in a graduation session or planning dedicated athlete portraits.",
+      "sportLinkLabel": "Read about athlete portraits",
+      "naturalLightNote": "Because I specialize in natural light, we’ll consider the setting and time of day together. If you need to use a particular field or work around practice, tell me so we can talk through what will work.",
+      "graduationLinkHref": "/seniors",
+      "graduationLinkNewTab": false,
+      "sportLinkHref": "/athletes",
+      "sportLinkNewTab": false,
+      "durationLabel": "Session length",
+      "imageCountLabel": "Edited photographs",
+      "deliveryLabel": "Delivery",
+      "featuredServiceLinkLabel": "Explore my session details"
+    }
+  },
+  "settings": {
+    "bookingLabel": "Inquire to book",
+    "email": "walt@waltdublinphotography.com",
+    "socialLinks": {
+      "email": "mailto:walt@waltdublinphotography.com",
+      "facebook": "https://www.facebook.com/waltdublinphotography",
+      "instagram": "https://www.instagram.com/waltdublinphotography/"
+    },
+    "bookingHref": "/contact",
+    "bookingNewTab": false,
+    "brandName": "Walt Dublin Photography",
+    "businessDescription": "Natural-light individual and family portraits, senior and graduate portraits, and athlete and team photography in Charlotte and Lake Norman.",
+    "areaServed": [
+      "Charlotte, North Carolina",
+      "Lake Norman, North Carolina"
+    ]
+  },
+  "prices": {
+    "individual": 250,
+    "family": 295,
+    "senior": 350,
+    "athlete": 395
+  },
+  "photos": [
+    {
+      "key": "family",
+      "title": "Family lifting their children",
+      "file": "portrait-investment-0.webp",
+      "alt": "Parents lifting their children during a family portrait session",
+      "width": 1500,
+      "height": 1072,
+      "category": "families",
+      "src": "/assets/portrait-investment-0.webp",
+      "objectPosition": "50% 42%"
+    },
+    {
+      "key": "mother",
+      "title": "Mother and daughter",
+      "file": "portfolio-01.webp",
+      "alt": "Mother and daughter laughing together outdoors",
+      "width": 1500,
+      "height": 2000,
+      "category": "families",
+      "src": "/assets/portfolio-01.webp",
+      "objectPosition": "50% 30%"
+    },
+    {
+      "key": "hand",
+      "title": "Child holding an adult’s hand",
+      "file": "portfolio-02.webp",
+      "alt": "A young child smiling up at her father while holding his hand",
+      "width": 1500,
+      "height": 1125,
+      "category": "families",
+      "src": "/assets/portfolio-02.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "holiday",
+      "title": "Holiday family portrait",
+      "file": "portfolio-03.webp",
+      "alt": "A family of four sitting together for their holiday portraits",
+      "width": 1500,
+      "height": 1125,
+      "category": "families",
+      "src": "/assets/portfolio-03.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "football",
+      "title": "Football portrait",
+      "file": "portfolio-04.webp",
+      "alt": "A young football player holding a football in his team uniform",
+      "width": 1500,
+      "height": 2000,
+      "category": "athletes",
+      "src": "/assets/portfolio-04.webp",
+      "objectPosition": "50% 35%"
+    },
+    {
+      "key": "swan",
+      "title": "Baby with plush swan",
+      "file": "portfolio-05.webp",
+      "alt": "A baby smiling beside a plush swan",
+      "width": 1500,
+      "height": 1125,
+      "category": "families",
+      "src": "/assets/portfolio-05.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "grass",
+      "title": "Mother and daughter in the grass",
+      "file": "portfolio-07.webp",
+      "alt": "Mother and daughter relaxing together in the grass",
+      "width": 1500,
+      "height": 1667,
+      "category": "families",
+      "src": "/assets/portfolio-07.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "shoulders",
+      "title": "Family with child on shoulders",
+      "file": "portfolio-08.webp",
+      "alt": "Parents smiling with their child on his father’s shoulders",
+      "width": 1500,
+      "height": 2000,
+      "category": "families",
+      "src": "/assets/portfolio-08.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "sons",
+      "title": "Father and sons in suits",
+      "file": "portfolio-09.webp",
+      "alt": "A father and his two sons in coordinating suits",
+      "width": 1500,
+      "height": 1200,
+      "category": "families",
+      "src": "/assets/portfolio-09.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "maternity",
+      "title": "Maternity portrait",
+      "file": "portfolio-11.webp",
+      "alt": "An expectant mother in a burgundy gown on a tree-lined road",
+      "width": 1500,
+      "height": 1072,
+      "category": "families",
+      "src": "/assets/portfolio-11.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "birthday",
+      "title": "Birthday portrait",
+      "file": "portfolio-13.webp",
+      "alt": "A child celebrating his birthday with balloons",
+      "width": 1500,
+      "height": 2001,
+      "category": "families",
+      "src": "/assets/portfolio-13.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "baby",
+      "title": "Baby on the beach",
+      "file": "portfolio-00.webp",
+      "alt": "A baby sitting on the beach at sunset",
+      "width": 1500,
+      "height": 1125,
+      "category": "families",
+      "src": "/assets/portfolio-00.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "graduate",
+      "title": "Graduate beside a pond",
+      "file": "portrait-investment-1.webp",
+      "alt": "A graduate in a green cap and gown beside a pond",
+      "width": 1500,
+      "height": 844,
+      "category": "seniors",
+      "src": "/assets/portrait-investment-1.webp",
+      "objectPosition": "35% 50%"
+    },
+    {
+      "key": "couple",
+      "title": "Newlyweds",
+      "file": "portrait-investment-2.webp",
+      "alt": "Newlyweds sharing a kiss outdoors",
+      "width": 1500,
+      "height": 998,
+      "category": "couples",
+      "src": "/assets/portrait-investment-2.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "event",
+      "title": "Event guests",
+      "file": "portrait-investment-3.webp",
+      "alt": "Three guests posing together at an event",
+      "width": 1500,
+      "height": 998,
+      "category": "events",
+      "src": "/assets/portrait-investment-3.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "individualWoman",
+      "title": "Woman beside windows",
+      "file": "natural-portrait-woman.webp",
+      "alt": "An individual portrait of a woman standing beside a porch in natural light",
+      "width": 1500,
+      "height": 2254,
+      "category": "families",
+      "src": "/assets/natural-portrait-woman.webp",
+      "objectPosition": "50% 25%"
+    },
+    {
+      "key": "individualMan",
+      "title": "Man seated in a blue suit",
+      "file": "natural-portrait-man.webp",
+      "alt": "An individual portrait of a man seated beside a window in a blue suit",
+      "width": 1500,
+      "height": 867,
+      "category": "families",
+      "src": "/assets/natural-portrait-man.webp",
+      "objectPosition": "50% 45%"
+    },
+    {
+      "key": "teammates",
+      "title": "Two people in football apparel",
+      "file": "sport-coach-player.webp",
+      "alt": "Two people in blue Lightning football apparel standing together on a sports field",
+      "width": 1500,
+      "height": 962,
+      "category": "athletes",
+      "src": "/assets/sport-coach-player.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "sportAction",
+      "title": "Football game action",
+      "file": "sport-football-action.webp",
+      "alt": "Youth football players during a game",
+      "width": 1500,
+      "height": 1085,
+      "category": "athletes",
+      "src": "/assets/sport-football-action.webp",
+      "objectPosition": "50% 50%"
+    },
+    {
+      "key": "walt",
+      "title": "Walt’s portrait",
+      "file": "portrait-about-0.webp",
+      "alt": "Me at home, wearing a yellow pullover",
+      "width": 1500,
+      "height": 998,
+      "src": "/assets/portrait-about-0.webp",
+      "category": "about",
+      "objectPosition": "29% 50%"
+    }
+  ],
+  "featuredPhotos": [
+    {
+      "main": "family",
+      "left": "individualWoman",
+      "right": "football"
+    },
+    {
+      "main": "graduate",
+      "left": "mother",
+      "right": "shoulders"
+    },
+    {
+      "main": "individualMan",
+      "left": "birthday",
+      "right": "football"
+    }
+  ],
+  "featuredSessions": [
+    {
+      "id": "selected-family-portraits",
+      "slug": "selected-family-portraits",
+      "type": "collection",
+      "title": "Selected family portraits",
+      "category": "families",
+      "description": "I’ve selected these family portraits from different sessions, including group photographs and children laughing and playing outside. You can see some of the ways I photograph people together as well as on their own.",
+      "location": "",
+      "coverKey": "photo_d341502e4390647fb217b2e1ed16d9e607808514",
+      "photoKeys": [
+        "photo_d341502e4390647fb217b2e1ed16d9e607808514",
+        "photo_220b1557d4393bcdd1ef0fa6a0a38b981f5096c2",
+        "photo_b11c720870ff36f558880c7a96a6cbe2734de3d0",
+        "family",
+        "mother",
+        "sons",
+        "photo_f0a1ad1117cbcf9a5688c0901f01013bd73c8e38",
+        "photo_38caa39a9f051813197e0bb6116a348ea6cfd610",
+        "shoulders",
+        "hand",
+        "photo_50b9ddf5175d14b1ebc4bf1f79b0edd96bd82598",
+        "photo_c0df1afeb2de74bbe36fd31485f9f7c87ce8b384",
+        "photo_fe1fc30ce754b1729ac4c72135354228eea47b07",
+        "photo_00bb8d26b96a9c6f7e6559a89654c922d1538c7a"
+      ],
+      "inquiryLink": {
+        "label": "Ask me about a family session",
+        "href": "/contact?session=Family%20portraits",
+        "newTab": false
+      },
+      "enabled": true
+    },
+    {
+      "id": "selected-graduation-portraits",
+      "slug": "selected-graduation-portraits",
+      "type": "collection",
+      "title": "Selected graduation portraits",
+      "category": "seniors",
+      "description": "I’ve chosen these graduation portraits to show different outdoor settings for a cap and gown, including water and a columned walkway.",
+      "location": "",
+      "coverKey": "photo_a9ddb5d440dfe9c78b5f82642bf755bf6fdf00b8",
+      "photoKeys": [
+        "photo_a9ddb5d440dfe9c78b5f82642bf755bf6fdf00b8",
+        "photo_e17e119efb27e626136a950cdf37b0d2fb66ca5a"
+      ],
+      "inquiryLink": {
+        "label": "Ask me about senior or graduation portraits",
+        "href": "/contact?session=Senior%20or%20graduate%20portraits",
+        "newTab": false
+      },
+      "enabled": true
+    },
+    {
+      "id": "selected-athlete-and-team-photographs",
+      "slug": "selected-athlete-and-team-photographs",
+      "type": "collection",
+      "title": "Selected athlete and team photographs",
+      "category": "athletes",
+      "description": "I’ve brought together photographs from different shoots, including individual portraits, a team group photograph, and activity on the field. You can see examples of my planned portraits as well as moments during play.",
+      "location": "",
+      "coverKey": "football",
+      "photoKeys": [
+        "football",
+        "photo_fa5ca5e9729f9f7ac0d920364812749d9a10bc53",
+        "photo_722e8217a2ee03ae0a63240533fa661ae65dbea1",
+        "photo_3b9816e2774bdae7e29dcbefd4a89122338c3b72",
+        "photo_1c2260646c57d6079bdd4c68ad9c0ea2314ba6d7",
+        "sportAction"
+      ],
+      "inquiryLink": {
+        "label": "Tell me about your athlete or team",
+        "href": "/contact",
+        "newTab": false
+      },
+      "enabled": true
+    }
+  ],
+  "portfolioOrder": [
+    "family",
+    "individualWoman",
+    "sons",
+    "graduate",
+    "individualMan",
+    "hand",
+    "football",
+    "holiday",
+    "maternity",
+    "teammates",
+    "shoulders",
+    "baby",
+    "grass",
+    "birthday",
+    "swan"
+  ],
+  "navigation": {
+    "collectionsLabel": "My photographs",
+    "menuLabel": "Menu",
+    "logoHref": "/",
+    "headerLinks": [
+      {
+        "label": "Sessions & pricing",
+        "href": "/investment",
+        "newTab": false
+      },
+      {
+        "label": "How I work",
+        "href": "/experience",
+        "newTab": false
+      },
+      {
+        "label": "About me",
+        "href": "/about",
+        "newTab": false
+      }
+    ],
+    "collectionLinks": [
+      {
+        "label": "Individuals & families",
+        "href": "/families",
+        "newTab": false
+      },
+      {
+        "label": "Seniors & graduates",
+        "href": "/seniors",
+        "newTab": false
+      },
+      {
+        "label": "Athletes & teams",
+        "href": "/athletes",
+        "newTab": false
+      },
+      {
+        "label": "Featured galleries",
+        "href": "/featured",
+        "newTab": false
+      },
+      {
+        "label": "All my photographs",
+        "href": "/portfolio",
+        "newTab": false
+      }
+    ],
+    "serviceLinks": [
+      {
+        "label": "Individuals & families",
+        "href": "/families",
+        "newTab": false
+      },
+      {
+        "label": "Seniors & graduates",
+        "href": "/seniors",
+        "newTab": false
+      },
+      {
+        "label": "Athletes & teams",
+        "href": "/athletes",
+        "newTab": false
+      }
+    ],
+    "mobileContactLink": {
+      "label": "Get in touch with me",
+      "href": "/contact",
+      "newTab": false
+    },
+    "footerPhotographyLinks": [
+      {
+        "label": "Individuals & families",
+        "href": "/families",
+        "newTab": false
+      },
+      {
+        "label": "Seniors & graduates",
+        "href": "/seniors",
+        "newTab": false
+      },
+      {
+        "label": "Athletes & teams",
+        "href": "/athletes",
+        "newTab": false
+      },
+      {
+        "label": "Featured galleries",
+        "href": "/featured",
+        "newTab": false
+      },
+      {
+        "label": "All photographs",
+        "href": "/portfolio",
+        "newTab": false
+      }
+    ],
+    "footerInformationLinks": [
+      {
+        "label": "Sessions & pricing",
+        "href": "/investment",
+        "newTab": false
+      },
+      {
+        "label": "How I work",
+        "href": "/experience",
+        "newTab": false
+      },
+      {
+        "label": "About me",
+        "href": "/about",
+        "newTab": false
+      },
+      {
+        "label": "Client experiences",
+        "href": "/reviews",
+        "newTab": false
+      },
+      {
+        "label": "Client galleries",
+        "href": "/clients",
+        "newTab": false
+      },
+      {
+        "label": "Get in touch",
+        "href": "/contact",
+        "newTab": false
+      }
+    ],
+    "footerEmailLink": {
+      "label": "{email}",
+      "href": "mailto:{email}",
+      "newTab": false
+    },
+    "copyrightText": "© 2026 Walt Dublin Photography",
+    "location": "Charlotte, North Carolina"
+  },
+  "interfaceCopy": {
+    "accessibility": {
+      "skipLabel": "Skip to content",
+      "logoHomeLabel": "Walt Dublin Photography home",
+      "mainNavigationLabel": "Main navigation",
+      "collectionNavigationLabel": "Photography collections",
+      "mobileNavigationLabel": "Mobile navigation",
+      "footerPhotographyLabel": "Photography pages",
+      "footerInformationLabel": "More information",
+      "serviceNavigationLabel": "Portrait services",
+      "socialNavigationLabel": "Email and social media",
+      "newTabDescription": " (opens in a new tab)",
+      "openPhotoTemplate": "View photograph: {description}",
+      "reviewRatingTemplate": "{rating} out of 5 stars",
+      "reviewListLabel": "More client experiences"
+    },
+    "social": {
+      "emailLabel": "Email me",
+      "facebookLabel": "Find me on Facebook",
+      "instagramLabel": "Follow me on Instagram"
+    },
+    "lightbox": {
+      "dialogLabel": "Photograph viewer",
+      "closeLabel": "Close photograph",
+      "previousLabel": "Previous photograph",
+      "nextLabel": "Next photograph",
+      "counterTemplate": "{index} / {total}"
+    },
+    "slideshow": {
+      "regionLabel": "A selection of my photographs",
+      "roleDescription": "carousel",
+      "slideRoleDescription": "slide",
+      "slideTemplate": "{index} of {total}",
+      "controlsLabel": "Slideshow controls",
+      "previousLabel": "Previous photographs",
+      "nextLabel": "Next photographs",
+      "playLabel": "Play automatic slideshow",
+      "pauseLabel": "Pause automatic slideshow",
+      "introductionLabel": "Introduction"
+    },
+    "portfolio": {
+      "filterLabel": "Filter photographs",
+      "oneResultTemplate": "Showing {count} photograph.",
+      "manyResultsTemplate": "Showing {count} photographs.",
+      "emptyMessage": "There are no photographs in this collection yet."
+    },
+    "inquiry": {
+      "dialogLabel": "Your inquiry",
+      "submitLabel": "Send my inquiry",
+      "sendingButtonLabel": "Sending my inquiry…",
+      "sentButtonLabel": "Inquiry sent",
+      "sendingMessage": "Sending your inquiry…",
+      "successMessage": "Your inquiry has been sent to me. Thank you for getting in touch. This does not reserve a date; we’ll confirm the details together before you book.",
+      "alreadySentMessage": "Your inquiry has already been sent. Sending an inquiry does not reserve a date.",
+      "tooLongMessage": "Please shorten your note a little before sending. Your details are still here.",
+      "expiredMessage": "Please try sending your inquiry again. Your details are still here.",
+      "rateLimitMessage": "Please wait a little before trying again, or email me directly. Your details are still here.",
+      "validationMessage": "Please check your name, email address, and note, then try sending your inquiry again. Your details are still here.",
+      "failureMessage": "I couldn’t confirm that your inquiry was sent. Your details are still here. Please try again or email me directly.",
+      "characterLimitTemplate": "Please use {limit} characters or fewer.",
+      "nameRequiredMessage": "Please enter your name.",
+      "emailRequiredMessage": "Please enter your email address.",
+      "emailInvalidMessage": "Please enter a valid email address so I can reply.",
+      "requiredMessage": "Please complete this field."
+    },
+    "system": {
+      "notFoundTitle": "Page not found | Walt Dublin Photography",
+      "notFoundHeadline": "I couldn’t find that page.",
+      "notFoundCopy": "You can explore my photographs or get in touch with me from the links below.",
+      "notFoundLink": {
+        "label": "Return to the homepage",
+        "href": "/",
+        "newTab": false
+      },
+      "unavailableTitle": "Walt Dublin Photography",
+      "unavailableHeadline": "I’m having trouble loading this page.",
+      "unavailableCopy": "Please try again in a moment, or email me at [{email}](mailto:{email}).",
+      "methodNotAllowed": "Method not allowed"
+    },
+    "apiMessages": {
+      "incompleteForm": "Please complete the inquiry form.",
+      "invalidFieldType": "Please check the information in your inquiry.",
+      "invalidFieldContent": "Please shorten your inquiry and remove any unusual characters.",
+      "requiredName": "Please enter your name.",
+      "invalidEmail": "Please enter a valid email address so I can reply.",
+      "invalidSession": "Please choose a session type from the list.",
+      "formUnavailable": "Please email me at {email} while I get the inquiry form ready.",
+      "invalidOrigin": "Please send your inquiry from the website contact page.",
+      "unsupportedFormat": "Please send your inquiry using the contact form.",
+      "tooLong": "Please shorten your inquiry before sending it.",
+      "malformedRequest": "Please check your inquiry and try again.",
+      "refreshRequired": "Please refresh the contact page and try again.",
+      "tokenExpired": "Please try sending your inquiry again.",
+      "tooSoon": "Please wait a moment, then send your inquiry.",
+      "emailUnavailable": "I couldn’t send your inquiry just now. Please email me at {email}.",
+      "sendUnconfirmed": "I couldn’t confirm your inquiry was sent. Please try again, or email me at {email}."
+    }
+  }
+}

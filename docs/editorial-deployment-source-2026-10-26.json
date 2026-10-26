@@ -1,0 +1,212 @@
+[
+  {
+    "file": "api/index.mjs",
+    "sha": "90fc1be65c8a088ac1fe9d3250559c86fc7d50f3",
+    "size": 3047
+  },
+  {
+    "file": "content/default-content.json",
+    "sha": "cd8726fbe4f4caab76a6079382da9209c4d83bc1",
+    "size": 75764
+  },
+  {
+    "file": "content/gallery-fallback-photos.json",
+    "sha": "1b3dc0eaf4fc3ba3cbebc3d0967ed586649c8af1",
+    "size": 6660
+  },
+  {
+    "file": "lib/content-text.mjs",
+    "sha": "1259bd3f441fc7a87e449733465b49c7229f8118",
+    "size": 4283
+  },
+  {
+    "file": "lib/content.mjs",
+    "sha": "c8b95711aaaa25bd38670648a479dab6fb14c1b7",
+    "size": 15592
+  },
+  {
+    "file": "lib/html.mjs",
+    "sha": "856971632f14818aa5c7dc83ee8f8cbf62dce95e",
+    "size": 5334
+  },
+  {
+    "file": "lib/inquiry.mjs",
+    "sha": "66c32068ec835a07933f88fb858be71d23b57efb",
+    "size": 8119
+  },
+  {
+    "file": "lib/render.mjs",
+    "sha": "fe886daa79d03ca7f84c969e1c669d9bb50a41f8",
+    "size": 34151
+  },
+  {
+    "file": "lib/routes.mjs",
+    "sha": "e94494715c8d49ca847f376c53daf395b47f88fc",
+    "size": 1111
+  },
+  {
+    "file": "package-lock.json",
+    "sha": "4025229495bd19758f23636b953c4bbcdbe06f30",
+    "size": 475127
+  },
+  {
+    "file": "package.json",
+    "sha": "2f6561f9a91ca8952914504b45646c8aae7c164a",
+    "size": 581
+  },
+  {
+    "file": "public/assets/natural-portrait-man.webp",
+    "sha": "83c78ceb0002316db6a3f32303dd4439f16d2925",
+    "size": 126794
+  },
+  {
+    "file": "public/assets/natural-portrait-woman.webp",
+    "sha": "06c536ed630146af94e78d8ea9718d1c7d037ab4",
+    "size": 290402
+  },
+  {
+    "file": "public/assets/portfolio-00.webp",
+    "sha": "966ce3a2a8e0d55303a721f38bd28932eeb30238",
+    "size": 162608
+  },
+  {
+    "file": "public/assets/portfolio-01.webp",
+    "sha": "638de01270bdd5dca51a65f6e9fced3e3b85b4eb",
+    "size": 162286
+  },
+  {
+    "file": "public/assets/portfolio-02.webp",
+    "sha": "a13d4e1eb77e7b5f391d552109a69f0f53e6ec18",
+    "size": 94390
+  },
+  {
+    "file": "public/assets/portfolio-03.webp",
+    "sha": "c5fdc678d46852ea239e6f9afeacc1e5fcc02707",
+    "size": 205152
+  },
+  {
+    "file": "public/assets/portfolio-04.webp",
+    "sha": "cd13c28d1e64a895edacabdf42491df0327aaa8a",
+    "size": 309880
+  },
+  {
+    "file": "public/assets/portfolio-05.webp",
+    "sha": "f9eee1139e5e3a86de8b5eb6c1a94dc6da9c129b",
+    "size": 85434
+  },
+  {
+    "file": "public/assets/portfolio-07.webp",
+    "sha": "aca9043487d597e5829291cdb428a14837b17191",
+    "size": 322622
+  },
+  {
+    "file": "public/assets/portfolio-08.webp",
+    "sha": "594c6dcd41bb7aff057025fbc27dbe9199f98eb2",
+    "size": 198264
+  },
+  {
+    "file": "public/assets/portfolio-09.webp",
+    "sha": "fe96eb4ee4d2bc2bed792a2f1dba7a8b6034a1ad",
+    "size": 352666
+  },
+  {
+    "file": "public/assets/portfolio-11.webp",
+    "sha": "61a78c488403337de01e7c511cb0701fee0475ee",
+    "size": 72556
+  },
+  {
+    "file": "public/assets/portfolio-13.webp",
+    "sha": "1028aa30931bdf2218bd25d4860bacfa02006bc4",
+    "size": 284588
+  },
+  {
+    "file": "public/assets/portrait-about-0.webp",
+    "sha": "348104b424ae1203f76b1b79fb49ec542118de45",
+    "size": 122668
+  },
+  {
+    "file": "public/assets/portrait-investment-0.webp",
+    "sha": "4f6df80d04028ce9d103d2e19f85f58100b29bee",
+    "size": 127310
+  },
+  {
+    "file": "public/assets/portrait-investment-1.webp",
+    "sha": "b6f84995c6f554e0c8832b3743899f94d7dd3cb3",
+    "size": 206124
+  },
+  {
+    "file": "public/assets/portrait-investment-2.webp",
+    "sha": "5cc5639a0b2877c2ea7c284d9f42fb5d0d8e1cd3",
+    "size": 165846
+  },
+  {
+    "file": "public/assets/portrait-investment-3.webp",
+    "sha": "9d730705473f1e03402fc98dba9b1144650c6c45",
+    "size": 257366
+  },
+  {
+    "file": "public/assets/sport-coach-player.webp",
+    "sha": "9ee106e347bcbdab7956f26e9efe9d91bcfcf473",
+    "size": 184506
+  },
+  {
+    "file": "public/assets/sport-football-action.webp",
+    "sha": "40645f77501cfb8e80eb20cfa698a44854abac09",
+    "size": 401874
+  },
+  {
+    "file": "public/assets/wdp-signature.png",
+    "sha": "6e4eb46da1faeab57f2a7b5b5363bf0c027ccfe8",
+    "size": 362755
+  },
+  {
+    "file": "public/editorial.css",
+    "sha": "d3223d836e62a65112744f06366cd4f9209a7c39",
+    "size": 41668
+  },
+  {
+    "file": "public/site.js",
+    "sha": "b10bdb567d67009ddeadc760adf6a1bc02309fff",
+    "size": 19050
+  },
+  {
+    "file": "public/theme.css",
+    "sha": "6cc7b0ac54f40717ccd01b2726a29cd0beeec1eb",
+    "size": 38679
+  },
+  {
+    "file": "scripts/build.mjs",
+    "sha": "7e59b3be73efad247b4692e32832092cf4584c2d",
+    "size": 1310
+  },
+  {
+    "file": "studio/components/PhotoKeyInput.jsx",
+    "sha": "26be27e6606c46ea50c80c06b694cc92839ad210",
+    "size": 1239
+  },
+  {
+    "file": "studio/package.json",
+    "sha": "497c5f5dd4c4498a91ca1e2ba9e79d17b2784591",
+    "size": 242
+  },
+  {
+    "file": "studio/sanity.cli.js",
+    "sha": "35ecaaa14d581d2ec9bf7d197340bcae6bd6783a",
+    "size": 254
+  },
+  {
+    "file": "studio/sanity.config.js",
+    "sha": "6feacaa0a8db0f58f8931cb575ec736216a57efe",
+    "size": 1438
+  },
+  {
+    "file": "studio/schemas/photographySite.js",
+    "sha": "0474b4fb6bc73b630885b64ec959e45eec49bf6d",
+    "size": 39654
+  },
+  {
+    "file": "vercel.json",
+    "sha": "330792f4246c5f8b7f41d48e33da967b3a26bc67",
+    "size": 2215
+  }
+]
