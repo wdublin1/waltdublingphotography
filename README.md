@@ -37,7 +37,7 @@ Turn **Show this gallery on the website** on when it is ready. Turn it off and p
 
 The supplied galleries are selected collections: 14 family photographs, two distinct graduation photographs, and six athlete/team photographs. The family and sports collections combine different shoots. The graduation selection is deliberately small because duplicate uploads were excluded. Do not rename these as complete-session galleries or imply recent/local provenance without confirming it.
 
-This update leaves the existing 105-photograph library unchanged. Gallery selections, service-card photographs, **Portfolio order**, and **Homepage slideshow** are separate controls; changing one does not replace the others.
+This update leaves the existing 105-photograph library unchanged. Gallery selections, service-card photographs, **Portfolio order**, and **Homepage hero photos** are separate controls; changing one does not replace the others.
 
 ### Publish and check
 
@@ -49,7 +49,7 @@ Studio saves edits as a draft. Review the affected fields and select **Publish**
 
 The homepage now opens with the slideshow's main photographs shown full width with the introduction set over them, followed by three photographic service tiles that show each starting price, a recent-work strip drawn from **Portfolio order**, the personal note, the process steps, featured galleries, a centered client note, the FAQs, and the inquiry form itself. Everything remains editable under **Pages & reviews → Home**:
 
-- **Headline**, **Introduction**, and **Location label** set the words over the hero photograph. The slideshow frames still come from **Homepage slideshow**; only each frame's main photograph is used on the homepage now.
+- **Headline**, **Introduction**, and **Location label** set the words over the hero photograph. The rotating hero photographs come from the **Homepage hero photos** tab; each entry's **Hero photograph** is what shows, and the two legacy supporting portraits can be left blank.
 - **Session links** gained **Linked starting price** per service, which fills the price label on each tile using the pricing-page **Price wording** template. Clear it to hide the price.
 - **Service price wording** (default "Sessions from {price}"), **Work link**, **Recent work heading**, **Inquiry eyebrow**, and **Inquiry email lead** are new text controls.
 - The closing invitation heading and text introduce the homepage inquiry form. **Invitation link wording** is optional there and appears as a link beside the email address when set.
