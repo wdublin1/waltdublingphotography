@@ -1327,6 +1327,38 @@
         "newTab": false
       }
     ],
+    "mobileLinks": [
+      {
+        "label": "Portfolio",
+        "href": "/portfolio",
+        "newTab": false
+      },
+      {
+        "label": "Sessions & pricing",
+        "href": "/investment",
+        "newTab": false
+      },
+      {
+        "label": "How I work",
+        "href": "/experience",
+        "newTab": false
+      },
+      {
+        "label": "About me",
+        "href": "/about",
+        "newTab": false
+      },
+      {
+        "label": "Client experiences",
+        "href": "/reviews",
+        "newTab": false
+      },
+      {
+        "label": "Get in touch",
+        "href": "/contact",
+        "newTab": false
+      }
+    ],
     "collectionLinks": [
       {
         "label": "Individuals & families",

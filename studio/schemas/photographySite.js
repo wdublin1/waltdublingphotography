@@ -45,8 +45,8 @@ const labels = {
   all: 'All photographs', individual: 'Individual portraits', family: 'Family portraits', senior: 'Seniors & graduates',
   athlete: 'Individual athletes', team: 'Team photography', other: 'Other sessions',
   navigation: 'Menus & footer links', collectionsLabel: 'Photography menu label', menuLabel: 'Mobile menu label',
-  headerLinks: 'Main menu links', collectionLinks: 'Photography menu links', serviceLinks: 'Service-page navigation links',
-  mobileContactLink: 'Mobile contact link', footerPhotographyLinks: 'Footer photography links', footerInformationLinks: 'Footer information links',
+  headerLinks: 'Main menu links (desktop)', mobileLinks: 'Phone menu links (the ☰ menu)', collectionLinks: 'Photography menu links', serviceLinks: 'Service-page navigation links',
+  mobileContactLink: 'Mobile contact link (no longer shown)', footerPhotographyLinks: 'Footer photography links', footerInformationLinks: 'Footer information links',
   footerEmailLink: 'Footer email link', copyrightText: 'Copyright line',
   interfaceCopy: 'System messages (rarely needs editing)', accessibility: 'Screen-reader and navigation wording', social: 'Social icon wording',
   lightbox: 'Photograph viewer', slideshow: 'Homepage slideshow controls', inquiry: 'Inquiry form controls & feedback',
@@ -204,7 +204,7 @@ function photoField(name, title, {required = true, description} = {}) {
     ...(required ? {validation: (Rule) => Rule.required()} : {})});
 }
 
-const retiredFields = new Set(['copy.home.directoryEyebrow', 'copy.home.directoryHeadline', 'copy.home.directoryIntro', 'copy.home.pricingLink', 'copy.shared.sportHeadline', 'copy.shared.sportCopy', 'copy.shared.sportLinkLabel', 'copy.shared.sportLinkHref', 'copy.shared.sportLinkNewTab', 'copy.placements.seniorsSport']);
+const retiredFields = new Set(['copy.home.directoryEyebrow', 'copy.home.directoryHeadline', 'copy.home.directoryIntro', 'copy.home.pricingLink', 'copy.shared.sportHeadline', 'copy.shared.sportCopy', 'copy.shared.sportLinkLabel', 'copy.shared.sportLinkHref', 'copy.shared.sportLinkNewTab', 'copy.placements.seniorsSport', 'navigation.mobileContactLink']);
 function buildField(name, value, path) {
   const field = buildFieldInner(name, value, path);
   return retiredFields.has([...path].join('.')) ? {...field, hidden: true} : field;
