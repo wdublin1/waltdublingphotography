@@ -625,6 +625,16 @@
         "label": "Tell me about your team",
         "href": "/contact?session=Team%20photography",
         "newTab": false
+      },
+      "weddingHeadline": "I do weddings too.",
+      "weddingParagraphs": [
+        "Wedding days are all different, so I don’t publish a rate card for them. I’d rather hear about yours and build a plan and a price around what you actually need.",
+        "Reach out, tell me about the day, and we’ll talk through the specifics and what you’re looking for from me."
+      ],
+      "weddingLink": {
+        "label": "Tell me about your wedding",
+        "href": "/contact?session=Wedding%20photography",
+        "newTab": false
       }
     },
     "contact": {
@@ -665,6 +675,7 @@
           "senior": "Senior or graduate portraits",
           "athlete": "Individual athlete portraits",
           "team": "Team photography",
+          "wedding": "Wedding photography",
           "other": "Something else"
         },
         "timingPlaceholder": "A month, a specific date, or just exploring",
