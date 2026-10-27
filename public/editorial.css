@@ -742,3 +742,13 @@ dl.session-facts{grid-template-columns:auto 1fr;gap:6px 18px}
 .pricing-wedding-photo .photograph img{object-position:50% 30%}
 .pricing-wedding .reading::before{content:'Beyond portraits';display:block;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#b6bfa8;margin-bottom:16px}
 @media (max-width:860px){.session-rows{grid-template-columns:1fr;gap:22px}.pricing-wedding{grid-template-columns:1fr;gap:28px}}
+@media (max-width:860px){
+  dl.session-facts,.session-facts dl{grid-template-columns:1fr;gap:2px}
+  .session-facts dl>div,dl.session-facts>div{display:block;margin:0 0 10px}
+  .session-facts dt{margin-bottom:1px}
+  .session-row>div{padding:22px 20px 24px}
+  .session-title{flex-wrap:wrap;gap:4px 14px}
+  .session-title p{white-space:normal}
+  .pricing-wedding{padding-block:clamp(56px,10vw,80px)}
+  .pricing-wedding .reading h2{font-size:clamp(34px,9vw,42px)}
+}
