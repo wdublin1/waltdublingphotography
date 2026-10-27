@@ -204,7 +204,12 @@ function photoField(name, title, {required = true, description} = {}) {
     ...(required ? {validation: (Rule) => Rule.required()} : {})});
 }
 
+const retiredFields = new Set(['copy.home.directoryEyebrow', 'copy.home.directoryHeadline', 'copy.home.directoryIntro', 'copy.home.pricingLink']);
 function buildField(name, value, path) {
+  const field = buildFieldInner(name, value, path);
+  return retiredFields.has([...path].join('.')) ? {...field, hidden: true} : field;
+}
+function buildFieldInner(name, value, path) {
   const title = titleFor(name, path);
   const description = descriptionFor(name, value, path);
   if (name === 'rating') return defineField({name, title, type: 'number', description: 'Leave blank when no rating was supplied. A written recommendation is not automatically a five-star rating.', options: {list: [1, 2, 3, 4, 5].map((rating) => ({title: `${rating} out of 5`, value: rating}))}, validation: (Rule) => Rule.integer().min(1).max(5)});
