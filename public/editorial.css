@@ -679,3 +679,16 @@ h2,h3{font-weight:400;font-variation-settings:"opsz" 96}
 @media(max-width:800px){.page-hero-families{min-height:clamp(600px,92vh,760px)}.page-hero-families .page-hero-photo img{object-position:50% 8%}.page-hero-families .page-hero-caption{padding-top:120px}}
 
 .session-detail-facts .session-facts{margin-top:0;padding-top:0;border-top:0}
+
+/* Homepage section separation: alternating bands, consistent breathing room, hairlines */
+:root{--band:#efece4;--band-line:#d9d4c7}
+.home-work{padding-block:clamp(72px,8vw,112px) clamp(56px,6vw,88px)}
+.personal-section{padding:clamp(80px,9vw,128px) 0;background:var(--band)}
+.experience-section{padding-block:clamp(72px,8vw,112px);border-top:0;border-bottom:0}
+.featured-section{padding-block:clamp(72px,8vw,112px)}
+.home-client-note-centered{padding-block:clamp(80px,9vw,128px)}
+.home-faq{padding-block:clamp(72px,8vw,112px)}
+.featured-section,.home-faq{background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
+.home-work,.experience-section,.home-client-note-centered{position:relative}
+.home-work::before,.experience-section::before,.home-client-note-centered::before{content:"";position:absolute;left:0;right:0;top:0;border-top:1px solid var(--band-line)}
+.home-client-note-centered .client-quote blockquote{max-width:760px;margin-inline:auto}
