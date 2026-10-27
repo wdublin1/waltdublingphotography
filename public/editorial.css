@@ -378,6 +378,19 @@ dl.session-facts,.session-facts dl{display:grid;grid-template-columns:minmax(90p
 .short-personal-story h2{max-width:600px;margin-bottom:22px;font-size:clamp(34px,3.2vw,44px);line-height:1.14}
 .short-personal-story p:not(.location-label){max-width:650px;font-size:16px;line-height:1.85}
 .short-personal-story .text-link{margin-top:3px}
+/* Home "about" block: portrait sits beside the copy on wide screens and directly under the title on phones. */
+.personal-portrait-layout:has(.personal-story-head){grid-template-areas:"portrait head" "portrait body";grid-template-rows:auto auto;row-gap:0;align-items:start;align-content:center}
+.personal-portrait-layout:has(.personal-story-head) .personal-portrait{grid-area:portrait;align-self:center}
+.personal-story-head{grid-area:head;align-self:end}
+.personal-story-body{grid-area:body}
+.personal-story-head h2{margin-bottom:0}
+.personal-story-body{padding-top:22px}
+@media(max-width:600px){
+  .personal-portrait-layout:has(.personal-story-head){grid-template-areas:"head" "portrait" "body";grid-template-rows:auto;gap:24px}
+  .personal-portrait-layout:has(.personal-story-head) .personal-portrait{max-width:none}
+  .personal-story-body{padding-top:0}
+  .personal-story-head h2{margin-bottom:0}
+}
 
 .service-card-copy,.featured-card-copy,.experience-step,.session-detail,.featured-story-intro{overflow-wrap:anywhere}
 .service-card:focus-visible,.featured-card:focus-visible,.faq-list summary:focus-visible,.featured-story-gallery a:focus-visible{outline:3px solid var(--deep);outline-offset:6px}
