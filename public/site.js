@@ -112,7 +112,7 @@
       activeIndex = activeKeys.indexOf(key);
       image.src = src;
       image.alt = String(photo.alt || '');
-      captionText.textContent = String(photo.alt || '');
+      captionText.textContent = '';
       const counterText = activeKeys.length > 1
         ? formatText(ui.lightbox.counterTemplate, {index: activeIndex + 1, total: activeKeys.length}) : '';
       counter.textContent = counterText ? ` ${counterText}` : '';
