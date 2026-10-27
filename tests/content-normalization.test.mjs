@@ -179,7 +179,7 @@ test('metadata and dialog labels are editable, escaped, and keep the canonical o
   const metadata = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
   assert.equal(metadata.name, 'My <studio>');
   assert.equal(metadata.description, content.settings.businessDescription);
-  assert.deepEqual(metadata.areaServed, ['A <place>']);
+  assert.deepEqual(metadata.areaServed, [{'@type': 'City', name: 'A <place>'}]);
   assert.doesNotMatch(html, /<script>bad\(\)<\/script>/);
 });
 

@@ -752,3 +752,6 @@ dl.session-facts{grid-template-columns:auto 1fr;gap:6px 18px}
   .pricing-wedding{padding-block:clamp(56px,10vw,80px)}
   .pricing-wedding .reading h2{font-size:clamp(34px,9vw,42px)}
 }
+
+.footer-areas{font-size:12px;line-height:1.7;color:#aeb5a5;margin:12px 0 16px;max-width:420px}.footer-areas strong{color:#d6dccb;font-weight:500}
+.contact-areas{font-size:13px;line-height:1.7;color:var(--muted);margin-top:14px}.contact-areas strong{color:var(--ink);font-weight:500}

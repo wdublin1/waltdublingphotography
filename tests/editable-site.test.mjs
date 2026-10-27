@@ -105,6 +105,6 @@ test('editable search metadata and viewer text reach the HTML shell without leak
   assert.ok(html.includes('content="My photography studio"'));
   assert.ok(html.includes('aria-label="My photo viewer"'));
   assert.ok(html.includes('"description":"My updated description"'));
-  assert.ok(html.includes('"areaServed":["Charlotte"]'));
+  assert.ok(html.includes('"areaServed":[{"@type":"City","name":"Charlotte"}]'));
   assert.ok(!html.includes('SANITY_API_READ_TOKEN'));
 });

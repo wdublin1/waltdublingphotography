@@ -693,11 +693,11 @@
       "closingHref": "/contact",
       "closingNewTab": false
     },
-    "footer": "I photograph individuals and families, seniors and graduates, and athletes and teams in natural light around Charlotte and Lake Norman. I’ll be the one answering your email, planning with you, and photographing your session.",
+    "footer": "I photograph individuals and families, seniors and graduates, athletes and teams, and weddings in natural light around Charlotte, Lake Norman and the surrounding towns. I’ll be the one answering your email, planning with you, and photographing your session.",
     "meta": {
       "home": {
-        "title": "Walt Dublin Photography | Portraits in Charlotte & Lake Norman",
-        "description": "I’m Walt Dublin, a natural-light photographer in Charlotte and Lake Norman. Explore my individual, family, senior, graduate, athlete, and team portraits."
+        "title": "Charlotte & Lake Norman Photographer | Family, Senior & Athlete Portraits | Walt Dublin Photography",
+        "description": "Natural-light portrait photographer serving Charlotte, Lake Norman, Huntersville, Cornelius, Mooresville, Concord, Fort Mill and nearby. Family, senior, graduate, athlete and team portraits, plus weddings."
       },
       "portfolio": {
         "title": "My Photographs | Walt Dublin Photography",
@@ -712,32 +712,32 @@
         "description": "Explore selections of my family, graduation, and athlete photographs, and tell me what you have in mind for your own portrait session."
       },
       "families": {
-        "title": "Individual & Family Portraits in Charlotte | Walt Dublin Photography",
-        "description": "I plan natural-light individual and family portraits in Charlotte and Lake Norman, with help choosing a setting and time for everyone to settle in."
+        "title": "Family Photographer in Charlotte & Lake Norman | Walt Dublin Photography",
+        "description": "Relaxed, natural-light family and individual portraits around Charlotte, Lake Norman, Huntersville, Cornelius, Mooresville and Concord. Sessions planned around the people who are actually coming."
       },
       "seniors": {
-        "title": "Senior & Graduation Portraits in Charlotte | Walt Dublin Photography",
-        "description": "I photograph high school seniors and college graduates around Charlotte and Lake Norman. Tell me about your graduation and the photographs you’d like."
+        "title": "Senior & Graduation Photographer in Charlotte | Walt Dublin Photography",
+        "description": "High school senior and college graduation portraits in Charlotte, Lake Norman, Huntersville, Davidson, Concord and nearby. Cap and gown, favorite spots, and the people who showed up to celebrate."
       },
       "athletes": {
-        "title": "Athlete & Team Portraits in Charlotte | Walt Dublin Photography",
-        "description": "I bring my experience as a former Ohio State and professional football player to natural-light athlete and team portraits around Charlotte and Lake Norman."
+        "title": "Athlete & Team Photographer in Charlotte & Lake Norman | Walt Dublin Photography",
+        "description": "Individual athlete portraits and team photography around Charlotte, Lake Norman, Huntersville, Mooresville, Concord and Fort Mill, from a former collegiate and professional athlete."
       },
       "investment": {
-        "title": "Sessions & Starting Prices | Walt Dublin Photography",
-        "description": "Explore my starting prices for individual, family, senior, and athlete portraits in Charlotte. Tell me about your needs, and I’ll send a personalized quote."
+        "title": "Portrait Session Pricing | Charlotte & Lake Norman Photographer | Walt Dublin Photography",
+        "description": "Starting prices for family, senior, graduate and athlete portrait sessions in Charlotte, Lake Norman and surrounding towns, plus custom wedding photography quotes."
       },
       "about": {
-        "title": "About Me | Walt Dublin Photography",
-        "description": "I’m a Charlotte portrait photographer, father, writer, and former Ohio State football player. Get to know me and how I approach your photographs."
+        "title": "About Walt | Charlotte Portrait Photographer | Walt Dublin Photography",
+        "description": "Meet Walt Dublin, a natural-light portrait photographer based in Charlotte and serving Lake Norman, Huntersville, Cornelius, Mooresville, Concord and the surrounding areas."
       },
       "reviews": {
-        "title": "Client Experiences | Walt Dublin Photography",
-        "description": "Read what my clients have shared about their photographs and what it was like to work with me."
+        "title": "Client Reviews | Charlotte & Lake Norman Photographer | Walt Dublin Photography",
+        "description": "Read what families, graduates and athletes around Charlotte and Lake Norman have said about their portrait sessions with Walt Dublin Photography."
       },
       "contact": {
-        "title": "Get in Touch | Walt Dublin Photography",
-        "description": "Tell me who you’d like photographed, when, and what you’re hoping for. I’ll help plan your Charlotte portrait session and put together a personalized quote."
+        "title": "Book a Photographer in Charlotte or Lake Norman | Walt Dublin Photography",
+        "description": "Tell me who you'd like photographed and where. I photograph families, seniors, athletes and weddings across Charlotte, Lake Norman, Huntersville, Cornelius, Mooresville, Concord and Fort Mill."
       },
       "clients": {
         "title": "Client Galleries | Walt Dublin Photography",
@@ -907,7 +907,9 @@
       "durationLabel": "Session length",
       "imageCountLabel": "Edited photographs",
       "deliveryLabel": "Delivery",
-      "featuredServiceLinkLabel": "Explore my session details"
+      "featuredServiceLinkLabel": "Explore my session details",
+      "areasHeadline": "Areas I serve",
+      "areasCopy": "Charlotte, Lake Norman, Huntersville, Cornelius, Davidson, Mooresville, Concord, Harrisburg, Fort Mill, Locust, Statesville, and the surrounding areas. Travel rates may apply for sessions farther out."
     },
     "placements": {
       "homeInquiry": {
@@ -960,6 +962,9 @@
       },
       "pricingWedding": {
         "photoKey": "photo_28c821670d47f59b10895826a5f9c661738978e3"
+      },
+      "socialShare": {
+        "photoKey": "photo_0a47845a8ce99884b65d7fd94e803c2ca448ac99"
       }
     }
   },
@@ -974,10 +979,19 @@
     "bookingHref": "/contact",
     "bookingNewTab": false,
     "brandName": "Walt Dublin Photography",
-    "businessDescription": "Natural-light individual and family portraits, senior and graduate portraits, and athlete and team photography in Charlotte and Lake Norman.",
+    "businessDescription": "Natural-light individual and family portraits, senior and graduate portraits, athlete and team photography, and weddings in Charlotte, Lake Norman, Huntersville, Cornelius, Mooresville, Concord, Fort Mill and the surrounding areas.",
     "areaServed": [
       "Charlotte, North Carolina",
-      "Lake Norman, North Carolina"
+      "Lake Norman, North Carolina",
+      "Huntersville, North Carolina",
+      "Cornelius, North Carolina",
+      "Davidson, North Carolina",
+      "Mooresville, North Carolina",
+      "Concord, North Carolina",
+      "Harrisburg, North Carolina",
+      "Fort Mill, South Carolina",
+      "Locust, North Carolina",
+      "Statesville, North Carolina"
     ]
   },
   "prices": {
