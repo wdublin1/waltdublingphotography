@@ -546,10 +546,9 @@ dl.session-facts,.session-facts dl{display:grid;grid-template-columns:minmax(90p
 @media(max-width:950px){
   .service-tiles .service-cards{grid-template-columns:1fr}
   .service-tiles .service-tile{min-height:clamp(380px,60vw,520px)}
-  .home-work-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto;grid-auto-rows:clamp(220px,38vw,360px)}
+  .home-work-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:clamp(260px,64vw,520px);grid-auto-rows:clamp(200px,58vw,420px)}
   .home-work-grid .work-1{grid-column:1/3}
-  .home-work-grid .work-2,.home-work-grid .work-3,.home-work-grid .work-4{grid-column:span 1}
-  .home-work-grid .work-5{grid-column:1/3}
+  .home-work-grid .work-2,.home-work-grid .work-3,.home-work-grid .work-4,.home-work-grid .work-5{grid-column:span 1}
   .home-inquiry{grid-template-columns:1fr}
   .home-inquiry-photo .photograph{min-height:0;aspect-ratio:1.5}
 }
