@@ -677,3 +677,5 @@ h2,h3{font-weight:400;font-variation-settings:"opsz" 96}
 .page-hero-families .page-hero-inner{max-width:560px}
 .page-hero-families .hero-shade{background:linear-gradient(to top,rgba(20,24,18,.9) 0%,rgba(20,24,18,.62) 34%,rgba(20,24,18,.18) 62%,rgba(20,24,18,0) 100%)}
 @media(max-width:800px){.page-hero-families{min-height:clamp(600px,92vh,760px)}.page-hero-families .page-hero-photo img{object-position:50% 8%}.page-hero-families .page-hero-caption{padding-top:120px}}
+
+.session-detail-facts .session-facts{margin-top:0;padding-top:0;border-top:0}
