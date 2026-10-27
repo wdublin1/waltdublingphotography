@@ -147,10 +147,18 @@ test('existing photograph selections and Sanity crop/hotspot geometry are preser
   const key = rawDefaults.photos[0].key;
   const image = {asset:{_id:'image-test-2000x1000-webp', metadata:{dimensions:{width:2000, height:1000}}}, crop:{left:0.25, right:0.25, top:0.1, bottom:0.1}, hotspot:{x:0.75, y:0.6}};
   const images = [];
-  const builder = {image(value) { images.push(value); return {width(){return this;}, fit(){return this;}, auto(){return this;}, quality(){return this;}, url(){return 'https://cdn.sanity.io/images/testproj/production/replacement.webp';}};}};
+  const builder = {image(value) {
+    images.push(value);
+    const params = {};
+    const chain = {width(w){params.w = w; return chain;}, height(h){params.h = h; return chain;}, fit(f){params.fit = f; return chain;}, auto(){return chain;}, quality(){return chain;}, url(){return `https://cdn.sanity.io/images/testproj/production/replacement.webp?${new URLSearchParams(params)}`;}};
+    return chain;
+  }};
   const content = normalizeContent({photos:[{key, image, alt:'My updated photograph description', category:'athletes'}], featuredPhotos:rawDefaults.featuredPhotos, portfolioOrder:rawDefaults.portfolioOrder}, builder);
-  assert.deepEqual(images, [image]);
-  assert.equal(content.photos[key].src, 'https://cdn.sanity.io/images/testproj/production/replacement.webp');
+  assert.ok(images.length > 1 && images.every((value) => value === image));
+  assert.equal(content.photos[key].src, 'https://cdn.sanity.io/images/testproj/production/replacement.webp?fit=max&w=1800');
+  // Candidates never exceed the cropped asset's own pixels, and phones get a 4:5 crop at full native height.
+  assert.equal(content.photos[key].srcset, 'https://cdn.sanity.io/images/testproj/production/replacement.webp?fit=max&w=480 480w, https://cdn.sanity.io/images/testproj/production/replacement.webp?fit=max&w=768 768w, https://cdn.sanity.io/images/testproj/production/replacement.webp?fit=max&w=1000 1000w');
+  assert.equal(content.photos[key].portraitSrcset, 'https://cdn.sanity.io/images/testproj/production/replacement.webp?fit=crop&w=640&h=800 640w');
   assert.equal(content.photos[key].width, 1000);
   assert.equal(content.photos[key].height, 800);
   assert.equal(content.photos[key].objectPosition, '100.00% 62.50%');
