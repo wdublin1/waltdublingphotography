@@ -204,7 +204,7 @@ function photoField(name, title, {required = true, description} = {}) {
     ...(required ? {validation: (Rule) => Rule.required()} : {})});
 }
 
-const retiredFields = new Set(['copy.home.directoryEyebrow', 'copy.home.directoryHeadline', 'copy.home.directoryIntro', 'copy.home.pricingLink']);
+const retiredFields = new Set(['copy.home.directoryEyebrow', 'copy.home.directoryHeadline', 'copy.home.directoryIntro', 'copy.home.pricingLink', 'copy.shared.sportHeadline', 'copy.shared.sportCopy', 'copy.shared.sportLinkLabel', 'copy.shared.sportLinkHref', 'copy.shared.sportLinkNewTab', 'copy.placements.seniorsSport']);
 function buildField(name, value, path) {
   const field = buildFieldInner(name, value, path);
   return retiredFields.has([...path].join('.')) ? {...field, hidden: true} : field;
