@@ -223,7 +223,10 @@ test('published query includes new public fields and content outages retain the 
 test('API 404/405 use published system text and inquiry errors receive only the public message/email options', async (t) => {
   const {networkMock} = mockPublishedContent(t, async () => ({settings:{email:'hello@example.net'}, interfaceCopy:{system:{notFoundHeadline:'My custom missing-page wording', methodNotAllowed:'My custom method wording'}, apiMessages:{formUnavailable:'Please reach me at {email} while the form is unavailable.'}}}));
   delete process.env.INQUIRY_FORM_SECRET;
-  const missing = await handleRequest(new Request('https://photography.example/no-such-page'));
+  const legacy = await handleRequest(new Request('https://photography.example/no-such-page'));
+  assert.equal(legacy.status, 301);
+  assert.equal(legacy.headers.get('location'), '/');
+  const missing = await handleRequest(new Request('https://photography.example/no-such-file.webp'));
   assert.equal(missing.status, 404);
   assert.match(await missing.text(), /My custom missing-page wording/);
   const method = await handleRequest(new Request('https://photography.example/about', {method:'POST'}));

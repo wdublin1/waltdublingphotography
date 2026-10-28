@@ -31,6 +31,81 @@
       ],
       "destination": "https://waltdublinphotography.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/about-1",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/about-me",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/investment",
+      "permanent": true
+    },
+    {
+      "source": "/prices",
+      "destination": "/investment",
+      "permanent": true
+    },
+    {
+      "source": "/rates",
+      "destination": "/investment",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/galleries",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/photos",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/book",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/booking",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/contact-1",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials",
+      "destination": "/reviews",
+      "permanent": true
+    },
+    {
+      "source": "/weddings",
+      "destination": "/investment",
+      "permanent": true
     }
   ],
   "rewrites": [

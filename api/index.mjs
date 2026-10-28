@@ -28,7 +28,13 @@ export async function handleRequest(request) {
   let content;
   try {
     content = await loadContent();
-    if (!isPageRoute(route, content)) return new Response(systemDocumentHtml(404, content), {status:404, headers:{'Content-Type':'text/html; charset=utf-8', 'Cache-Control':'no-store', 'X-Robots-Tag':'noindex, nofollow'}});
+    if (!isPageRoute(route, content)) {
+      // Old-site and mistyped page URLs go home rather than dead-ending; file-looking paths still 404.
+      if (!/\.[a-z0-9]{2,5}$/i.test(route) && !route.startsWith('api/') && !route.startsWith('studio')) {
+        return new Response(null, {status: 301, headers: {Location: '/', 'Cache-Control': 'public, max-age=3600'}});
+      }
+      return new Response(systemDocumentHtml(404, content), {status:404, headers:{'Content-Type':'text/html; charset=utf-8', 'Cache-Control':'no-store', 'X-Robots-Tag':'noindex, nofollow'}});
+    }
     const page = renderPage(route,content,url.searchParams);
     return new Response(documentHtml(page,{route,content,indexable}),{headers:{
       'Content-Type':'text/html; charset=utf-8',
