@@ -177,6 +177,8 @@
         "During the week, I’m a senior executive at a digital media and advertising company. Much of that work involves listening, understanding what someone needs, and helping them make a decision they feel good about. I bring the same attention to my photography business. When you reach out, you’ll be talking with me. I’ll ask what you liked in my work, what you have in mind, and what would make the session a good experience for you. We’ll discuss the details and price before you decide to book.",
         "I also write about family, fatherhood, and the people who shaped my life. Writing and photography both give me a reason to pay closer attention to people and their stories. You might be bringing your family together, finishing school, celebrating a season, or simply wanting a photograph of yourself that you like. I’d enjoy hearing what brings you here. You don’t need to arrive with a location, outfits, and every photograph already planned. We can work through those choices together."
       ],
+      "familyPhotoCaption": "My crew.",
+      "familyPhotoAfter": 2,
       "closingHeadline": "I’d like to hear a little about you, too.",
       "closingCopy": "Tell me who you’d like photographed and what brings you here. If you have a particular photograph in mind or a question about how a session would work, I’d like to hear it. We can talk before you decide to book.",
       "closingButton": "",
@@ -965,6 +967,9 @@
       },
       "socialShare": {
         "photoKey": "photo_0a47845a8ce99884b65d7fd94e803c2ca448ac99"
+      },
+      "aboutFamily": {
+        "photoKey": "photo_a16e609165b5fd8669f8d16c71bb5a510d54eade"
       }
     }
   },

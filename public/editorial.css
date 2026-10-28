@@ -755,3 +755,8 @@ dl.session-facts{grid-template-columns:auto 1fr;gap:6px 18px}
 
 .footer-areas{font-size:12px;line-height:1.7;color:#aeb5a5;margin:12px 0 16px;max-width:420px}.footer-areas strong{color:#d6dccb;font-weight:500}
 .contact-areas{font-size:13px;line-height:1.7;color:var(--muted);margin-top:14px}.contact-areas strong{color:var(--ink);font-weight:500}
+
+.about-family{margin:36px 0 40px}
+.about-family .photograph{aspect-ratio:4/5;max-width:520px}
+.about-family .photograph img{object-position:50% 35%}
+.about-family figcaption{margin-top:12px;font-size:13px;color:var(--muted)}
